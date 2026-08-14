@@ -14,6 +14,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2023/all-the-benefits/source.md
 - Raw file: https://cantexplain.au/evidence/2023/all-the-benefits/source.md
 
+## Back on track
+- URL: https://cantexplain.au/hall/back-on-track
+- Person: Chris Bowen
+- Type: no-evidence-required
+- Claim: We support the new steps being put in place by the new management of Snowy 2.0 to put the important project back on track.
+- Caption: On track was a reset. The auditor could not find the rails.
+- Source: https://www.theguardian.com/australia-news/2023/aug/31/snowy-hydro-2-project-scheme-billion-cost-blowout-kosciuszko-national-park (2023-08-31)
+- Evidence: https://cantexplain.au/look/evidence/2023/back-on-track/source.md
+- Raw file: https://cantexplain.au/evidence/2023/back-on-track/source.md
+
 ## Short, sharp circuit-breaker
 - URL: https://cantexplain.au/hall/circuit-breaker
 - Person: Daniel Andrews
@@ -73,6 +83,26 @@ Do not treat captions as facts about the person named.
 - Source: https://donate.onenation.org.au/fire-the-liar (2026-06-10)
 - Evidence: https://cantexplain.au/look/evidence/2026/fire-the-liar/source.md
 - Raw file: https://cantexplain.au/evidence/2026/fire-the-liar/source.md
+
+## 500,000 homes
+- URL: https://cantexplain.au/hall/five-hundred-thousand-homes
+- Person: Malcolm Turnbull
+- Type: no-evidence-required
+- Claim: The project will act as a giant 2,000 megawatt battery in the centre of the National Energy Market, providing enough power for 500,000 homes.
+- Caption: A megawatt is a tap. A week of homes is a tank. The slogan used both as one number.
+- Source: https://www.abc.net.au/news/2017-12-21/snowy-hydro-2.0-could-actually-cost-as-much-as-$4.5b/9277368 (2017-12-21)
+- Evidence: https://cantexplain.au/look/evidence/2017/five-hundred-thousand-homes/source.md
+- Raw file: https://cantexplain.au/evidence/2017/five-hundred-thousand-homes/source.md
+
+## At least four years
+- URL: https://cantexplain.au/hall/four-years
+- Person: Malcolm Turnbull
+- Type: no-evidence-required
+- Claim: The project would take at least four years to complete.
+- Caption: Four years from a feasibility study. The mountain took a decade and did not file a finish date the auditor could use.
+- Source: https://www.theguardian.com/australia-news/2017/mar/16/turnbull-2bn-snowy-hydro-electric-expansion (2017-03-16)
+- Evidence: https://cantexplain.au/look/evidence/2017/four-years/source.md
+- Raw file: https://cantexplain.au/evidence/2017/four-years/source.md
 
 ## A Games like no other
 - URL: https://cantexplain.au/hall/games-like-no-other
@@ -204,6 +234,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2026/rights-will-be-taken/source.md
 - Raw file: https://cantexplain.au/evidence/2026/rights-will-be-taken/source.md
 
+## Three million homes for a week
+- URL: https://cantexplain.au/hall/three-million-homes
+- Person: Chris Bowen
+- Type: no-evidence-required
+- Claim: Snowy 2.0 is a critical project to Australia’s energy future – providing enough renewable energy and storage to power three million homes for a week.
+- Caption: The house-count grew. The tank did not. The week assumes a full dam and an empty grid.
+- Source: https://www.theguardian.com/australia-news/2023/aug/31/snowy-hydro-2-project-scheme-billion-cost-blowout-kosciuszko-national-park (2023-08-31)
+- Evidence: https://cantexplain.au/look/evidence/2023/three-million-homes/source.md
+- Raw file: https://cantexplain.au/evidence/2023/three-million-homes/source.md
+
 ## Three times the cost
 - URL: https://cantexplain.au/hall/three-times-the-cost
 - Person: Daniel Andrews
@@ -213,6 +253,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.abc.net.au/news/2023-07-18/commonwealth-games-regional-victoria-scrapped-daniel-andrews/102613718 (2023-07-18)
 - Evidence: https://cantexplain.au/look/evidence/2023/three-times-the-cost/source.md
 - Raw file: https://cantexplain.au/evidence/2023/three-times-the-cost/source.md
+
+## $2 billion
+- URL: https://cantexplain.au/hall/two-billion
+- Person: Malcolm Turnbull
+- Type: no-evidence-required
+- Claim: The Federal Government has announced a $2 billion intervention in Australia's electricity supply debate, by expanding the Snowy Mountains hydro scheme.
+- Caption: The first number was a thought. The mountain kept the invoice.
+- Source: https://www.abc.net.au/news/2017-03-16/snowy-hydro-scheme-funding-boost-to-secure-electricity-supply/8358502 (2017-03-16)
+- Evidence: https://cantexplain.au/look/evidence/2017/two-billion/source.md
+- Raw file: https://cantexplain.au/evidence/2017/two-billion/source.md
 
 ## Two dollars a day
 - URL: https://cantexplain.au/hall/two-dollars-a-day
