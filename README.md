@@ -27,9 +27,12 @@ npm run dev
 
 Open [http://localhost:4321](http://localhost:4321).
 
+Live: [cantexplain.au](https://cantexplain.au) (`cantexplain.com.au` 301s there).
+
 ```bash
 npm run build      # sync evidence, validate published entries, build to dist/
 npm run preview    # serve the build
+npm run deploy     # build + wrangler deploy to cantexplain.au
 npm run validate   # evidence + source checks only
 npm run new -- --slug my-slug --person "Name" --year 2026
 ```

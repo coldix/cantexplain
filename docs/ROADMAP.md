@@ -22,8 +22,8 @@ Three phases. This repository is the start of Phase 1 — scaffold and docs, not
 | Family links + dark/light theme | done |
 | `npm run new` + `npm run validate` | done |
 | Format-example cards (3) | done — replace before launch |
-| Custom domains `cantexplain.au` + `.com.au` | not in this pass |
-| Cloudflare project + first deploy | not in this pass |
+| Custom domains `cantexplain.au` + `.com.au` | done 2026-08-14 |
+| Cloudflare project + first deploy | done 2026-08-14 (`npm run deploy`) |
 | 15–30 real, sourced entries | not in this pass |
 | OG image / share cards | stub only |
 | AI collect / draft scripts | specified, not built |
@@ -49,7 +49,7 @@ Do not pad to 15 with weak cards. A tight 15 beats a soggy 30.
 - Light AI collect on a written watch list ([AI-PIPELINE.md](./AI-PIPELINE.md)).
 - Cross-links to Election Tracker where a card depends on an election fact.
 - Share polish: OG images per entry, maybe a “copy receipt” snippet.
-- `cantexplain.com.au` → 301 to the matching path on `cantexplain.au`.
+- `cantexplain.com.au` → 301 to the matching path on `cantexplain.au` (live via `cantexplain-comau` Worker).
 
 Still not a comments section. Still not a daily news desk.
 

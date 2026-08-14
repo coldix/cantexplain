@@ -1,0 +1,15 @@
+{
+  // Alternate-host redirect only. Does not serve the site.
+  // cantexplain.com.au and www.* 301 to the matching path on cantexplain.au.
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "cantexplain-comau",
+  "account_id": "ab29454df8dbb469d259956fcf482075",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-14",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "cantexplain.com.au", "custom_domain": true },
+    { "pattern": "www.cantexplain.com.au", "custom_domain": true },
+    { "pattern": "www.cantexplain.au", "custom_domain": true }
+  ]
+}

@@ -6,8 +6,15 @@
   // electiontracker.au. See docs/BRIEF.md.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cantexplain",
+  // Col@oze.com.au's Account — same as electiontracker.au
+  "account_id": "ab29454df8dbb469d259956fcf482075",
   "compatibility_date": "2026-08-14",
+  // Custom domain is live. workers.dev would be a second public copy.
+  "workers_dev": false,
   "preview_urls": true,
+  "routes": [
+    { "pattern": "cantexplain.au", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./dist",
     "not_found_handling": "404-page",

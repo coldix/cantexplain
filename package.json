@@ -12,6 +12,8 @@
     "dev": "node scripts/sync-evidence.mjs && astro dev",
     "build": "node scripts/sync-evidence.mjs && node scripts/validate-entries.mjs && astro build",
     "preview": "astro preview",
+    "deploy": "npm run build && wrangler deploy",
+    "deploy:redirect": "wrangler deploy --config workers/comau-redirect/wrangler.jsonc",
     "astro": "astro"
   },
   "dependencies": {
