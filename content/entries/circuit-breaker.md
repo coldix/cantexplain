@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:32:00+10:00
 person: Daniel Andrews
-claimType: no-evidence-required
+claimType: health
 year: 2021
 tags: [andrews, covid, lockdown, victoria, "2021"]
 source:

@@ -62,14 +62,16 @@ Markdown after the frontmatter is optional context: who said it, what was missin
 
 ### `claimType`
 
+Four rooms. The missing receipt is the method, not a type.
+
 | Value | Use for |
 |---|---|
-| `derangement` | Pattern-level unhinged hostility toward a figure (launch: Hanson Derangement Syndrome). |
-| `puppet` | “X is secretly controlled by Y” with no mechanism shown (launch: Gina’s Puppet). |
-| `no-evidence-required` | The tell is the missing receipt — certainty without a source. |
-| `guilt-by-association` | Adjacent person / donor / photo treated as proof of control or ideology. |
-| `secret-agenda` | Hidden plan asserted; documents or quotes not produced. |
-| `other` | Fits the hall, not the bins above. Add a specific tag. |
+| `health` | Bodies, virus, jabs, distance, hotels, lockdowns sold as medicine. |
+| `climate` | Reef, GenCost, energy-as-climate, capacity sold as a climate fix. |
+| `money` | Taxes, budgets, blowouts, timelines on a spend, $2 a day. |
+| `speech` | Claims about a person, tribe, or flotilla. The meter is a character, not a ledger. |
+
+Do not add left/right, truth, or lies. Those are teams and verdicts. Pick the loudest room when a card sits on a join (Snowy cost is money; Snowy “3 million homes” is climate).
 
 Do not invent new `claimType` values in an entry. Extend the schema in `src/content.config.ts` and this doc together.
 

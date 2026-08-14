@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T23:05:00+10:00
 person: Harriet Shing
-claimType: no-evidence-required
+claimType: money
 year: 2025
 tags: [allan, shing, victoria, srl, big-build, labor, "2025"]
 source:

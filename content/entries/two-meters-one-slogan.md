@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T19:30:00+10:00
 person: Chris Bowen
-claimType: no-evidence-required
+claimType: climate
 year: 2025
 tags: [bowen, climate, energy, gencost, two-meters, "2025"]
 source:

@@ -6,7 +6,7 @@ status: draft
 example: true
 published: 2026-08-14
 person: Format example
-claimType: no-evidence-required
+claimType: speech
 year: 2025
 tags: [no-evidence-required, "2025", format-example]
 source:

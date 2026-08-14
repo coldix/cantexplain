@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T18:02:00+10:00
 person: Great Barrier Reef Marine Park Authority
-claimType: no-evidence-required
+claimType: climate
 year: 2024
 tags: [gbr, climate, cyclone, aims, ridd, "2024"]
 source:

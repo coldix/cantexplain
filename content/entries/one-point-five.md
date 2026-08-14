@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:31:00+10:00
 person: Greg Hunt
-claimType: no-evidence-required
+claimType: health
 year: 2020
 tags: [covid, distance, hunt, murphy, "2020"]
 source:

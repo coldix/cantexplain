@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:36:00+10:00
 person: Safe Airway Society
-claimType: no-evidence-required
+claimType: health
 year: 2020
 tags: [covid, airborne, droplet, mja, "2020"]
 source:

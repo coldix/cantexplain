@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T16:03:00+10:00
 person: Daniel Andrews
-claimType: no-evidence-required
+claimType: money
 year: 2023
 tags: [andrews, allan, victoria, commonwealth-games, glasgow, "2023"]
 source:

@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T23:25:00+10:00
 person: Gina Rinehart
-claimType: no-evidence-required
+claimType: money
 year: 2026
 tags: [rinehart, abc, sheppard, two-dollars, victorian-socialists, "2026"]
 source:

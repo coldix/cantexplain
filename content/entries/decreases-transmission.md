@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:34:00+10:00
 person: Greg Hunt
-claimType: no-evidence-required
+claimType: health
 year: 2021
 tags: [covid, transmission, hunt, doherty, morrison, "2021"]
 source:

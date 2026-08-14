@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:33:00+10:00
 person: Daniel Andrews
-claimType: no-evidence-required
+claimType: health
 year: 2020
 tags: [covid, masks, andrews, abc, "2020"]
 source:

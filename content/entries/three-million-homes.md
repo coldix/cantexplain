@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T17:03:00+10:00
 person: Chris Bowen
-claimType: no-evidence-required
+claimType: climate
 year: 2023
 tags: [bowen, snowy, energy, capacity, "2023"]
 source:

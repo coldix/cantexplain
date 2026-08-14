@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:00:00+10:00
 person: Daniel Andrews
-claimType: no-evidence-required
+claimType: money
 year: 2014
 tags: [andrews, victoria, taxes, pallas, "2014"]
 source:

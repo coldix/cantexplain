@@ -6,7 +6,7 @@ status: draft
 example: true
 published: 2026-08-14
 person: Pauline Hanson
-claimType: derangement
+claimType: speech
 year: 2024
 tags: [hanson, hds, derangement, "2024", format-example]
 source:

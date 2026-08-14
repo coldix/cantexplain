@@ -29,7 +29,7 @@ const { people, types, years, count } = Astro.props;
       </select>
     </label>
     <label>
-      <span class="lbl">Type</span>
+      <span class="lbl">Room</span>
       <select id="type" name="type">
         <option value="">All</option>
         {types.map((t) => <option value={t.value}>{t.label}</option>)}

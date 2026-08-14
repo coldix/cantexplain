@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:37:00+10:00
 person: Daniel Andrews
-claimType: no-evidence-required
+claimType: health
 year: 2020
 tags: [andrews, covid, quarantine, victoria, coate, "2020"]
 source:

@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T09:30:00+10:00
 person: Therapeutic Goods Administration
-claimType: no-evidence-required
+claimType: health
 year: 2021
 tags: [covid, vaccine, tga, hunt, "95-percent", "2021"]
 source:

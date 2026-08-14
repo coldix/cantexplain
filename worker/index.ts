@@ -367,7 +367,7 @@ function serializeEntry(data: Record<string, unknown>, body: string): string {
     `example: ${data.example === true || data.example === "true" ? "true" : "false"}`,
     `published: ${data.published || new Date().toISOString()}`,
     `person: ${yamlQuote(data.person)}`,
-    `claimType: ${data.claimType || "other"}`,
+    `claimType: ${data.claimType || "speech"}`,
     `year: ${Number(data.year) || new Date().getFullYear()}`,
     `tags: [${tags.map((t) => yamlQuote(t)).join(", ")}]`,
     "source:",

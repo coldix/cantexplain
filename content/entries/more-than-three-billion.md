@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T16:01:00+10:00
 person: Daniel Andrews
-claimType: no-evidence-required
+claimType: money
 year: 2022
 tags: [andrews, victoria, commonwealth-games, economy, "2022"]
 source:

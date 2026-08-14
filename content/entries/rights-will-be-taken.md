@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T14:02:00+10:00
 person: Pauline Hanson
-claimType: no-evidence-required
+claimType: speech
 year: 2026
 tags: [hanson, no-evidence-required, students-say-no, "2026"]
 source:

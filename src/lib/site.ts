@@ -51,12 +51,10 @@ export const FAMILY = [
 ] as const;
 
 export const CLAIM_TYPE_LABEL: Record<string, string> = {
-  derangement: "Derangement",
-  puppet: "Puppet",
-  "no-evidence-required": "No evidence required",
-  "guilt-by-association": "Guilt by association",
-  "secret-agenda": "Secret agenda",
-  other: "Other",
+  health: "Health",
+  climate: "Climate",
+  money: "Money",
+  speech: "Speech",
 };
 
 /**

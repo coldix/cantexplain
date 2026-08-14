@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T22:50:00+10:00
 person: Greta Thunberg
-claimType: no-evidence-required
+claimType: speech
 year: 2025
 tags: [thunberg, gaza, flotilla, madleen, sumud, "2025"]
 source:

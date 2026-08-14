@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T18:01:00+10:00
 person: CSIRO
-claimType: no-evidence-required
+claimType: climate
 year: 2012
 tags: [gbr, csiro, aims, coral, ridd, "2012"]
 source:

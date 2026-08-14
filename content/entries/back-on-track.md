@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T17:04:00+10:00
 person: Chris Bowen
-claimType: no-evidence-required
+claimType: money
 year: 2023
 tags: [bowen, snowy, anao, energy, "2023"]
 source:

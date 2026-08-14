@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T22:25:00+10:00
 person: Palestine Action Group Sydney
-claimType: no-evidence-required
+claimType: speech
 year: 2023
 tags: [palestine, israel, gaza, settler-colonial, judea, sydney, "2023"]
 source:

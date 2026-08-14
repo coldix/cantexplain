@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T17:00:00+10:00
 person: Malcolm Turnbull
-claimType: no-evidence-required
+claimType: money
 year: 2017
 tags: [turnbull, snowy, bowen, energy, "2017"]
 source:

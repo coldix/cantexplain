@@ -6,7 +6,7 @@ status: draft
 example: true
 published: 2026-08-14
 person: Pauline Hanson
-claimType: puppet
+claimType: speech
 year: 2024
 tags: [hanson, rinehart, ginas-puppet, puppet, "2024", format-example]
 source:

@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T14:01:00+10:00
 person: Pauline Hanson
-claimType: derangement
+claimType: speech
 year: 2026
 tags: [hanson, hds, derangement, students-say-no, "2026"]
 source:

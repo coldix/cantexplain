@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T18:04:00+10:00
 person: Great Barrier Reef Marine Park Authority
-claimType: no-evidence-required
+claimType: climate
 year: 2003
 tags: [gbr, fishing, zoning, aims, "2003"]
 source:

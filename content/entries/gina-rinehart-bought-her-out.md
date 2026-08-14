@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T14:00:00+10:00
 person: Pauline Hanson
-claimType: puppet
+claimType: speech
 year: 2026
 tags: [hanson, rinehart, ginas-puppet, students-say-no, "2026"]
 source:

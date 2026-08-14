@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-15T18:00:00+10:00
 person: Great Barrier Reef Marine Park Authority
-claimType: no-evidence-required
+claimType: climate
 year: 2024
 tags: [gbr, aims, climate, coral, "2024"]
 source:

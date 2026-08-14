@@ -6,7 +6,7 @@ status: featured
 example: false
 published: 2026-08-14T22:03:00+10:00
 person: Anthony Albanese
-claimType: no-evidence-required
+claimType: speech
 year: 2026
 tags: [albanese, albo, hanson, fire-the-liar, promises, "2026"]
 source:

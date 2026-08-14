@@ -40,7 +40,7 @@ status: draft
 example: false
 published: ${today}
 person: ${person}
-claimType: other
+claimType: speech
 year: ${Number(year)}
 tags: [${slugify(person)}, "${year}"]
 source:

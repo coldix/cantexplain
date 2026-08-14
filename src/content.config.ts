@@ -1,14 +1,7 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
-export const claimTypes = [
-  "derangement",
-  "puppet",
-  "no-evidence-required",
-  "guilt-by-association",
-  "secret-agenda",
-  "other",
-] as const;
+export const claimTypes = ["health", "climate", "money", "speech"] as const;
 
 export const entryStatuses = ["draft", "published", "featured"] as const;
 
