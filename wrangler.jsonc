@@ -4,7 +4,7 @@
   "name": "cantexplain",
   // Col@oze.com.au's Account — same as electiontracker.au
   "account_id": "ab29454df8dbb469d259956fcf482075",
-  "compatibility_date": "2026-08-15",
+  "compatibility_date": "2026-08-14",
   "main": "./worker/index.ts",
   // Custom domain is live. workers.dev would be a second public copy.
   "workers_dev": false,
