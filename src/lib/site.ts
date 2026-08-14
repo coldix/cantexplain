@@ -17,6 +17,8 @@ export const SITE = {
   publisher: "Oze",
   publisherUrl: "https://oze.au",
   gaMeasurementId: "G-J0TM5BKG3S",
+  // DNS verification is already on the zone. HTML tag is a second method.
+  googleSiteVerification: "qJJ2QZd7hTZNj0ZTvH6ybVEWhsejOgJZUtl2MEL1muM",
 };
 
 /** Bump when terms, privacy or the disclaimer change materially. */

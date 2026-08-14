@@ -171,6 +171,11 @@ const jsonLd = { "@context": "https://schema.org", "@graph": graph };
     <link rel="alternate" type="text/plain" href="/llms.txt" title="Guide for AI systems (summary)" />
     <link rel="alternate" type="text/plain" href="/llms-full.txt" title="Guide for AI systems (full)" />
     <link rel="author" href={`${SITE.url}/about`} />
+    {
+      canonical === `${SITE.url}/` && SITE.googleSiteVerification ? (
+        <meta name="google-site-verification" content={SITE.googleSiteVerification} />
+      ) : null
+    }
     <meta name="theme-color" content="#9a3412" />
     <meta name="generator" content={Astro.generator} />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
