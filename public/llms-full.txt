@@ -4,6 +4,16 @@ Generated 2026-08-14. Live cards only.
 Summary guide: https://cantexplain.au/llms.txt
 Do not treat captions as facts about the person named.
 
+## Short, sharp circuit-breaker
+- URL: https://cantexplain.au/hall/circuit-breaker
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: Victoria will enter a short, sharp circuit-breaker lockdown for five days… to avoid a longer lockdown in the future.
+- Caption: Five days, to avoid a longer one. The city clocked 262.
+- Source: https://www.abc.net.au/news/2021-02-12/victoria-coronavirus-lockdown-announced-by-daniel-andrews/13128514 (2021-02-12)
+- Evidence: https://cantexplain.au/look/evidence/2021/circuit-breaker/source.md
+- Raw file: https://cantexplain.au/evidence/2021/circuit-breaker/source.md
+
 ## Colonisers of Judea
 - URL: https://cantexplain.au/hall/colonisers-of-judea
 - Person: Palestine Action Group Sydney
@@ -44,6 +54,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2026/how-can-you-tell/source.md
 - Raw file: https://cantexplain.au/evidence/2026/how-can-you-tell/source.md
 
+## 95 per cent
+- URL: https://cantexplain.au/hall/ninety-five-per-cent
+- Person: Therapeutic Goods Administration
+- Type: no-evidence-required
+- Claim: The Pfizer vaccine will prevent symptomatic COVID-19 in 95 per cent of recipients.
+- Caption: The trial counted symptoms. The slogan counted immunity. Transmission was listed under unknowns.
+- Source: https://www.smh.com.au/politics/federal/pfizer-covid-vaccine-provisionally-approved-for-australian-use-20210125-p56wko.html (2021-01-25)
+- Evidence: https://cantexplain.au/look/evidence/2021/ninety-five-per-cent/source.md
+- Raw file: https://cantexplain.au/evidence/2021/ninety-five-per-cent/source.md
+
 ## Not a publicity stunt
 - URL: https://cantexplain.au/hall/not-a-publicity-stunt
 - Person: Greta Thunberg
@@ -63,6 +83,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.abc.net.au/news/2025-03-21/victoria-suburban-rail-loop-report-infrastructure-australia/105082444 (2025-03-21)
 - Evidence: https://cantexplain.au/look/evidence/2025/on-time-on-budget/source.md
 - Raw file: https://cantexplain.au/evidence/2025/on-time-on-budget/source.md
+
+## 1.5 metres
+- URL: https://cantexplain.au/hall/one-point-five
+- Person: Greg Hunt
+- Type: no-evidence-required
+- Claim: To stop the spread, stay 1.5m from others.
+- Caption: The tape measure was for droplets. The slogan was for the virus.
+- Source: https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/australian-government-text-message-regarding-coronavirus-prevention-steps (2020-03-25)
+- Evidence: https://cantexplain.au/look/evidence/2020/one-point-five/source.md
+- Raw file: https://cantexplain.au/evidence/2020/one-point-five/source.md
 
 ## The oppression they’re putting us through
 - URL: https://cantexplain.au/hall/oppression-putting-us-through
