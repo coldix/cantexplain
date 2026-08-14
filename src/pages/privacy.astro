@@ -1,47 +1,83 @@
 ---
 import Base from "../layouts/Base.astro";
-import { SITE } from "../lib/site";
+import { LEGAL_UPDATED, SITE, formatDate } from "../lib/site";
 ---
 
 <Base
   title="Privacy"
-  description="How Can’t Explain handles analytics and personal information. Google Analytics 4 is used for page views."
+  description="What Can’t Explain collects when you visit: Google Analytics for page views, no accounts, no mailing list. Plain language."
   breadcrumbs={[
     { name: "Home", href: "/" },
     { name: "Privacy", href: "/privacy" },
   ]}
 >
   <div class="wrap wrap-narrow section">
-    <p class="eyebrow">Privacy</p>
-    <h1>What we collect</h1>
+    <p class="eyebrow">Legal</p>
+    <h1>Privacy</h1>
     <p class="lede">
-      Can’t Explain is a static site. We do not run accounts, comments, or a membership
-      database. The hall is files in a public git repository.
+      Short version: we count page views with Google Analytics. We do not run accounts,
+      ads, or a mailing list. The hall is a public git repo, not a dossier on you.
     </p>
+    <p class="muted">Updated {formatDate(LEGAL_UPDATED)}.</p>
 
-    <h2>Analytics</h2>
-    <p>
-      We use Google Analytics 4 (measurement ID <code>{SITE.gaMeasurementId}</code>) to
-      count page views. Google may set or read cookies and process IP addresses and
-      device data under its own terms. See
-      <a href="https://policies.google.com/privacy" rel="nofollow noopener">Google’s privacy policy</a>.
-    </p>
-    <p>
-      The tag is loaded on every public page. It is not required to read the hall. You
-      can block it with a browser or extension; the pages still work.
-    </p>
+    <div class="notice">
+      <strong>The even shorter version.</strong> If you just read the site, Google may
+      see that a page loaded. If you email us, we have your email. If you open a GitHub
+      issue, that is public. We do not sell any of it, mostly because there is almost
+      nothing to sell.
+    </div>
 
-    <h2>What we do not collect</h2>
+    <h2 id="analytics">Analytics</h2>
+    <p>
+      Every public page loads Google Analytics 4 (measurement ID{" "}
+      <code>{SITE.gaMeasurementId}</code>). Google may set cookies and process the page
+      URL, approximate location, device and browser, and the referring site. Google’s
+      rules apply, not ours:
+      <a href="https://policies.google.com/privacy" rel="nofollow noopener">privacy policy</a>,
+      <a href="https://support.google.com/analytics/answer/6004245" rel="nofollow noopener"
+        >Analytics data practices</a
+      >.
+    </p>
     <ul>
-      <li>No login, no mailing list on this domain, no comment box.</li>
-      <li>Share buttons open the destination network. Those services see the click, not us.</li>
-      <li>Evidence files are public captures of already-public sources.</li>
+      <li><strong>Why:</strong> to see which cards people actually open, and which ones bounce.</li>
+      <li><strong>What we look at:</strong> aggregates. Not “Colin from Mallacoota read the Gina card at 4pm.”</li>
+      <li><strong>What we do not run:</strong> ads, heatmaps, session replay, marketing pixels.</li>
+    </ul>
+    <p>
+      You can block the tag with a browser or extension. The hall still works. That is
+      the whole point of a static site.
+    </p>
+
+    <h2 id="host">The host</h2>
+    <p>
+      Pages are served by Cloudflare. Like any CDN, it sees the technical facts of a
+      request (IP address, URL, user-agent) to deliver the file. We do not keep a
+      visitor database on top of that.
+    </p>
+
+    <h2 id="not">What we do not collect</h2>
+    <ul>
+      <li>No logins, newsletters, or comment boxes.</li>
+      <li>No fingerprinting of our own.</li>
+      <li>
+        Share buttons open X, Facebook, and the rest. Those companies see the click. We
+        do not get a carbon copy.
+      </li>
     </ul>
 
-    <h2>Contact</h2>
+    <h2 id="evidence">Evidence files</h2>
     <p>
-      Questions: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Author:
-      <a href="/about">Colin Dixon</a>.
+      Captures under <code>/evidence/</code> are of sources that were already public.
+      They are not a back door into anyone’s private life. If we got that wrong, email
+      us.
+    </p>
+
+    <h2 id="contact">Contact</h2>
+    <p>
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Author:
+      <a href="/about">Colin Dixon</a>. Also:
+      <a href="/terms">terms</a>, <a href="/disclaimer">disclaimer</a>,
+      <a href="/faq">FAQ</a>.
     </p>
   </div>
 </Base>

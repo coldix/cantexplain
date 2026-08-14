@@ -19,6 +19,9 @@ export const SITE = {
   gaMeasurementId: "G-J0TM5BKG3S",
 };
 
+/** Bump when terms, privacy or the disclaimer change materially. */
+export const LEGAL_UPDATED = "2026-08-14";
+
 export const MAINTAINER = {
   name: "Colin Dixon",
   x: "https://x.com/colindixon",

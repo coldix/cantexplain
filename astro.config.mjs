@@ -26,7 +26,12 @@ export default defineConfig({
         if (path === "/") {
           item.changefreq = "daily";
           item.priority = 1.0;
-        } else if (path === "/hall" || path === "/method" || path === "/about") {
+        } else if (
+          path === "/hall" ||
+          path === "/method" ||
+          path === "/about" ||
+          path === "/faq"
+        ) {
           item.changefreq = "daily";
           item.priority = 0.9;
         } else if (path.startsWith("/hall/")) {

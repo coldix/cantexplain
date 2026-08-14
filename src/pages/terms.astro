@@ -1,0 +1,86 @@
+---
+import Base from "../layouts/Base.astro";
+import { LEGAL_UPDATED, SITE, formatDate } from "../lib/site";
+---
+
+<Base
+  title="Terms of use"
+  description="Plain-language terms for using Can’t Explain: what the hall is, how to reuse it, and what not to pretend it said."
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "Terms", href: "/terms" },
+  ]}
+>
+  <div class="wrap wrap-narrow section">
+    <p class="eyebrow">Legal</p>
+    <h1>Terms of use</h1>
+    <p class="lede">
+      Short version: read the hall, quote it with a link, do not pretend a caption is a
+      court finding. If that is too much, the back button still works.
+    </p>
+    <p class="muted">Updated {formatDate(LEGAL_UPDATED)}.</p>
+
+    <h2 id="acceptance">1. Using the site</h2>
+    <p>
+      By using {SITE.domain} you accept these terms, plus the
+      <a href="/privacy">privacy</a> page and the <a href="/disclaimer">disclaimer</a>.
+      They are part of the same deal.
+    </p>
+
+    <h2 id="what">2. What this is</h2>
+    <p>
+      A free, independent hall of loud claims with thin evidence. Static pages. No
+      promise it will be here tomorrow, only that while it is here the files are in git.
+      Nobody is entitled to uptime, a sequel, or a card about their enemy.
+    </p>
+
+    <h2 id="licence">3. What you may reuse</h2>
+    <ul>
+      <li>
+        <strong>Code</strong> is <a href={`${SITE.repo}/blob/main/LICENSE`}>MIT</a>. Fork
+        it, fix it, argue with it.
+      </li>
+      <li>
+        <strong>Our writing</strong> — captions, method, these terms — may be quoted with
+        attribution to {SITE.domain}. That is the price.
+      </li>
+      <li>
+        <strong>Logos and the name</strong> are not a costume. Do not use them to imply we
+        endorse you, your party, or your thread.
+      </li>
+      <li>
+        <strong>Other people’s words</strong> — the quotes, headlines, and pages we cite —
+        remain theirs. We link. We do not relicense the Guardian.
+      </li>
+    </ul>
+
+    <h2 id="hall">4. How to read a card</h2>
+    <p>
+      A card files a <em>claim</em>, a <em>source</em>, and a <em>receipt</em>. The
+      caption is observational humour, not a second accusation and not a verdict. If you
+      republish a figure or a quote from here, take the source with it. Leaving the
+      receipt behind is how this hall gets new members.
+    </p>
+
+    <h2 id="conduct">5. Please do not</h2>
+    <ul>
+      <li>Scrape us into a smear pack and leave our name on it as if we signed it.</li>
+      <li>Hammer the site in a way that knocks it over. It is a small static box.</li>
+      <li>Pass off our captions as news copy.</li>
+      <li>Upload malware, because we have nowhere to put it and would rather you didn’t try.</li>
+    </ul>
+
+    <h2 id="warranty">6. No warranty</h2>
+    <p>
+      The site is offered as-is. We try to get the source URL and the file right. We do
+      not promise completeness, legal advice, or that a politician will have a good day.
+      See the <a href="/disclaimer">disclaimer</a>.
+    </p>
+
+    <h2 id="contact">7. Contact</h2>
+    <p>
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Corrections via
+      <a href={SITE.issues}>GitHub</a>. Also: <a href="/faq">FAQ</a>.
+    </p>
+  </div>
+</Base>

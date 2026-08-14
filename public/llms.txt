@@ -39,5 +39,8 @@
 - Hall (all live cards): https://cantexplain.au/hall
 - Method: https://cantexplain.au/method
 - About / independence: https://cantexplain.au/about
+- FAQ: https://cantexplain.au/faq
+- Disclaimer: https://cantexplain.au/disclaimer
 - Privacy (includes analytics): https://cantexplain.au/privacy
+- Terms: https://cantexplain.au/terms
 - Entry pattern: https://cantexplain.au/hall/<slug>

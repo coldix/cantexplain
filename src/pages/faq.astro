@@ -1,0 +1,147 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../lib/site";
+
+const faqs = [
+  {
+    q: "What is this place?",
+    a: "A hall of claims that arrived already shouting. Each card has the accusation, the original source, a file in git, and a short caption. The joke is the gap. If that sounds like a news site, we have failed.",
+  },
+  {
+    q: "Are you saying the target of the claim is right?",
+    a: "No. We are saying the accusation still needs a receipt. Suspicion is not proof. A piñata is not a citation. You can dislike Pauline Hanson, or anyone else in the hall, and still notice when the footnote did not show up.",
+  },
+  {
+    q: "Are you saying the speaker is an idiot?",
+    a: "The claim is in the hall, not the human. Year 8s are allowed to have feelings. Unions are allowed to organise a walkout. None of that turns “bought out by Gina” into a bank statement.",
+  },
+  {
+    q: "Is a card a verdict?",
+    a: "No. It is a filing. Open the source. Open the file. If we misquoted, we will correct it. If you wanted a hanging, try a different domain.",
+  },
+  {
+    q: "Why Git? Why not just type a date?",
+    a: "Dates we type are optional. Commits have an author, a hash, and a clock that is not ours to fiddle. We do not rewrite a capture in place to make it tidier. We add another file and say so.",
+  },
+  {
+    q: "Can I submit a claim?",
+    a: "You can point at one. Email or a GitHub issue. A human opens the URL. There is no firehose, no comments section, and no “my uncle said” inbox that auto-publishes. AI may draft. AI may not hit publish.",
+  },
+  {
+    q: "Was last week’s walkout just wagging?",
+    a: "They skipped class. That is a fact. It was also organised by the National Union of Students, with Greens MPs on the stage. Both things can be true. The poll rise is evidence. “They’re putting us through oppression” still needs a they, a putting, and a through.",
+  },
+  {
+    q: "Why start with Hanson?",
+    a: "Because that is where the pattern is loudest this month, not because the hall is a shrine or a demolition job. The same rules apply when the target is a Labor minister, a journalist, or a mining heir. Launch theme is not a loyalty oath.",
+  },
+  {
+    q: "Do I have to find the caption funny?",
+    a: "No. You have to be able to open the source. If the caption still works after you delete the URL, it was a dunk and we should have spiked it.",
+  },
+  {
+    q: "Can I reuse this?",
+    a: "Code is MIT. Quote our writing with a link to cantexplain.au. Do not put our logo on your how-to-vote. Other people’s quotes remain other people’s quotes. Details live in the terms.",
+  },
+  {
+    q: "Why “Can’t Explain”?",
+    a: "A nod to Please Explain, and to the usual state of the footnote. If you came for a 1,200-word essay, Oze Unleashed is down the hall. If you came for sourced election data, that is electiontracker.au. If you came to distinguish conspiracy from failure without becoming programmable, that is the Ministry of Doubt.",
+  },
+  {
+    q: "Who pays for this?",
+    a: "Oze / Colin Dixon. No party, candidate, or lobby has a right of review. If that ever changes, it will be written on the about page in boring sentences, not buried in a caption.",
+  },
+];
+
+const schema = {
+  "@type": "FAQPage",
+  mainEntity: faqs.map((item) => ({
+    "@type": "Question",
+    name: item.q,
+    acceptedAnswer: { "@type": "Answer", text: item.a },
+  })),
+};
+---
+
+<Base
+  title="FAQ"
+  description="Plain answers about Can’t Explain: what a card is, what it isn’t, Hanson, wagging, Git, and why the caption is not a verdict."
+  schema={schema}
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "FAQ", href: "/faq" },
+  ]}
+>
+  <div class="wrap wrap-narrow section">
+    <p class="eyebrow">FAQ</p>
+    <h1>Please explain</h1>
+    <p class="lede">
+      The short answers. If you need the long ones, that is
+      <a href="/method">method</a>, <a href="/disclaimer">disclaimer</a>, or a different
+      sibling site.
+    </p>
+
+    <div class="faq-list">
+      {
+        faqs.map((item) => (
+          <details class="faq-item">
+            <summary>{item.q}</summary>
+            <p>{item.a}</p>
+          </details>
+        ))
+      }
+    </div>
+
+    <p class="muted more">
+      Still stuck? <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      <span aria-hidden="true"> · </span>
+      <a href={SITE.issues}>Suggest a correction</a>
+    </p>
+  </div>
+</Base>
+
+<style>
+  .faq-list {
+    margin: 2rem 0;
+    display: grid;
+    gap: 0.65rem;
+  }
+  .faq-item {
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-sm);
+    background: var(--surface);
+    padding: 0.15rem 1rem 0.15rem 1.1rem;
+  }
+  .faq-item[open] {
+    border-color: var(--rule-strong);
+    box-shadow: var(--shadow);
+  }
+  summary {
+    cursor: pointer;
+    font-weight: 620;
+    padding: 0.85rem 0;
+    list-style: none;
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: "+";
+    float: right;
+    color: var(--ink-3);
+    font-family: var(--font-sans);
+    font-weight: 500;
+  }
+  .faq-item[open] summary::after {
+    content: "–";
+  }
+  .faq-item p {
+    margin: 0 0 1rem;
+    color: var(--ink-2);
+  }
+  .more {
+    margin-top: 2rem;
+  }
+</style>

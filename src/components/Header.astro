@@ -7,6 +7,7 @@ const path = Astro.url.pathname.replace(/\/$/, "") || "/";
 const nav = [
   { href: "/hall", label: "The hall" },
   { href: "/method", label: "Method" },
+  { href: "/faq", label: "FAQ" },
   { href: "/about", label: "About" },
 ];
 const isCurrent = (href: string) => path === href || path.startsWith(href + "/");

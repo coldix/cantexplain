@@ -1,0 +1,74 @@
+---
+import Base from "../layouts/Base.astro";
+import { LEGAL_UPDATED, SITE, formatDate } from "../lib/site";
+---
+
+<Base
+  title="Disclaimer"
+  description="What Can’t Explain is not: not a newsroom, not a how-to-vote, not a verdict. The hall files the gap between a loud claim and its evidence."
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "Disclaimer", href: "/disclaimer" },
+  ]}
+>
+  <div class="wrap wrap-narrow section">
+    <p class="eyebrow">Legal</p>
+    <h1>Disclaimer</h1>
+    <p class="lede">
+      We take receipts seriously. That is why it is worth being exact about what a card
+      cannot do.
+    </p>
+    <p class="muted">Updated {formatDate(LEGAL_UPDATED)}.</p>
+
+    <h2 id="not-a-finding">A card is not a verdict</h2>
+    <p>
+      Filing a claim in the hall is not a finding that the speaker is a fool, or that the
+      target is a saint. It means: this accusation arrived at high volume, here is where
+      it was said, here is the file we kept, and here is the gap. The caption is an
+      eyebrow, not a sentence from a court.
+    </p>
+
+    <h2 id="not-ours">The quotes are theirs</h2>
+    <p>
+      We quote or mark a paraphrase. The words belong to the person who said them, and
+      the original page belongs to whoever published it. If the source moves or dies, the
+      git file is why we kept a copy — not because we adopted the claim.
+    </p>
+
+    <h2 id="not-advice">Not advice, not a how-to-vote</h2>
+    <p>
+      Nothing here is legal advice, financial advice, or a suggestion about where to put
+      a 1. It is not electoral matter asking you to vote for or against anyone. Listing
+      a figure, a party, or a journalist is not an endorsement and not a smear of our
+      own.
+    </p>
+
+    <h2 id="not-complete">Not complete</h2>
+    <p>
+      Absence from the hall is not a clean bill of health. Presence is not proof the
+      speaker is uniquely terrible. We would rather leave a gap than invent a row.
+    </p>
+
+    <h2 id="not-the-source">We are not the original outlet</h2>
+    <p>
+      If we and the original source disagree about what was said, open both. The source
+      URL is on the card. If we misquoted, tell us
+      <a href={SITE.issues}>here</a> and we will correct the file, not rewrite history
+      in place.
+    </p>
+
+    <h2 id="independence">Independence</h2>
+    <p>
+      Published by {SITE.publisher}. Not affiliated with any party, candidate, newsroom,
+      or lobby. The same rules apply whichever direction the claim is facing. Longer
+      version: <a href="/about">about</a>.
+    </p>
+
+    <h2 id="humour">About the jokes</h2>
+    <p>
+      The humour is aimed at the missing step, not at a person’s existence. If a caption
+      smuggles a second accusation, that is a bug. Email
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+    </p>
+  </div>
+</Base>
