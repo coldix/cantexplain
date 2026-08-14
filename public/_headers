@@ -26,6 +26,9 @@
 /llms-full.txt
   Cache-Control: public, max-age=600, stale-while-revalidate=3600
   Content-Type: text/plain; charset=utf-8
+/build-meta.json
+  Cache-Control: public, max-age=60, stale-while-revalidate=600
+  Content-Type: application/json; charset=utf-8
 
 /sitemap.xml
   Content-Type: application/xml; charset=utf-8

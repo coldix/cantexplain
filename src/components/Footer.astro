@@ -1,7 +1,13 @@
 ---
 import { SITE, FAMILY, MAINTAINER } from "../lib/site";
+import buildMeta from "../generated/build-meta.json";
 
 const year = new Date().getFullYear();
+const versionLabel = buildMeta?.version ?? "dev";
+const builtAest = buildMeta?.built_at_aest ?? null;
+const repoCommit = buildMeta?.git_sha_full
+  ? `${SITE.repo}/commit/${buildMeta.git_sha_full}`
+  : SITE.repo;
 ---
 
 <footer class="site-footer">
@@ -58,6 +64,21 @@ const year = new Date().getFullYear();
         <span>© {year} {SITE.publisher}. {MAINTAINER.name}.</span>
         <span class="meta-sep" aria-hidden="true">·</span>
         <span>Code MIT-licensed. Evidence files live in git.</span>
+        <span class="meta-sep" aria-hidden="true">·</span>
+        <span class="build-stamp">
+          <span class="build-label">Build</span>
+          <a class="build-ver" href={repoCommit} rel="noopener" title="Git commit for this deploy">
+            {versionLabel}
+          </a>
+          {
+            builtAest && (
+              <>
+                <span class="build-sep" aria-hidden="true">·</span>
+                <time datetime={buildMeta.built_at_utc}>{builtAest}</time>
+              </>
+            )
+          }
+        </span>
       </p>
 
       <a class="design-credit" href={SITE.publisherUrl} rel="noopener">
@@ -119,6 +140,38 @@ const year = new Date().getFullYear();
   .meta-sep {
     margin: 0 0.4rem;
     opacity: 0.45;
+  }
+  .build-stamp {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .build-label {
+    font-weight: 620;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-right: 0.3rem;
+    color: var(--ink-3);
+    font-size: 0.72rem;
+  }
+  .build-ver {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 560;
+    color: var(--ink-2);
+    text-decoration: none;
+  }
+  .build-ver:hover {
+    color: var(--accent-ink);
+    text-decoration: underline;
+  }
+  .build-sep {
+    margin: 0 0.3rem;
+    opacity: 0.5;
+  }
+  @media (max-width: 40rem) {
+    .build-stamp {
+      white-space: normal;
+    }
   }
   .design-credit {
     display: inline-flex;
