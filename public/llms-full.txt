@@ -34,6 +34,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2026/gina-rinehart-bought-her-out/source.md
 - Raw file: https://cantexplain.au/evidence/2026/gina-rinehart-bought-her-out/source.md
 
+## How can you tell
+- URL: https://cantexplain.au/hall/how-can-you-tell
+- Person: Pauline Hanson
+- Type: no-evidence-required
+- Claim: You say, ‘Well, there’s good Muslims out there.’ How can you tell me there are good Muslims?
+- Caption: The slogan dropped the question mark. The interview kept the ISIS brides.
+- Source: https://www.abc.net.au/news/2026-02-18/pauline-hanson-partially-apologises-for-muslim-remarks/106357130 (2026-02-18)
+- Evidence: https://cantexplain.au/look/evidence/2026/how-can-you-tell/source.md
+- Raw file: https://cantexplain.au/evidence/2026/how-can-you-tell/source.md
+
 ## Not a publicity stunt
 - URL: https://cantexplain.au/hall/not-a-publicity-stunt
 - Person: Greta Thunberg
