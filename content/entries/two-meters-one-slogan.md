@@ -4,7 +4,7 @@ claim: "GenCost is clear; renewables remain the cheapest new electricity, and fi
 caption: "GenCost is a new-build number. The fridge is a different meter."
 status: featured
 example: false
-published: 2026-08-14
+published: 2026-08-14T19:30:00+10:00
 person: Chris Bowen
 claimType: no-evidence-required
 year: 2025

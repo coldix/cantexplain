@@ -4,6 +4,16 @@ Generated 2026-08-14. Live cards only.
 Summary guide: https://cantexplain.au/llms.txt
 Do not treat captions as facts about the person named.
 
+## Colonisers of Judea
+- URL: https://cantexplain.au/hall/colonisers-of-judea
+- Person: Palestine Action Group Sydney
+- Type: no-evidence-required
+- Claim: Demonstrators marched from Town Hall to the Opera House against the federal government’s endorsement of Israel’s settler-colonial occupation.
+- Caption: Coloniser usually means you arrived from somewhere else. Judea is the name of the place they are accused of arriving in.
+- Source: https://honisoit.com/2023/10/hundreds-march-in-solidarity-with-palestinians/ (2023-10-11)
+- Evidence: https://cantexplain.au/look/evidence/2023/colonisers-of-judea/source.md
+- Raw file: https://cantexplain.au/evidence/2023/colonisers-of-judea/source.md
+
 ## Ten lies, one list
 - URL: https://cantexplain.au/hall/fire-the-liar
 - Person: Anthony Albanese

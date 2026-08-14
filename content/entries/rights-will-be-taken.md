@@ -4,7 +4,7 @@ claim: "People of a different race shouldn’t lose their rights. And queer peop
 caption: "The rights were going. The bill was not produced."
 status: featured
 example: false
-published: 2026-08-14
+published: 2026-08-14T14:02:00+10:00
 person: Pauline Hanson
 claimType: no-evidence-required
 year: 2026

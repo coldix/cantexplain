@@ -3,11 +3,16 @@ import { isLive } from "./site";
 
 export type Entry = CollectionEntry<"entries">;
 
+/** Newest filed first. `published` is when we put the card in the hall. */
+function byNewest(a: Entry, b: Entry) {
+  const published = b.data.published.valueOf() - a.data.published.valueOf();
+  if (published !== 0) return published;
+  return String(b.data.source.date).localeCompare(String(a.data.source.date));
+}
+
 export async function liveEntries(): Promise<Entry[]> {
   const all = await getCollection("entries");
-  return all
-    .filter((e) => isLive(e.data.status))
-    .sort((a, b) => b.data.published.valueOf() - a.data.published.valueOf());
+  return all.filter((e) => isLive(e.data.status)).sort(byNewest);
 }
 
 export async function featuredEntries(): Promise<Entry[]> {

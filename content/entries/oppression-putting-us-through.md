@@ -4,7 +4,7 @@ claim: "We’re just fighting against the oppression and racism that they’re p
 caption: "Oppression arrived fully formed. The incident did not."
 status: featured
 example: false
-published: 2026-08-14
+published: 2026-08-14T14:01:00+10:00
 person: Pauline Hanson
 claimType: derangement
 year: 2026
