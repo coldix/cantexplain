@@ -2,7 +2,7 @@
 title: "Format example — No evidence required"
 claim: "Everyone knows it’s true. Asking for a source is the tell."
 caption: "The accusation arrived fully formed. The footnote did not."
-status: featured
+status: draft
 example: true
 published: 2026-08-14
 person: Format example

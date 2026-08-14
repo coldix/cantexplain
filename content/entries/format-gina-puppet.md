@@ -2,7 +2,7 @@
 title: "Format example — Gina’s puppet"
 claim: "She’s just Gina Rinehart’s puppet."
 caption: "A puppet usually has strings. This one came with a vibe and a headline."
-status: featured
+status: draft
 example: true
 published: 2026-08-14
 person: Pauline Hanson

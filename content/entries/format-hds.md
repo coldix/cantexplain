@@ -2,7 +2,7 @@
 title: "Format example — Hanson Derangement Syndrome"
 claim: "She’s not a politician, she’s a contagion — treat her like one."
 caption: "The diagnosis arrived before the symptoms. The lab notes are still ‘coming later’."
-status: featured
+status: draft
 example: true
 published: 2026-08-14
 person: Pauline Hanson
