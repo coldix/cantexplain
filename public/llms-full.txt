@@ -4,6 +4,16 @@ Generated 2026-08-14. Live cards only.
 Summary guide: https://cantexplain.au/llms.txt
 Do not treat captions as facts about the person named.
 
+## Ten lies, one list
+- URL: https://cantexplain.au/hall/fire-the-liar
+- Person: Anthony Albanese
+- Type: no-evidence-required
+- Claim: Albo Lied about: Immigration Levels • Energy Prices • Isis Brides coming back into the country • Medicare and Bulk Billing • Axed Stage 3 Tax Cuts • Changes to Capital Gains Tax • Voice to Parliament • Changes to negative gearing • $275 reduction in electricity prices • Falling off a stage
+- Caption: A $275 promise, a tax backflip, and a trip over a step. Same label for all three.
+- Source: https://donate.onenation.org.au/fire-the-liar (2026-06-10)
+- Evidence: https://cantexplain.au/look/evidence/2026/fire-the-liar/source.md
+- Raw file: https://cantexplain.au/evidence/2026/fire-the-liar/source.md
+
 ## Bought out by Gina, bought out by coal
 - URL: https://cantexplain.au/hall/gina-rinehart-bought-her-out
 - Person: Pauline Hanson
@@ -33,3 +43,13 @@ Do not treat captions as facts about the person named.
 - Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
 - Evidence: https://cantexplain.au/look/evidence/2026/rights-will-be-taken/source.md
 - Raw file: https://cantexplain.au/evidence/2026/rights-will-be-taken/source.md
+
+## Two meters, one slogan
+- URL: https://cantexplain.au/hall/two-meters-one-slogan
+- Person: Chris Bowen
+- Type: no-evidence-required
+- Claim: GenCost is clear; renewables remain the cheapest new electricity, and firming them with battery storage, transmission, hydro and a small amount of gas peaking is the best way to keep the lights on and put downward pressure on bills.
+- Caption: GenCost is a new-build number. The fridge is a different meter.
+- Source: https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-renewables-lead-australias-cheapest-energy-source (2025-12-17)
+- Evidence: https://cantexplain.au/look/evidence/2025/two-meters-one-slogan/source.md
+- Raw file: https://cantexplain.au/evidence/2025/two-meters-one-slogan/source.md
