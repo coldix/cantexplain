@@ -74,6 +74,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2026/rights-will-be-taken/source.md
 - Raw file: https://cantexplain.au/evidence/2026/rights-will-be-taken/source.md
 
+## Two dollars a day
+- URL: https://cantexplain.au/hall/two-dollars-a-day
+- Person: Gina Rinehart
+- Type: no-evidence-required
+- Claim: Gina Rinehart was pushing for Australian workers to work for two dollars a day.
+- Caption: The 2012 sentence was about African wages. The 2026 slogan put it on an Australian payslip.
+- Source: https://www.abc.net.au/news/corrections/2026-08-14/reinhartradio/107040362 (2026-08-14)
+- Evidence: https://cantexplain.au/look/evidence/2026/two-dollars-a-day/source.md
+- Raw file: https://cantexplain.au/evidence/2026/two-dollars-a-day/source.md
+
 ## Two meters, one slogan
 - URL: https://cantexplain.au/hall/two-meters-one-slogan
 - Person: Chris Bowen
