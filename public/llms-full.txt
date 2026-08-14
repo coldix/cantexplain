@@ -74,6 +74,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2021/everything-possible/source.md
 - Raw file: https://cantexplain.au/evidence/2021/everything-possible/source.md
 
+## 50 per cent
+- URL: https://cantexplain.au/hall/fifty-per-cent
+- Person: CSIRO
+- Type: no-evidence-required
+- Claim: Coral cover in the Great Barrier Reef has declined by 50 per cent in just 27 years.
+- Caption: The paper that minted the 50 also named the storms. The slogan kept the fraction.
+- Source: https://www.csiro.au/en/research/natural-environment/oceans/ereefs-management-system (2012-10-01)
+- Evidence: https://cantexplain.au/look/evidence/2012/fifty-per-cent/source.md
+- Raw file: https://cantexplain.au/evidence/2012/fifty-per-cent/source.md
+
 ## Ten lies, one list
 - URL: https://cantexplain.au/hall/fire-the-liar
 - Person: Anthony Albanese
@@ -94,6 +104,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2017/five-hundred-thousand-homes/source.md
 - Raw file: https://cantexplain.au/evidence/2017/five-hundred-thousand-homes/source.md
 
+## Five to 33
+- URL: https://cantexplain.au/hall/five-to-thirty-three
+- Person: Great Barrier Reef Marine Park Authority
+- Type: no-evidence-required
+- Claim: The Plan aimed to protect and conserve the biodiversity of the Great Barrier Reef ecosystem… green zones (no-take areas) where fishing is not allowed, expanded from five per cent of the Marine Park to 33 per cent.
+- Caption: A third of the park went quiet. The cover still tracked the storms.
+- Source: https://www2.gbrmpa.gov.au/50-years/timeline (2003-06-02)
+- Evidence: https://cantexplain.au/look/evidence/2003/five-to-thirty-three/source.md
+- Raw file: https://cantexplain.au/evidence/2003/five-to-thirty-three/source.md
+
 ## At least four years
 - URL: https://cantexplain.au/hall/four-years
 - Person: Malcolm Turnbull
@@ -103,6 +123,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.theguardian.com/australia-news/2017/mar/16/turnbull-2bn-snowy-hydro-electric-expansion (2017-03-16)
 - Evidence: https://cantexplain.au/look/evidence/2017/four-years/source.md
 - Raw file: https://cantexplain.au/evidence/2017/four-years/source.md
+
+## Future deterioration
+- URL: https://cantexplain.au/hall/future-deterioration
+- Person: Great Barrier Reef Marine Park Authority
+- Type: no-evidence-required
+- Claim: The overall outlook for the Great Barrier Reef remains one of future deterioration due largely to climate change.
+- Caption: The outlook was a one-way arrow. The cover series was a bounce.
+- Source: https://www2.gbrmpa.gov.au/news/great-barrier-reef-outlook-report-2024-ecosystem-under-pressure (2024-08-23)
+- Evidence: https://cantexplain.au/look/evidence/2024/future-deterioration/source.md
+- Raw file: https://cantexplain.au/evidence/2024/future-deterioration/source.md
 
 ## A Games like no other
 - URL: https://cantexplain.au/hall/games-like-no-other
@@ -123,6 +153,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
 - Evidence: https://cantexplain.au/look/evidence/2026/gina-rinehart-bought-her-out/source.md
 - Raw file: https://cantexplain.au/evidence/2026/gina-rinehart-bought-her-out/source.md
+
+## The greatest threat
+- URL: https://cantexplain.au/hall/greatest-threat
+- Person: Great Barrier Reef Marine Park Authority
+- Type: no-evidence-required
+- Claim: Climate change remains the greatest threat to the Great Barrier Reef.
+- Caption: Greatest is a ranking. The cover series kept naming cyclones and starfish.
+- Source: https://www2.gbrmpa.gov.au/learn/reef-health/reef-health-updates (2024-04-29)
+- Evidence: https://cantexplain.au/look/evidence/2024/greatest-threat/source.md
+- Raw file: https://cantexplain.au/evidence/2024/greatest-threat/source.md
 
 ## Hospitals and schools
 - URL: https://cantexplain.au/hall/hospitals-and-schools
@@ -153,6 +193,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.abc.net.au/news/health/2020-03-25/coronavirus-covid-19-face-mask-surgical-mask-protection/12088314 (2020-03-25)
 - Evidence: https://cantexplain.au/look/evidence/2020/if-youre-well/source.md
 - Raw file: https://cantexplain.au/evidence/2020/if-youre-well/source.md
+
+## Land-based run-off
+- URL: https://cantexplain.au/hall/land-based-run-off
+- Person: Great Barrier Reef Marine Park Authority
+- Type: no-evidence-required
+- Claim: Land-based run-off remains the greatest contributor to poor water quality in the inshore areas of the Great Barrier Reef and is a major contributor to the current poor state of many inshore marine ecosystems.
+- Caption: The Authority ranked the farms. The Senate heard the cyclones.
+- Source: https://www.gbrmpa.gov.au/learn/threats/declining-water-quality (2021-02-17)
+- Evidence: https://cantexplain.au/look/evidence/2021/land-based-run-off/source.md
+- Raw file: https://cantexplain.au/evidence/2021/land-based-run-off/source.md
 
 ## More than $3 billion
 - URL: https://cantexplain.au/hall/more-than-three-billion
