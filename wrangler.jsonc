@@ -1,14 +1,11 @@
 {
-  // Assets-only Worker: no server code, no compute, no bindings.
-  //
-  // Official Astro docs: a static Astro site does not need @astrojs/cloudflare.
-  // Cloudflare serves the built files from the edge, same family pattern as
-  // electiontracker.au. See docs/BRIEF.md.
+  // Static Astro assets plus a small Worker for the Access-gated /admin desk.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cantexplain",
   // Col@oze.com.au's Account — same as electiontracker.au
   "account_id": "ab29454df8dbb469d259956fcf482075",
-  "compatibility_date": "2026-08-14",
+  "compatibility_date": "2026-08-15",
+  "main": "./worker/index.ts",
   // Custom domain is live. workers.dev would be a second public copy.
   "workers_dev": false,
   "preview_urls": true,
@@ -17,8 +14,19 @@
   ],
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
     "not_found_handling": "404-page",
     // Keep in step with trailingSlash: "never" in astro.config.mjs.
-    "html_handling": "drop-trailing-slash"
+    "html_handling": "drop-trailing-slash",
+    "run_worker_first": ["/api/admin", "/api/admin/*"]
+  },
+  "vars": {
+    "ADMIN_EMAIL": "col@oze.com.au"
+  },
+  "access": {
+    "dev": {
+      "aud": "cantexplain-admin-dev",
+      "identity": { "email": "col@oze.com.au" }
+    }
   }
 }

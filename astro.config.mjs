@@ -21,6 +21,7 @@ export default defineConfig({
   integrations: [
     mdx(),
     sitemap({
+      filter: (page) => !new URL(page).pathname.startsWith("/admin"),
       serialize(item) {
         const path = new URL(item.url).pathname.replace(/\/$/, "") || "/";
         if (path === "/") {

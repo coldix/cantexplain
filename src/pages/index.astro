@@ -4,7 +4,7 @@ import EntryCard from "../components/EntryCard.astro";
 import { SITE, FAMILY } from "../lib/site";
 import { featuredEntries, liveEntries } from "../lib/entries";
 
-const featured = await featuredEntries();
+const featured = (await featuredEntries()).slice(0, 6);
 const total = (await liveEntries()).length;
 const examples = featured.every((e) => e.data.example);
 
@@ -96,7 +96,7 @@ const schema = [
       {featured.map((entry) => <EntryCard entry={entry} />)}
     </div>
     <p class="more-row">
-      <a href="/hall">All entries</a>
+      <a href="/hall">All {total} cards in the hall</a>
     </p>
   </section>
 

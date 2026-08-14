@@ -1,0 +1,431 @@
+---
+import Base from "../../layouts/Base.astro";
+import { CLAIM_TYPE_LABEL } from "../../lib/site";
+
+const types = Object.entries(CLAIM_TYPE_LABEL);
+---
+
+<Base
+  title="Hall desk"
+  description="Private editor for Can’t Explain hall cards."
+  noindex={true}
+>
+  <div class="wrap section desk">
+    <p class="eyebrow">Private</p>
+    <h1>Hall desk</h1>
+    <p class="lede" id="who">Checking Cloudflare Access…</p>
+    <p class="muted">
+      Only <code>col@oze.com.au</code> should be able to load this desk. Put Cloudflare
+      Access in front of <code>/admin</code> and <code>/api/admin</code>.
+    </p>
+    <p class="muted">
+      Saves commit to <code>coldix/cantexplain</code> on <code>main</code>. The public
+      site updates on the next deploy.
+    </p>
+
+    <p class="err" id="banner" hidden></p>
+
+    <div class="toolbar">
+      <button type="button" class="btn" id="btn-list">All cards</button>
+      <button type="button" class="btn btn-ghost" id="btn-new">New card</button>
+    </div>
+
+    <div id="list-view">
+      <div class="filters-mini">
+        <input type="search" id="list-q" placeholder="Filter this list…" />
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Status</th>
+              <th>Title</th>
+              <th>Person</th>
+              <th>Type</th>
+              <th>Year</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="rows">
+            <tr><td colspan="6" class="muted">Loading…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <form id="edit-view" class="card editor" hidden>
+      <input type="hidden" name="sha" id="f-sha" />
+      <input type="hidden" name="slug" id="f-slug-existing" />
+      <div class="grid-2">
+        <label>
+          <span class="lbl">Slug</span>
+          <input name="slug" id="f-slug" required pattern="[a-z0-9-]+" placeholder="short-sharp-name" />
+        </label>
+        <label>
+          <span class="lbl">Status</span>
+          <select name="status" id="f-status">
+            <option value="draft">draft — not on the public hall</option>
+            <option value="published">published — in the hall</option>
+            <option value="featured">featured — hall + homepage pin</option>
+          </select>
+        </label>
+        <label class="span-2">
+          <span class="lbl">Title</span>
+          <input name="title" id="f-title" required />
+        </label>
+        <label class="span-2">
+          <span class="lbl">Claim</span>
+          <textarea name="claim" id="f-claim" rows="3" required></textarea>
+        </label>
+        <label class="span-2">
+          <span class="lbl">Caption</span>
+          <textarea name="caption" id="f-caption" rows="2" required></textarea>
+        </label>
+        <label>
+          <span class="lbl">Person</span>
+          <input name="person" id="f-person" required />
+        </label>
+        <label>
+          <span class="lbl">Type</span>
+          <select name="claimType" id="f-type">
+            {types.map(([value, label]) => <option value={value}>{label}</option>)}
+          </select>
+        </label>
+        <label>
+          <span class="lbl">Source year</span>
+          <input name="year" id="f-year" type="number" min="1900" max="2100" required />
+        </label>
+        <label>
+          <span class="lbl">Filed (published)</span>
+          <input name="published" id="f-published" required />
+        </label>
+        <label class="span-2">
+          <span class="lbl">Tags (comma)</span>
+          <input name="tags" id="f-tags" />
+        </label>
+        <label class="span-2">
+          <span class="lbl">Source URL</span>
+          <input name="source_url" id="f-source-url" type="url" required />
+        </label>
+        <label>
+          <span class="lbl">Source date</span>
+          <input name="source_date" id="f-source-date" placeholder="YYYY-MM-DD" required />
+        </label>
+        <label>
+          <span class="lbl">Publisher</span>
+          <input name="source_publisher" id="f-source-publisher" required />
+        </label>
+        <label class="span-2">
+          <span class="lbl">Source title</span>
+          <input name="source_title" id="f-source-title" />
+        </label>
+        <label class="span-2">
+          <span class="lbl">Source quote</span>
+          <textarea name="source_quote" id="f-source-quote" rows="2"></textarea>
+        </label>
+        <label>
+          <span class="lbl">Evidence path</span>
+          <input name="evidence_path" id="f-ev-path" />
+        </label>
+        <label>
+          <span class="lbl">Evidence kind</span>
+          <select name="evidence_kind" id="f-ev-kind">
+            <option value="note">note</option>
+            <option value="html">html</option>
+            <option value="screenshot">screenshot</option>
+            <option value="pdf">pdf</option>
+            <option value="transcript">transcript</option>
+          </select>
+        </label>
+        <label>
+          <span class="lbl">Captured</span>
+          <input name="evidence_captured" id="f-ev-captured" />
+        </label>
+        <label class="check">
+          <input type="checkbox" name="example" id="f-example" />
+          Format example
+        </label>
+        <label class="span-2">
+          <span class="lbl">Body</span>
+          <textarea name="body" id="f-body" rows="14"></textarea>
+        </label>
+      </div>
+      <div class="editor-foot">
+        <button type="submit" class="btn" id="btn-save">Save to git</button>
+        <span class="muted" id="save-status"></span>
+      </div>
+    </form>
+  </div>
+</Base>
+
+<script>
+  const who = document.getElementById("who");
+  const banner = document.getElementById("banner");
+  const rows = document.getElementById("rows");
+  const listView = document.getElementById("list-view");
+  const editView = document.getElementById("edit-view") as HTMLFormElement | null;
+  const listQ = document.getElementById("list-q") as HTMLInputElement | null;
+  let cache: Array<Record<string, string>> = [];
+  let creating = false;
+
+  const showErr = (msg: string) => {
+    if (!banner) return;
+    banner.hidden = !msg;
+    banner.textContent = msg;
+  };
+
+  const api = async (path: string, init?: RequestInit) => {
+    const res = await fetch(path, { credentials: "same-origin", ...init });
+    const text = await res.text();
+    let data: unknown = text;
+    try {
+      data = JSON.parse(text);
+    } catch {
+      /* plain */
+    }
+    if (!res.ok) {
+      const err =
+        typeof data === "object" && data && "error" in data
+          ? String((data as { error: string }).error)
+          : text || res.statusText;
+      throw new Error(err);
+    }
+    return data;
+  };
+
+  const renderList = (q = "") => {
+    if (!rows) return;
+    const needle = q.trim().toLowerCase();
+    const items = cache.filter((e) => {
+      if (!needle) return true;
+      return [e.slug, e.title, e.person, e.status, e.claimType, e.year].join(" ").toLowerCase().includes(needle);
+    });
+    if (!items.length) {
+      rows.innerHTML = `<tr><td colspan="6" class="muted">Nothing matches.</td></tr>`;
+      return;
+    }
+    rows.innerHTML = items
+      .map(
+        (e) => `<tr>
+          <td><span class="pill">${e.status}</span></td>
+          <td>${escapeHtml(e.title)}</td>
+          <td>${escapeHtml(e.person)}</td>
+          <td>${escapeHtml(e.claimType)}</td>
+          <td>${escapeHtml(e.year)}</td>
+          <td><button type="button" class="linkish" data-edit="${e.slug}">Edit</button></td>
+        </tr>`,
+      )
+      .join("");
+  };
+
+  const loadList = async () => {
+    creating = false;
+    if (listView) listView.hidden = false;
+    if (editView) editView.hidden = true;
+    showErr("");
+    if (rows) rows.innerHTML = `<tr><td colspan="6" class="muted">Loading…</td></tr>`;
+    const data = (await api("/api/admin/entries")) as { entries: Array<Record<string, string>> };
+    cache = data.entries || [];
+    renderList(listQ?.value || "");
+  };
+
+  const fill = (id: string, value: unknown) => {
+    const el = document.getElementById(id) as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement | null;
+    if (el) el.value = value == null ? "" : String(value);
+  };
+
+  const openNew = () => {
+    creating = true;
+    if (listView) listView.hidden = true;
+    if (editView) editView.hidden = false;
+    const today = new Date().toISOString().slice(0, 10);
+    fill("f-sha", "");
+    fill("f-slug", "");
+    fill("f-slug-existing", "");
+    const slugEl = document.getElementById("f-slug") as HTMLInputElement | null;
+    if (slugEl) slugEl.disabled = false;
+    fill("f-status", "draft");
+    fill("f-title", "");
+    fill("f-claim", "");
+    fill("f-caption", "");
+    fill("f-person", "");
+    fill("f-type", "no-evidence-required");
+    fill("f-year", String(new Date().getFullYear()));
+    fill("f-published", new Date().toISOString());
+    fill("f-tags", "");
+    fill("f-source-url", "https://");
+    fill("f-source-date", today);
+    fill("f-source-publisher", "");
+    fill("f-source-title", "");
+    fill("f-source-quote", "");
+    fill("f-ev-path", "");
+    fill("f-ev-kind", "note");
+    fill("f-ev-captured", today);
+    const ex = document.getElementById("f-example") as HTMLInputElement | null;
+    if (ex) ex.checked = false;
+    fill("f-body", "Short context. Who said it, what was missing. Keep it short.\n");
+    const st = document.getElementById("save-status");
+    if (st) st.textContent = "";
+  };
+
+  const openEdit = async (slug: string) => {
+    creating = false;
+    showErr("");
+    const data = (await api(`/api/admin/entries/${slug}`)) as {
+      sha: string;
+      data: Record<string, unknown>;
+      body: string;
+    };
+    const d = data.data || {};
+    const source = (d.source || {}) as Record<string, unknown>;
+    const evidence = (d.evidence || {}) as Record<string, unknown>;
+    if (listView) listView.hidden = true;
+    if (editView) editView.hidden = false;
+    fill("f-sha", data.sha);
+    fill("f-slug", slug);
+    fill("f-slug-existing", slug);
+    const slugEl = document.getElementById("f-slug") as HTMLInputElement | null;
+    if (slugEl) slugEl.disabled = true;
+    fill("f-status", d.status);
+    fill("f-title", d.title);
+    fill("f-claim", d.claim);
+    fill("f-caption", d.caption);
+    fill("f-person", d.person);
+    fill("f-type", d.claimType);
+    fill("f-year", d.year);
+    fill("f-published", d.published);
+    fill("f-tags", Array.isArray(d.tags) ? d.tags.join(", ") : d.tags);
+    fill("f-source-url", source.url);
+    fill("f-source-date", source.date);
+    fill("f-source-publisher", source.publisher);
+    fill("f-source-title", source.title);
+    fill("f-source-quote", source.quote);
+    fill("f-ev-path", evidence.path);
+    fill("f-ev-kind", evidence.kind || "note");
+    fill("f-ev-captured", evidence.captured);
+    const ex = document.getElementById("f-example") as HTMLInputElement | null;
+    if (ex) ex.checked = d.example === true || d.example === "true";
+    fill("f-body", data.body || "");
+    const st = document.getElementById("save-status");
+    if (st) st.textContent = "";
+  };
+
+  const payload = () => {
+    const g = (id: string) => (document.getElementById(id) as HTMLInputElement | HTMLTextAreaElement).value;
+    const tags = g("f-tags")
+      .split(",")
+      .map((t) => t.trim())
+      .filter(Boolean);
+    return {
+      sha: g("f-sha") || undefined,
+      data: {
+        title: g("f-title"),
+        claim: g("f-claim"),
+        caption: g("f-caption"),
+        status: g("f-status"),
+        example: (document.getElementById("f-example") as HTMLInputElement).checked,
+        published: g("f-published"),
+        person: g("f-person"),
+        claimType: g("f-type"),
+        year: Number(g("f-year")),
+        tags,
+        source: {
+          url: g("f-source-url"),
+          date: g("f-source-date"),
+          publisher: g("f-source-publisher"),
+          title: g("f-source-title"),
+          quote: g("f-source-quote"),
+        },
+        evidence: {
+          path: g("f-ev-path"),
+          kind: g("f-ev-kind"),
+          captured: g("f-ev-captured"),
+        },
+      },
+      body: g("f-body"),
+    };
+  };
+
+  document.getElementById("btn-list")?.addEventListener("click", () => loadList().catch((e) => showErr(e.message)));
+  document.getElementById("btn-new")?.addEventListener("click", openNew);
+  listQ?.addEventListener("input", () => renderList(listQ.value));
+  rows?.addEventListener("click", (ev) => {
+    const btn = (ev.target as HTMLElement).closest("[data-edit]") as HTMLElement | null;
+    if (!btn?.dataset.edit) return;
+    openEdit(btn.dataset.edit).catch((e) => showErr(e.message));
+  });
+  editView?.addEventListener("submit", async (ev) => {
+    ev.preventDefault();
+    const st = document.getElementById("save-status");
+    if (st) st.textContent = "Saving…";
+    showErr("");
+    try {
+      const slug = creating
+        ? (document.getElementById("f-slug") as HTMLInputElement).value
+        : (document.getElementById("f-slug-existing") as HTMLInputElement).value;
+      const body = payload();
+      if (creating) {
+        await api("/api/admin/entries", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ slug, ...body }),
+        });
+      } else {
+        await api(`/api/admin/entries/${slug}`, {
+          method: "PUT",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(body),
+        });
+      }
+      if (st) st.textContent = "Saved to git. Deploy to update the public hall.";
+      await loadList();
+    } catch (e) {
+      if (st) st.textContent = "";
+      showErr((e as Error).message);
+    }
+  });
+
+  function escapeHtml(s: string) {
+    return String(s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  (async () => {
+    try {
+      const me = (await api("/api/admin/me")) as { email: string };
+      if (who) who.textContent = `Signed in as ${me.email}.`;
+      await loadList();
+    } catch (e) {
+      if (who) who.textContent = "Not signed in.";
+      showErr((e as Error).message);
+    }
+  })();
+</script>
+
+<style>
+  .desk { max-width: 72rem; }
+  .toolbar { display: flex; gap: 0.6rem; margin: 1rem 0; }
+  .filters-mini { margin: 0 0 0.75rem; }
+  .filters-mini input { width: min(24rem, 100%); padding: 0.5rem 0.7rem; border: 1px solid var(--rule-strong); border-radius: var(--radius-sm); background: var(--paper); color: var(--ink); font: inherit; }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 0.45rem 0.5rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); }
+  .linkish { border: 0; background: none; color: var(--accent-ink); font: inherit; font-weight: 600; cursor: pointer; padding: 0; text-decoration: underline; }
+  .err { color: #8b1e1e; background: #fde8e4; padding: 0.7rem 0.9rem; border-radius: var(--radius-sm); }
+  .editor { padding: 1rem 1.1rem 1.15rem; }
+  .grid-2 { display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+  @media (min-width: 48rem) {
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+    .span-2 { grid-column: 1 / -1; }
+  }
+  .lbl { display: block; font-size: 0.72rem; font-weight: 660; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 0.3rem; }
+  input, select, textarea { width: 100%; padding: 0.5rem 0.65rem; border: 1px solid var(--rule-strong); border-radius: var(--radius-sm); background: var(--paper); color: var(--ink); font: inherit; }
+  textarea { font-family: var(--font-mono); font-size: 0.86rem; line-height: 1.45; }
+  .check { display: flex; align-items: center; gap: 0.45rem; padding-top: 1.4rem; }
+  .check input { width: auto; }
+  .editor-foot { display: flex; align-items: center; gap: 0.85rem; margin-top: 1rem; }
+</style>

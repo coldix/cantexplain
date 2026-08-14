@@ -26,6 +26,7 @@ const searchBlob = [
   data-person={data.person}
   data-type={data.claimType}
   data-year={String(data.year)}
+  data-status={data.status}
   data-tags={data.tags.join(",")}
   data-search={searchBlob}
 >
@@ -59,6 +60,9 @@ const searchBlob = [
     gap: 0.55rem;
     height: 100%;
     transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+  .entry-card[hidden] {
+    display: none !important;
   }
   .entry-card:hover {
     transform: translateY(-2px);

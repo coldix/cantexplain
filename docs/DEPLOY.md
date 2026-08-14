@@ -38,6 +38,31 @@ Do **not** add MX/SPF on `cantexplain.com.au` unless you want mailboxes there. S
 
 `Always Use HTTPS` on the `cantexplain.au` zone is still worth flipping on (SSL/TLS → Edge Certificates).
 
+## Hall desk (`/admin`)
+
+Private editor at `https://cantexplain.au/admin`. It commits to `coldix/cantexplain` on `main`.
+
+1. **Cloudflare Access** (Zero Trust → Access → Applications) — self-hosted app:
+   - Destinations: `cantexplain.au/admin`, `cantexplain.au/admin/*`, `cantexplain.au/api/admin`, `cantexplain.au/api/admin/*`
+   - Policy: Allow, include email `col@oze.com.au`
+   - After create, copy the **Application Audience (AUD)** and the team domain (`something.cloudflareaccess.com`)
+   - Set Worker vars:
+
+   ```bash
+   npx wrangler secret put GITHUB_TOKEN   # a GitHub token with repo contents write
+   ```
+
+   And in `wrangler.jsonc` `vars` (or the dashboard):
+
+   ```jsonc
+   "ACCESS_TEAM_DOMAIN": "YOURTEAM.cloudflareaccess.com",
+   "ACCESS_AUD": "the-aud-tag-from-the-Access-app"
+   ```
+
+2. Until Access is on those paths, `/admin` returns 401 from the Worker on purpose.
+
+3. After a save, run `npm run deploy` (or connect Workers Builds) so the public hall rebuilds.
+
 ## Redeploy after content or code changes
 
 From `/web/cantexplain`, logged in (`npx wrangler whoami`):
