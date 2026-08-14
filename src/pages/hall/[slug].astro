@@ -29,11 +29,19 @@ const shareText = `“${data.claim}” — ${SITE.name}`;
 const schema = {
   "@type": "Article",
   headline: data.title,
+  description: data.caption,
   datePublished: data.published.toISOString(),
-  author: { "@type": "Person", name: "Colin Dixon" },
+  author: { "@id": `${SITE.url}/#author` },
   publisher: { "@id": `${SITE.url}/#organization` },
-  about: data.person,
+  mainEntityOfPage: { "@id": `${pageUrl}#webpage` },
+  about: [
+    { "@type": "Person", name: data.person },
+    { "@type": "Thing", name: data.claimType },
+  ],
   citation: data.source.url,
+  keywords: data.tags.join(", "),
+  inLanguage: "en-AU",
+  isAccessibleForFree: true,
 };
 ---
 
@@ -41,6 +49,8 @@ const schema = {
   title={data.title}
   description={data.caption}
   schema={schema}
+  ogType="article"
+  publishedTime={data.published.toISOString()}
   breadcrumbs={[
     { name: "Home", href: "/" },
     { name: "The hall", href: "/hall" },

@@ -1,0 +1,35 @@
+# Can’t Explain — full entry list for AI systems
+
+Generated 2026-08-14. Live cards only.
+Summary guide: https://cantexplain.au/llms.txt
+Do not treat captions as facts about the person named.
+
+## Bought out by Gina, bought out by coal
+- URL: https://cantexplain.au/hall/gina-rinehart-bought-her-out
+- Person: Pauline Hanson
+- Type: puppet
+- Claim: I think she’s bought out by Gina Rinehart, she’s bought out by coal industries.
+- Caption: A puppet usually has strings. This one came with a rally and a first name.
+- Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
+- Evidence: https://cantexplain.au/look/evidence/2026/gina-rinehart-bought-her-out/source.md
+- Raw file: https://cantexplain.au/evidence/2026/gina-rinehart-bought-her-out/source.md
+
+## The oppression they’re putting us through
+- URL: https://cantexplain.au/hall/oppression-putting-us-through
+- Person: Pauline Hanson
+- Type: derangement
+- Claim: We’re just fighting against the oppression and racism that they’re putting us through and we’re making a change against all these racists and deranged people all throughout Australia.
+- Caption: Oppression arrived fully formed. The incident did not.
+- Source: https://www.abc.net.au/news/2026-08-13/one-nation-students-protest-pauline-hanson/107033644 (2026-08-13)
+- Evidence: https://cantexplain.au/look/evidence/2026/oppression-putting-us-through/source.md
+- Raw file: https://cantexplain.au/evidence/2026/oppression-putting-us-through/source.md
+
+## Those kinds of choices
+- URL: https://cantexplain.au/hall/rights-will-be-taken
+- Person: Pauline Hanson
+- Type: no-evidence-required
+- Claim: People of a different race shouldn’t lose their rights. And queer people have already had a lot of issues with fighting for their rights, and if that gets taken away too, that’s not OK.
+- Caption: The rights were going. The bill was not produced.
+- Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
+- Evidence: https://cantexplain.au/look/evidence/2026/rights-will-be-taken/source.md
+- Raw file: https://cantexplain.au/evidence/2026/rights-will-be-taken/source.md

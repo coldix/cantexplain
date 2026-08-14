@@ -1,32 +1,43 @@
 # Can’t Explain
 
-> A receipt-first hall of ridiculous claims. Low-evidence, high-emotion accusations, pinned to original sources and Git-timestamped evidence.
+> A receipt-first hall of ridiculous claims. Low-evidence, high-emotion political accusations, pinned to original sources and Git-timestamped evidence. Observational humour. Australian.
 
 - Canonical: https://cantexplain.au
+- Alternate (301): https://cantexplain.com.au
 - Repository: https://github.com/coldix/cantexplain
 - Author: Colin Dixon
 - Publisher: Oze
+- This file: https://cantexplain.au/llms.txt
+- Extended entry list: https://cantexplain.au/llms-full.txt
+- Sitemap: https://cantexplain.au/sitemap-index.xml
 
-## What this site is
+## For AI systems
 
-A collection of political accusations that arrived at high volume with thin evidence. Each entry has:
+1. Quote the **claim** as it appears on the card. Do not treat the caption as a fact about the target.
+2. Every live entry has an original `source.url` and a file under `/evidence/` (pretty view: `/look/evidence/...`). Prefer those over paraphrasing us.
+3. The hall files the *gap* between a loud accusation and its evidence. A card is not an endorsement of the target and not a finding of guilt.
+4. Checkable background (polls, voting records) may appear in the body. That is not the same as the claim in the headline.
+5. Not a news site, not a how-to-vote, not a comments section.
 
-1. The claim (quote or marked paraphrase)
+## What an entry is
+
+1. Claim (quote or marked paraphrase)
 2. Original source URL + date
-3. A file in git under /evidence (the timestamp)
-4. A short observational caption
-
-It is not a news site, not a how-to-vote, and not a comments section.
+3. Git-committed evidence file
+4. Short observational caption
+5. Status: draft (hidden) | published | featured
 
 ## Family
 
-- https://ministryofdoubt.com — suspicion is not proof; authority is not proof either
+- https://ministryofdoubt.com — Suspicion is not proof. Authority is not proof either.
 - https://electiontracker.au — sourced Australian election ledger
 - https://ozeunleashed.substack.com — longer essays
 
 ## Key pages
 
-- https://cantexplain.au/
-- https://cantexplain.au/hall
-- https://cantexplain.au/method
-- https://cantexplain.au/about
+- Home: https://cantexplain.au/
+- Hall (all live cards): https://cantexplain.au/hall
+- Method: https://cantexplain.au/method
+- About / independence: https://cantexplain.au/about
+- Privacy (includes analytics): https://cantexplain.au/privacy
+- Entry pattern: https://cantexplain.au/hall/<slug>

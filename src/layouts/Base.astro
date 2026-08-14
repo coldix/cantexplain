@@ -12,11 +12,14 @@ const {
   breadcrumbs = null,
   noindex = false,
   minimal = false,
+  ogType = "website",
+  publishedTime = null,
 } = Astro.props;
 
 const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name}`;
 const canonical = new URL(Astro.url.pathname.replace(/\/$/, "") || "/", SITE.url).href;
 const ogImage = new URL("/images/og-image.svg", SITE.url).href;
+const ogAlt = `${SITE.name} — ${SITE.tagline}`;
 
 const graph = [
   {
@@ -28,22 +31,49 @@ const graph = [
     description: SITE.descriptionLong,
     email: SITE.email,
     areaServed: { "@type": "Country", name: "Australia" },
+    knowsAbout: [
+      "Australian politics",
+      "political claims",
+      "evidence and sources",
+      "Pauline Hanson",
+      "One Nation",
+    ],
     sameAs: [SITE.repo, ...FAMILY.map((f) => f.href)],
+    publishingPrinciples: `${SITE.url}/method`,
+    ethicsPolicy: `${SITE.url}/about`,
     parentOrganization: {
       "@type": "Organization",
       name: SITE.publisher,
       url: SITE.publisherUrl,
     },
+    founder: { "@id": `${SITE.url}/#author` },
+  },
+  {
+    "@type": "Person",
+    "@id": `${SITE.url}/#author`,
+    name: "Colin Dixon",
+    url: `${SITE.url}/about`,
+    jobTitle: "Author",
+    nationality: { "@type": "Country", name: "Australia" },
+    sameAs: ["https://x.com/colindixon", "https://www.linkedin.com/in/colindixon/"],
+    worksFor: { "@id": `${SITE.url}/#organization` },
   },
   {
     "@type": "WebSite",
     "@id": `${SITE.url}/#website`,
     url: SITE.url,
     name: SITE.name,
+    alternateName: SITE.short,
     description: SITE.descriptionLong,
     inLanguage: "en-AU",
     isAccessibleForFree: true,
     publisher: { "@id": `${SITE.url}/#organization` },
+    author: { "@id": `${SITE.url}/#author` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE.url}/hall?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
   },
   {
     "@type": "WebPage",
@@ -52,8 +82,13 @@ const graph = [
     name: pageTitle,
     description,
     isPartOf: { "@id": `${SITE.url}/#website` },
+    about: { "@id": `${SITE.url}/#organization` },
     inLanguage: "en-AU",
     isAccessibleForFree: true,
+    primaryImageOfPage: {
+      "@type": "ImageObject",
+      url: ogImage,
+    },
   },
 ];
 
@@ -94,10 +129,15 @@ const jsonLd = { "@context": "https://schema.org", "@graph": graph };
     </script>
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    <meta name="author" content="Colin Dixon" />
+    <meta name="publisher" content={SITE.publisher} />
+    <meta name="geo.region" content="AU" />
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en-AU" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
     {
       noindex ? (
-        <meta name="robots" content="noindex" />
+        <meta name="robots" content="noindex, follow" />
       ) : (
         <meta
           name="robots"
@@ -105,24 +145,47 @@ const jsonLd = { "@context": "https://schema.org", "@graph": graph };
         />
       )
     }
+    <meta name="googlebot" content={noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large"} />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={ogImage} />
     <meta property="og:locale" content="en_AU" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:alt" content={ogAlt} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {ogType === "article" && <meta property="article:author" content="Colin Dixon" />}
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={ogAlt} />
+    <meta name="twitter:creator" content="@colindixon" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="Guide for AI systems (summary)" />
+    <link rel="alternate" type="text/plain" href="/llms-full.txt" title="Guide for AI systems (full)" />
+    <link rel="author" href={`${SITE.url}/about`} />
     <meta name="theme-color" content="#9a3412" />
     <meta name="generator" content={Astro.generator} />
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    {
+      SITE.gaMeasurementId ? (
+        <>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaMeasurementId}`} />
+          <script
+            is:inline
+            set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${SITE.gaMeasurementId}');`}
+          />
+        </>
+      ) : null
+    }
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>

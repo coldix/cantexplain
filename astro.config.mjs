@@ -18,7 +18,34 @@ export default defineConfig({
   site: "https://cantexplain.au",
   output: "static",
   trailingSlash: "never",
-  integrations: [mdx(), sitemap()],
+  integrations: [
+    mdx(),
+    sitemap({
+      serialize(item) {
+        const path = new URL(item.url).pathname.replace(/\/$/, "") || "/";
+        if (path === "/") {
+          item.changefreq = "daily";
+          item.priority = 1.0;
+        } else if (path === "/hall" || path === "/method" || path === "/about") {
+          item.changefreq = "daily";
+          item.priority = 0.9;
+        } else if (path.startsWith("/hall/")) {
+          item.changefreq = "weekly";
+          item.priority = 0.8;
+        } else if (path.startsWith("/look/evidence/")) {
+          item.changefreq = "monthly";
+          item.priority = 0.5;
+        } else if (path.startsWith("/look/")) {
+          item.changefreq = "monthly";
+          item.priority = 0.3;
+        } else {
+          item.changefreq = "monthly";
+          item.priority = 0.4;
+        }
+        return item;
+      },
+    }),
+  ],
   build: { inlineStylesheets: "auto" },
   devToolbar: { enabled: false },
 });

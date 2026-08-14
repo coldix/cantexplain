@@ -7,10 +7,11 @@
   "license": "MIT",
   "scripts": {
     "sync:evidence": "node scripts/sync-evidence.mjs",
+    "ai-guides": "node scripts/write-ai-guides.mjs",
     "new": "node scripts/new-entry.mjs",
     "validate": "node scripts/validate-entries.mjs",
-    "dev": "node scripts/sync-evidence.mjs && astro dev",
-    "build": "node scripts/sync-evidence.mjs && node scripts/validate-entries.mjs && astro build",
+    "dev": "node scripts/sync-evidence.mjs && node scripts/write-ai-guides.mjs && astro dev",
+    "build": "node scripts/sync-evidence.mjs && node scripts/write-ai-guides.mjs && node scripts/validate-entries.mjs && astro build",
     "preview": "astro preview",
     "deploy": "npm run build && wrangler deploy",
     "deploy:redirect": "wrangler deploy --config workers/comau-redirect/wrangler.jsonc",

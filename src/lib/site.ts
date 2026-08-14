@@ -16,6 +16,7 @@ export const SITE = {
   email: "colin@cantexplain.au",
   publisher: "Oze",
   publisherUrl: "https://oze.au",
+  gaMeasurementId: "G-J0TM5BKG3S",
 };
 
 export const MAINTAINER = {

@@ -8,13 +8,51 @@ const featured = await featuredEntries();
 const total = (await liveEntries()).length;
 const examples = featured.every((e) => e.data.example);
 
-const schema = {
-  "@type": "CollectionPage",
-  name: SITE.name,
-  description: SITE.descriptionLong,
-  url: SITE.url,
-  isPartOf: { "@id": `${SITE.url}/#website` },
-};
+const schema = [
+  {
+    "@type": "CollectionPage",
+    name: SITE.name,
+    description: SITE.descriptionLong,
+    url: SITE.url,
+    isPartOf: { "@id": `${SITE.url}/#website` },
+  },
+  {
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is Can’t Explain?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "A receipt-first hall of ridiculous claims: low-evidence, high-emotion accusations " +
+            "pinned to an original source and a Git-timestamped file. Observational humour. " +
+            "Not a news site and not a how-to-vote.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How do you know a claim is sourced?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "Every live card has a source URL and date plus a file under /evidence/. " +
+            "The immutable timestamp is the git commit. Formatted receipts are at /look/evidence/.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Is this a campaign against Pauline Hanson?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text:
+            "No. Launch themes are Hanson-heavy because that is where the pattern is loud. " +
+            "The same rules apply to every figure. The hall files the gap, not a vote.",
+        },
+      },
+    ],
+  },
+];
 ---
 
 <Base

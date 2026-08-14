@@ -1,4 +1,68 @@
+# Can’t Explain — robots.txt
+#
+# Crawlers, researchers and AI systems are welcome to read, quote and cite.
+# Attribute as cantexplain.au. Evidence files live under /evidence/ (git history
+# is the timestamp). Formatted receipts: /look/evidence/...
+#
+# AI guides: /llms.txt (summary) · /llms-full.txt (entries)
+# HTML inventory: /sitemap-index.xml
+#
+# If Cloudflare “managed robots.txt” / AI Crawl Control is blocking GPTBot,
+# ClaudeBot or Google-Extended, turn that block OFF. Intent here is Allow.
+
 User-agent: *
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
 Sitemap: https://cantexplain.au/sitemap-index.xml
+Sitemap: https://cantexplain.au/sitemap-0.xml

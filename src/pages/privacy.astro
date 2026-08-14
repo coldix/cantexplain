@@ -1,0 +1,47 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../lib/site";
+---
+
+<Base
+  title="Privacy"
+  description="How Can’t Explain handles analytics and personal information. Google Analytics 4 is used for page views."
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "Privacy", href: "/privacy" },
+  ]}
+>
+  <div class="wrap wrap-narrow section">
+    <p class="eyebrow">Privacy</p>
+    <h1>What we collect</h1>
+    <p class="lede">
+      Can’t Explain is a static site. We do not run accounts, comments, or a membership
+      database. The hall is files in a public git repository.
+    </p>
+
+    <h2>Analytics</h2>
+    <p>
+      We use Google Analytics 4 (measurement ID <code>{SITE.gaMeasurementId}</code>) to
+      count page views. Google may set or read cookies and process IP addresses and
+      device data under its own terms. See
+      <a href="https://policies.google.com/privacy" rel="nofollow noopener">Google’s privacy policy</a>.
+    </p>
+    <p>
+      The tag is loaded on every public page. It is not required to read the hall. You
+      can block it with a browser or extension; the pages still work.
+    </p>
+
+    <h2>What we do not collect</h2>
+    <ul>
+      <li>No login, no mailing list on this domain, no comment box.</li>
+      <li>Share buttons open the destination network. Those services see the click, not us.</li>
+      <li>Evidence files are public captures of already-public sources.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Questions: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. Author:
+      <a href="/about">Colin Dixon</a>.
+    </p>
+  </div>
+</Base>
