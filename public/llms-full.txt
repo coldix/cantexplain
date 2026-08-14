@@ -34,6 +34,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2026/gina-rinehart-bought-her-out/source.md
 - Raw file: https://cantexplain.au/evidence/2026/gina-rinehart-bought-her-out/source.md
 
+## Not a publicity stunt
+- URL: https://cantexplain.au/hall/not-a-publicity-stunt
+- Person: Greta Thunberg
+- Type: no-evidence-required
+- Claim: I don't think anyone would risk their life for a publicity stunt.
+- Caption: The siege-breaking cargo was 250 kilos of rice and 100 of flour. The cameras were heavier.
+- Source: https://www.bbc.com/news/articles/cx25grpxzd3o (2025-09-28)
+- Evidence: https://cantexplain.au/look/evidence/2025/not-a-publicity-stunt/source.md
+- Raw file: https://cantexplain.au/evidence/2025/not-a-publicity-stunt/source.md
+
 ## The oppression they’re putting us through
 - URL: https://cantexplain.au/hall/oppression-putting-us-through
 - Person: Pauline Hanson
