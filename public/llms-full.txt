@@ -44,6 +44,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2025/not-a-publicity-stunt/source.md
 - Raw file: https://cantexplain.au/evidence/2025/not-a-publicity-stunt/source.md
 
+## On time, on budget
+- URL: https://cantexplain.au/hall/on-time-on-budget
+- Person: Harriet Shing
+- Type: no-evidence-required
+- Claim: SRL East was running on time and on budget.
+- Caption: The independent evaluator had low confidence in the number. The minister had high confidence in the slogan.
+- Source: https://www.abc.net.au/news/2025-03-21/victoria-suburban-rail-loop-report-infrastructure-australia/105082444 (2025-03-21)
+- Evidence: https://cantexplain.au/look/evidence/2025/on-time-on-budget/source.md
+- Raw file: https://cantexplain.au/evidence/2025/on-time-on-budget/source.md
+
 ## The oppression they’re putting us through
 - URL: https://cantexplain.au/hall/oppression-putting-us-through
 - Person: Pauline Hanson
