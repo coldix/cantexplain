@@ -22,17 +22,17 @@ The `.com.au` / `www` redirects are a tiny Worker (`cantexplain-comau`), not a z
 
 Account ID is in `wrangler.jsonc` (`ab29454df8dbb469d259956fcf482075`).
 
-## Email (Google Workspace) — still to add on `cantexplain.au`
+## Email (Google Workspace)
 
-Zone export 2026-08-14 already has MX `smtp.google.com` and a Search Console TXT. **SPF, DKIM and DMARC are missing.** Without them, mail from `@cantexplain.au` will fail or land in spam.
+Published address: **ce@cantexplain.au**. MX is `smtp.google.com`. SPF and DKIM are live. DMARC (`_dmarc` TXT) was not yet visible on 2026-08-14 — add if it is still missing:
 
-In Cloudflare → `cantexplain.au` → DNS, add:
+In Cloudflare → `cantexplain.au` → DNS:
 
 | Type | Name | Content |
 |---|---|---|
 | TXT | `@` | `v=spf1 include:_spf.google.com ~all` |
 | TXT | `google._domainkey` | paste the value from Google Admin → Gmail → Authenticate email → Generate DKIM |
-| TXT | `_dmarc` | `v=DMARC1; p=none; rua=mailto:colin@cantexplain.au` |
+| TXT | `_dmarc` | `v=DMARC1; p=none; rua=mailto:ce@cantexplain.au` |
 
 Do **not** add MX/SPF on `cantexplain.com.au` unless you want mailboxes there. Same as electiontracker.com.au: redirect only.
 

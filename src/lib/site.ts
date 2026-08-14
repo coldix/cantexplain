@@ -13,7 +13,7 @@ export const SITE = {
     "Sibling of ministryofdoubt.com and electiontracker.au.",
   repo: "https://github.com/coldix/cantexplain",
   issues: "https://github.com/coldix/cantexplain/issues/new",
-  email: "colin@cantexplain.au",
+  email: "ce@cantexplain.au",
   publisher: "Oze",
   publisherUrl: "https://oze.au",
   gaMeasurementId: "G-J0TM5BKG3S",

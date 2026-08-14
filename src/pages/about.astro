@@ -99,6 +99,8 @@ import { FAMILY, MAINTAINER, SITE } from "../lib/site";
       <a href={SITE.publisherUrl}>{SITE.publisher}</a>.
     </p>
     <p>
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+      <span aria-hidden="true"> · </span>
       <a href={MAINTAINER.x} rel="me noopener">{MAINTAINER.xHandle}</a>
       <span aria-hidden="true"> · </span>
       <a href={MAINTAINER.linkedin} rel="me noopener">LinkedIn</a>
