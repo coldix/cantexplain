@@ -1,0 +1,151 @@
+---
+import Base from "../layouts/Base.astro";
+import EntryCard from "../components/EntryCard.astro";
+import { SITE, FAMILY } from "../lib/site";
+import { featuredEntries, liveEntries } from "../lib/entries";
+
+const featured = await featuredEntries();
+const total = (await liveEntries()).length;
+const examples = featured.every((e) => e.data.example);
+
+const schema = {
+  "@type": "CollectionPage",
+  name: SITE.name,
+  description: SITE.descriptionLong,
+  url: SITE.url,
+  isPartOf: { "@id": `${SITE.url}/#website` },
+};
+---
+
+<Base
+  title="A hall of ridiculous claims"
+  description="Low-evidence, high-emotion accusations, pinned to original sources and Git-timestamped receipts. Observational humour. Show me the evidence — then we can laugh about it."
+  schema={schema}
+>
+  <section class="hero wrap section">
+    <p class="eyebrow">Can’t Explain</p>
+    <h1>The claim was loud. The evidence was not.</h1>
+    <p class="lede">
+      A hall of ridiculous claims: accusations that arrived at full volume, pinned to the
+      original source and a timestamped receipt. The joke is the gap.
+    </p>
+    <p class="family-line">
+      Can’t Explain is the noisy sibling of a quieter rule. Over at the
+      <a href="https://ministryofdoubt.com">Ministry of Doubt</a> the line is: suspicion is
+      not proof, and authority isn’t either. Here we keep the same rule and apply it to the
+      claims that arrive already shouting.
+    </p>
+    <div class="btn-row">
+      <a class="btn" href="/hall">Walk the hall</a>
+      <a class="btn btn-ghost" href="/method">How a receipt works</a>
+    </div>
+  </section>
+
+  <section class="wrap section pin">
+    <p class="eyebrow">{examples ? "How a card will look" : "Pinned"}</p>
+    <h2>{examples ? "Format examples — not the launch set" : "From the hall"}</h2>
+    {
+      examples && (
+        <p class="muted intro">
+          These three cards exist so the templates can be reviewed. They are labelled
+          format examples and will be replaced by sourced entries before launch. {total}{" "}
+          {total === 1 ? "card" : "cards"} in the hall today.
+        </p>
+      )
+    }
+    <div class="grid">
+      {featured.map((entry) => <EntryCard entry={entry} />)}
+    </div>
+    <p class="more-row">
+      <a href="/hall">All entries</a>
+    </p>
+  </section>
+
+  <section class="wrap wrap-narrow section">
+    <p class="eyebrow">The unit of work</p>
+    <h2>Claim. Source. Receipt. Caption.</h2>
+    <ol class="steps">
+      <li>
+        <strong>The claim</strong> — the accusation, quoted or clearly marked as a paraphrase.
+      </li>
+      <li>
+        <strong>The source</strong> — original URL and date. If you cannot open it, it is not
+        in the hall.
+      </li>
+      <li>
+        <strong>The receipt</strong> — a file committed to this repo, so Git is the timestamp.
+      </li>
+      <li>
+        <strong>The caption</strong> — one or two sentences of observational humour. Not a
+        second smear.
+      </li>
+    </ol>
+    <p>
+      Launch themes: Hanson Derangement Syndrome, “Gina’s Puppet”, and “No Evidence Required”
+      — then anything else that fits the same shape.
+    </p>
+  </section>
+
+  <section class="wrap wrap-narrow section elsewhere">
+    <p class="eyebrow">Same family</p>
+    <h2>Show me the evidence</h2>
+    <ul class="family-list">
+      {
+        FAMILY.map((f) => (
+          <li>
+            <a href={f.href} rel="noopener">
+              {f.name}
+            </a>
+            <span class="muted"> — {f.line}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding-top: clamp(2.5rem, 7vw, 5rem);
+    padding-bottom: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  .family-line {
+    max-width: 42rem;
+    color: var(--ink-2);
+  }
+  .pin {
+    padding-top: 0;
+  }
+  .intro {
+    margin-bottom: 1.25rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  @media (min-width: 48rem) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .more-row {
+    margin: 1.25rem 0 0;
+  }
+  .steps {
+    padding-left: 1.2rem;
+  }
+  .steps li + li {
+    margin-top: 0.65rem;
+  }
+  .family-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.7rem;
+  }
+  .elsewhere {
+    padding-top: 0;
+  }
+</style>

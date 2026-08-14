@@ -1,0 +1,113 @@
+---
+import { CLAIM_TYPE_LABEL, formatDate } from "../lib/site";
+import { entryHref, type Entry } from "../lib/entries";
+
+interface Props {
+  entry: Entry;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const href = entryHref(entry);
+const searchBlob = [
+  data.title,
+  data.claim,
+  data.caption,
+  data.person,
+  data.claimType,
+  ...data.tags,
+  data.source.publisher,
+].join(" ").toLowerCase();
+---
+
+<article
+  class="card entry-card"
+  data-entry
+  data-person={data.person}
+  data-type={data.claimType}
+  data-year={String(data.year)}
+  data-tags={data.tags.join(",")}
+  data-search={searchBlob}
+>
+  <div class="card-meta">
+    <span class="pill pill-type">{CLAIM_TYPE_LABEL[data.claimType] ?? data.claimType}</span>
+    {data.status === "featured" && <span class="pill pill-featured">Featured</span>}
+    {data.example && <span class="pill pill-example">Format example</span>}
+    <span class="muted year">{data.year}</span>
+  </div>
+  <h2>
+    <a href={href}>{data.title}</a>
+  </h2>
+  <blockquote class="claim">
+    <p>{data.claim}</p>
+  </blockquote>
+  <p class="caption">{data.caption}</p>
+  <p class="source muted">
+    {data.person}
+    <span aria-hidden="true"> · </span>
+    {data.source.publisher}
+    <span aria-hidden="true"> · </span>
+    <time datetime={data.source.date}>{formatDate(data.source.date)}</time>
+  </p>
+  <a class="more" href={href}>Open the receipt</a>
+</article>
+
+<style>
+  .entry-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    height: 100%;
+  }
+  .entry-card h2 {
+    font-size: 1.28rem;
+    margin: 0;
+  }
+  .entry-card h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .entry-card h2 a:hover {
+    color: var(--accent-ink);
+    text-decoration: underline;
+  }
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.55rem;
+  }
+  .year {
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+  }
+  .claim {
+    margin: 0.15rem 0 0;
+    padding: 0.65rem 0 0.65rem 0.9rem;
+    border-left: 3px solid var(--stamp);
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    color: var(--ink);
+  }
+  .claim p {
+    margin: 0;
+  }
+  .caption {
+    margin: 0;
+    color: var(--ink-2);
+    font-size: 0.95rem;
+  }
+  .source {
+    margin: 0.15rem 0 0;
+  }
+  .more {
+    margin-top: auto;
+    padding-top: 0.55rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .more:hover {
+    text-decoration: underline;
+  }
+</style>

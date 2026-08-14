@@ -1,0 +1,25 @@
+{
+  "name": "@coldix/cantexplain",
+  "private": true,
+  "type": "module",
+  "description": "Can't Explain — a receipt-first hall of ridiculous claims",
+  "author": "Colin Dixon",
+  "license": "MIT",
+  "scripts": {
+    "sync:evidence": "node scripts/sync-evidence.mjs",
+    "new": "node scripts/new-entry.mjs",
+    "validate": "node scripts/validate-entries.mjs",
+    "dev": "node scripts/sync-evidence.mjs && astro dev",
+    "build": "node scripts/sync-evidence.mjs && node scripts/validate-entries.mjs && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.7",
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "wrangler": "^4.114.0"
+  }
+}

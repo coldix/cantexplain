@@ -1,0 +1,17 @@
+{
+  // Assets-only Worker: no server code, no compute, no bindings.
+  //
+  // Official Astro docs: a static Astro site does not need @astrojs/cloudflare.
+  // Cloudflare serves the built files from the edge, same family pattern as
+  // electiontracker.au. See docs/BRIEF.md.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cantexplain",
+  "compatibility_date": "2026-08-14",
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    // Keep in step with trailingSlash: "never" in astro.config.mjs.
+    "html_handling": "drop-trailing-slash"
+  }
+}

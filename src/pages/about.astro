@@ -1,0 +1,94 @@
+---
+import Base from "../layouts/Base.astro";
+import { FAMILY, MAINTAINER, SITE } from "../lib/site";
+---
+
+<Base
+  title="About & independence"
+  description="Who publishes Can’t Explain, how it sits next to the Ministry of Doubt and Election Tracker, and how it stays independent."
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+  ]}
+>
+  <div class="wrap wrap-narrow section">
+    <p class="eyebrow">About</p>
+    <h1>A hall, not a campaign</h1>
+    <p class="lede">
+      Can’t Explain collects low-evidence, high-emotion accusations, pins each one to an
+      original source and a Git-timestamped file, and presents them with observational
+      humour. The joke is the gap between the volume of the claim and the thinness of the
+      evidence.
+    </p>
+
+    <h2 id="family">Same family</h2>
+    <p>
+      This site is the noisy sibling of a quieter rule. The
+      <a href="https://ministryofdoubt.com">Ministry of Doubt</a> asks how you tell
+      conspiracy from failure without becoming programmable. The
+      <a href="https://electiontracker.au">Australian Election Tracker</a> records who is
+      standing, with sources, as open data. Can’t Explain keeps the same evidence habit
+      and applies it to the claims that arrive already shouting.
+    </p>
+    <ul>
+      {
+        FAMILY.map((f) => (
+          <li>
+            <a href={f.href} rel="noopener">
+              {f.name}
+            </a>
+            — {f.line}
+          </li>
+        ))
+      }
+    </ul>
+    <p>
+      Longer argument belongs on
+      <a href="https://ozeunleashed.substack.com">Oze Unleashed</a>. A card here is a
+      claim, a URL, a file, and a caption — not an essay.
+    </p>
+
+    <h2 id="independence">Independence</h2>
+    <ul>
+      <li>
+        Not affiliated with, funded by, or directed by any political party, candidate,
+        campaign, lobby group or newsroom.
+      </li>
+      <li>
+        No party or target has a right of review before publication.
+      </li>
+      <li>
+        Launch is Hanson-heavy because that is where the pattern is loud. The standard is
+        the same for every figure.
+      </li>
+      <li>
+        Editorial rules live in the repo:
+        <a href="https://github.com/coldix/cantexplain/blob/main/docs/TONE-GUIDE.md">tone</a>,
+        <a href="https://github.com/coldix/cantexplain/blob/main/docs/CONTENT-MODEL.md">fields</a>,
+        <a href="/method">method</a>.
+      </li>
+    </ul>
+
+    <h2 id="limits">What this is not</h2>
+    <ul>
+      <li><strong>Not a news site.</strong> No daily file. No live blog.</li>
+      <li><strong>Not a how-to-vote.</strong> We do not score parties or tell you where to put a 1.</li>
+      <li><strong>Not a comments section.</strong> Tips can come in; publication stays human.</li>
+      <li><strong>Not complete.</strong> Absence from the hall is not a clean bill of health.</li>
+    </ul>
+
+    <h2 id="author">Author</h2>
+    <p>
+      {MAINTAINER.name}. Physics, mathematics and IT background. Australian voice. Builds
+      public evidence tools. Published by
+      <a href={SITE.publisherUrl}>{SITE.publisher}</a>.
+    </p>
+    <p>
+      <a href={MAINTAINER.x} rel="me noopener">{MAINTAINER.xHandle}</a>
+      <span aria-hidden="true"> · </span>
+      <a href={MAINTAINER.linkedin} rel="me noopener">LinkedIn</a>
+      <span aria-hidden="true"> · </span>
+      <a href={SITE.repo}>Repository</a>
+    </p>
+  </div>
+</Base>

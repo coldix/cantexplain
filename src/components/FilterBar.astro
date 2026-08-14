@@ -1,0 +1,147 @@
+---
+interface Props {
+  people: string[];
+  types: { value: string; label: string }[];
+  years: string[];
+  count: number;
+}
+
+const { people, types, years, count } = Astro.props;
+---
+
+<form class="filters card" id="filters" role="search">
+  <div class="row">
+    <label class="grow">
+      <span class="lbl">Search</span>
+      <input
+        type="search"
+        id="q"
+        name="q"
+        placeholder="Claim, person, tag…"
+        autocomplete="off"
+      />
+    </label>
+    <label>
+      <span class="lbl">Person</span>
+      <select id="person" name="person">
+        <option value="">All</option>
+        {people.map((p) => <option value={p}>{p}</option>)}
+      </select>
+    </label>
+    <label>
+      <span class="lbl">Type</span>
+      <select id="type" name="type">
+        <option value="">All</option>
+        {types.map((t) => <option value={t.value}>{t.label}</option>)}
+      </select>
+    </label>
+    <label>
+      <span class="lbl">Year</span>
+      <select id="year" name="year">
+        <option value="">All</option>
+        {years.map((y) => <option value={y}>{y}</option>)}
+      </select>
+    </label>
+  </div>
+  <p class="muted count" id="filter-count" aria-live="polite">
+    {count} {count === 1 ? "entry" : "entries"}
+  </p>
+</form>
+
+<script>
+  const form = document.getElementById("filters");
+  const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-entry]"));
+  const countEl = document.getElementById("filter-count");
+  const empty = document.getElementById("filter-empty");
+  if (form) {
+    const q = form.querySelector<HTMLInputElement>("#q");
+    const person = form.querySelector<HTMLSelectElement>("#person");
+    const type = form.querySelector<HTMLSelectElement>("#type");
+    const year = form.querySelector<HTMLSelectElement>("#year");
+
+    const apply = (writeUrl = true) => {
+      const query = (q?.value || "").trim().toLowerCase();
+      const p = person?.value || "";
+      const t = type?.value || "";
+      const y = year?.value || "";
+      let shown = 0;
+      for (const card of cards) {
+        const okQ = !query || (card.dataset.search || "").includes(query);
+        const okP = !p || card.dataset.person === p;
+        const okT = !t || card.dataset.type === t;
+        const okY = !y || card.dataset.year === y;
+        const on = okQ && okP && okT && okY;
+        card.hidden = !on;
+        if (on) shown += 1;
+      }
+      if (countEl) {
+        countEl.textContent = `${shown} ${shown === 1 ? "entry" : "entries"}`;
+      }
+      if (empty) empty.hidden = shown !== 0;
+      if (writeUrl) {
+        const params = new URLSearchParams();
+        if (q?.value.trim()) params.set("q", q.value.trim());
+        if (p) params.set("person", p);
+        if (t) params.set("type", t);
+        if (y) params.set("year", y);
+        const next = params.toString();
+        const url = next ? `${location.pathname}?${next}` : location.pathname;
+        history.replaceState(null, "", url);
+      }
+    };
+
+    const params = new URLSearchParams(location.search);
+    if (q && params.get("q")) q.value = params.get("q") || "";
+    if (person && params.get("person")) person.value = params.get("person") || "";
+    if (type && params.get("type")) type.value = params.get("type") || "";
+    if (year && params.get("year")) year.value = params.get("year") || "";
+    apply(false);
+
+    form.addEventListener("input", () => apply());
+    form.addEventListener("change", () => apply());
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      apply();
+    });
+  }
+</script>
+
+<style>
+  .filters {
+    margin-bottom: 1.25rem;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  @media (min-width: 48rem) {
+    .row {
+      grid-template-columns: 2fr 1fr 1fr 0.7fr;
+      align-items: end;
+    }
+  }
+  .lbl {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 660;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: 0.3rem;
+  }
+  input,
+  select {
+    width: 100%;
+    padding: 0.55rem 0.7rem;
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius-sm);
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.95rem;
+  }
+  .count {
+    margin: 0.75rem 0 0;
+  }
+</style>

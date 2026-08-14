@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+dist/
+.astro/
+.wrangler/
+
+# Copied from /evidence on every dev/build. Source of truth stays at repo root
+# so Git commit history is the immutable timestamp.
+public/evidence/

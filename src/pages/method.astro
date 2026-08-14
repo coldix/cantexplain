@@ -1,0 +1,73 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../lib/site";
+---
+
+<Base
+  title="How a receipt works"
+  description="Every Can’t Explain entry needs a claim, an original source, and a file in git. Here is what that means."
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "Method", href: "/method" },
+  ]}
+>
+  <div class="wrap wrap-narrow section">
+    <p class="eyebrow">Method</p>
+    <h1>How a receipt works</h1>
+    <p class="lede">
+      If you cannot open the source, and you cannot open the file, it is not in the hall.
+      Humour is allowed. Invented quotes are not.
+    </p>
+
+    <h2>The four fields that matter</h2>
+    <ol>
+      <li>
+        <strong>Claim</strong> — quoted, or marked as a paraphrase. One accusation per card.
+      </li>
+      <li>
+        <strong>Source</strong> — the original public URL and its date. A quote-tweet of a
+        screenshot is not original enough.
+      </li>
+      <li>
+        <strong>Evidence</strong> — a capture committed under
+        <code>evidence/</code> in
+        <a href={SITE.repo}>{SITE.repo.replace("https://", "")}</a>. The immutable
+        timestamp is the git commit, not a date we typed.
+      </li>
+      <li>
+        <strong>Caption</strong> — one or two observational sentences. If it still works
+        after you delete the source, it was a dunk. We spike dunks.
+      </li>
+    </ol>
+
+    <h2>Git as the clock</h2>
+    <p>
+      Screenshots can be edited. Headlines can move. A file in this repository has an
+      author, a hash, and a time. We do not rewrite a capture in place to make it tidier
+      — we add another file and say so. Archive.org links are a spare key, not the lock.
+    </p>
+
+    <h2>What gets in</h2>
+    <p>
+      Low evidence, high emotion. The tell is usually the missing step: control asserted
+      without a mechanism, guilt by a nearby name, certainty with the footnote still
+      “to come”. Launch themes are Hanson Derangement Syndrome, “Gina’s Puppet”, and “No
+      Evidence Required”. The hall is open to any figure who attracts the same shape of
+      claim.
+    </p>
+
+    <h2>What does not</h2>
+    <ul>
+      <li>Ordinary disagreement with a sourced argument.</li>
+      <li>A second smear offered as a “receipt”.</li>
+      <li>Private messages, hacked mail, or anything we cannot show you.</li>
+      <li>AI-only publication. Models may draft. A human opens the URL.</li>
+    </ul>
+
+    <p>
+      The owner adds cards with <code>npm run new</code>. The build fails if a published
+      entry is missing its source or its file. See
+      <a href="https://github.com/coldix/cantexplain/blob/main/docs/CONTENT-MODEL.md">the content model</a>.
+    </p>
+  </div>
+</Base>

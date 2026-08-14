@@ -1,0 +1,224 @@
+---
+import { render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { CLAIM_TYPE_LABEL, formatDate, formatDateLong, SITE } from "../../lib/site";
+import { evidenceHref, liveEntries, type Entry } from "../../lib/entries";
+
+export async function getStaticPaths() {
+  const entries = await liveEntries();
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: Entry;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+const evidenceUrl = evidenceHref(data.evidence.path);
+const sourceDate = formatDateLong(data.source.date);
+const published = formatDate(data.published);
+
+const schema = {
+  "@type": "Article",
+  headline: data.title,
+  datePublished: data.published.toISOString(),
+  author: { "@type": "Person", name: "Colin Dixon" },
+  publisher: { "@id": `${SITE.url}/#organization` },
+  about: data.person,
+  citation: data.source.url,
+};
+---
+
+<Base
+  title={data.title}
+  description={data.caption}
+  schema={schema}
+  breadcrumbs={[
+    { name: "Home", href: "/" },
+    { name: "The hall", href: "/hall" },
+    { name: data.title, href: `/hall/${entry.id}` },
+  ]}
+>
+  <article class="wrap wrap-narrow section">
+    <p class="eyebrow">
+      <a href="/hall">The hall</a>
+      <span aria-hidden="true"> / </span>
+      {CLAIM_TYPE_LABEL[data.claimType]}
+    </p>
+    <div class="pills">
+      {data.status === "featured" && <span class="pill pill-featured">Featured</span>}
+      {data.example && <span class="pill pill-example">Format example</span>}
+    </div>
+    <h1>{data.title}</h1>
+    <p class="lede caption">{data.caption}</p>
+
+    {
+      data.example && (
+        <p class="notice">
+          <strong>Scaffold example.</strong> This card demonstrates the template. It is not
+          a live hall entry and will be replaced before launch.
+        </p>
+      )
+    }
+
+    <blockquote class="claim">
+      <p>{data.claim}</p>
+      {
+        data.source.quote && data.source.quote !== data.claim && (
+          <footer class="muted">Quoted in source: “{data.source.quote}”</footer>
+        )
+      }
+    </blockquote>
+
+    <aside class="receipt card" aria-label="Receipt">
+      <p class="eyebrow">Receipt</p>
+      <dl>
+        <div>
+          <dt>About</dt>
+          <dd>{data.person}</dd>
+        </div>
+        <div>
+          <dt>Source</dt>
+          <dd>
+            <a href={data.source.url} rel="noopener noreferrer">
+              {data.source.title || data.source.publisher}
+            </a>
+            <span class="muted">
+              {" "}
+              — {data.source.publisher}, <time datetime={data.source.date}>{sourceDate}</time>
+            </span>
+          </dd>
+        </div>
+        <div>
+          <dt>Evidence</dt>
+          <dd>
+            <a href={evidenceUrl}>{data.evidence.path}</a>
+            <span class="muted"> ({data.evidence.kind})</span>
+          </dd>
+        </div>
+        {
+          data.evidence.archiveUrl && (
+            <div>
+              <dt>Archive</dt>
+              <dd>
+                <a href={data.evidence.archiveUrl} rel="noopener noreferrer">
+                  Backup copy
+                </a>
+              </dd>
+            </div>
+          )
+        }
+        <div>
+          <dt>In the hall</dt>
+          <dd>
+            <time datetime={data.published.toISOString()}>{published}</time>
+            <span class="muted"> — timestamp is the git commit that added the file.</span>
+          </dd>
+        </div>
+      </dl>
+    </aside>
+
+    {
+      data.media && (
+        <figure class="media">
+          {data.media.type === "video" ? (
+            <video src={data.media.src} controls playsinline></video>
+          ) : (
+            <img src={data.media.src} alt={data.media.alt || ""} />
+          )}
+          {data.media.caption && <figcaption class="muted">{data.media.caption}</figcaption>}
+        </figure>
+      )
+    }
+
+    <div class="prose body">
+      <Content />
+    </div>
+
+    <ul class="tags">
+      {
+        data.tags.map((tag) => (
+          <li>
+            <a class="pill pill-type" href={`/hall?q=${encodeURIComponent(tag)}`}>
+              {tag}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</Base>
+
+<style>
+  .pills {
+    display: flex;
+    gap: 0.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .caption {
+    font-family: var(--font-serif);
+  }
+  .claim {
+    margin: 1.4rem 0;
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    border-left: 4px solid var(--stamp);
+    font-family: var(--font-serif);
+    font-size: clamp(1.2rem, 1rem + 0.8vw, 1.55rem);
+    line-height: 1.35;
+  }
+  .claim p {
+    margin: 0;
+  }
+  .claim footer {
+    margin-top: 0.6rem;
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+  }
+  .receipt {
+    margin: 1.5rem 0 2rem;
+  }
+  dl {
+    margin: 0;
+    display: grid;
+    gap: 0.85rem;
+  }
+  dt {
+    font-size: 0.72rem;
+    font-weight: 660;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: 0.15rem;
+  }
+  dd {
+    margin: 0;
+  }
+  .body {
+    margin: 1.5rem 0;
+  }
+  .tags {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .tags a {
+    text-decoration: none;
+  }
+  .media {
+    margin: 1.5rem 0;
+  }
+  .media img,
+  .media video {
+    width: 100%;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--rule);
+  }
+</style>
