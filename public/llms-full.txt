@@ -24,6 +24,36 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2023/colonisers-of-judea/source.md
 - Raw file: https://cantexplain.au/evidence/2023/colonisers-of-judea/source.md
 
+## Decreases transmission
+- URL: https://cantexplain.au/hall/decreases-transmission
+- Person: Greg Hunt
+- Type: no-evidence-required
+- Claim: The more people that we vaccinate and the higher that vaccination rate in that wider community, it decreases transmission in the community.
+- Caption: The TGA listed transmission under unknowns. The minister listed it as the switch.
+- Source: https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/press-conference-in-canberra-on-2-september-2021-about-the-vaccination-rollout-and-national-plan-for-covid-response (2021-09-02)
+- Evidence: https://cantexplain.au/look/evidence/2021/decreases-transmission/source.md
+- Raw file: https://cantexplain.au/evidence/2021/decreases-transmission/source.md
+
+## Droplet and fomite
+- URL: https://cantexplain.au/hall/droplet-and-fomite
+- Person: Safe Airway Society
+- Type: no-evidence-required
+- Claim: Transmission of COVID-19 is primarily through droplet and fomite spread.
+- Caption: Gravity in a few seconds. Then the outbreaks that did not fall.
+- Source: https://www.mja.com.au/journal/2020/consensus-statement-safe-airway-society-principles-airway-management-and-tracheal (2020-03-16)
+- Evidence: https://cantexplain.au/look/evidence/2020/droplet-and-fomite/source.md
+- Raw file: https://cantexplain.au/evidence/2020/droplet-and-fomite/source.md
+
+## Everything possible
+- URL: https://cantexplain.au/hall/everything-possible
+- Person: Greg Hunt
+- Type: no-evidence-required
+- Claim: By vaccinating their children against COVID-19 they have done everything possible to keep their child safe from this virus.
+- Caption: Everything possible. Safe from this virus. The trial never wrote that sentence.
+- Source: https://pmtranscripts.pmc.gov.au/release/transcript-43700 (2021-12-10)
+- Evidence: https://cantexplain.au/look/evidence/2021/everything-possible/source.md
+- Raw file: https://cantexplain.au/evidence/2021/everything-possible/source.md
+
 ## Ten lies, one list
 - URL: https://cantexplain.au/hall/fire-the-liar
 - Person: Anthony Albanese
@@ -53,6 +83,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.abc.net.au/news/2026-02-18/pauline-hanson-partially-apologises-for-muslim-remarks/106357130 (2026-02-18)
 - Evidence: https://cantexplain.au/look/evidence/2026/how-can-you-tell/source.md
 - Raw file: https://cantexplain.au/evidence/2026/how-can-you-tell/source.md
+
+## If you’re well
+- URL: https://cantexplain.au/hall/if-youre-well
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: If you're well, and are not caring for a person with COVID-19, the answer is probably no.
+- Caption: March: probably no. July: a scarf, or a $200 fine. Same virus. Same verb.
+- Source: https://www.abc.net.au/news/health/2020-03-25/coronavirus-covid-19-face-mask-surgical-mask-protection/12088314 (2020-03-25)
+- Evidence: https://cantexplain.au/look/evidence/2020/if-youre-well/source.md
+- Raw file: https://cantexplain.au/evidence/2020/if-youre-well/source.md
 
 ## 95 per cent
 - URL: https://cantexplain.au/hall/ninety-five-per-cent
@@ -133,6 +173,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.abc.net.au/news/corrections/2026-08-14/reinhartradio/107040362 (2026-08-14)
 - Evidence: https://cantexplain.au/look/evidence/2026/two-dollars-a-day/source.md
 - Raw file: https://cantexplain.au/evidence/2026/two-dollars-a-day/source.md
+
+## Two hotels
+- URL: https://cantexplain.au/hall/two-hotels
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: It is likely that a high proportion, approximately 99 per cent of current cases of COVID-19 in Victoria have arisen from Rydges or Stamford.
+- Caption: The wall was a hotel. The genome counted two of them.
+- Source: https://www.abc.net.au/news/2020-08-18/victoria-covid-crisis-traced-back-to-seven-travellers-inquiry/12568408 (2020-08-18)
+- Evidence: https://cantexplain.au/look/evidence/2020/two-hotels/source.md
+- Raw file: https://cantexplain.au/evidence/2020/two-hotels/source.md
 
 ## Two meters, one slogan
 - URL: https://cantexplain.au/hall/two-meters-one-slogan
