@@ -1,0 +1,31 @@
+---
+import { sharePack, shareTargets } from "../lib/share";
+
+interface Props {
+  url: string;
+  text: string;
+  copyExtra?: string;
+}
+
+const { url, text, copyExtra } = Astro.props;
+const targets = shareTargets(url, text);
+const pack = copyExtra ? `${sharePack(url, text)}\n\n${copyExtra}` : sharePack(url, text);
+---
+
+<div class="share-bar no-print" data-share-bar>
+  <button type="button" class="share-copy" data-copy={pack} data-copy-url={url}>
+    Copy
+  </button>
+  <span class="share-label">Share to</span>
+  <ul class="share-list">
+    {
+      targets.map((t) => (
+        <li>
+          <a href={t.href} data-share={t.key}>
+            {t.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>

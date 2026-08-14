@@ -1,0 +1,84 @@
+---
+import { marked } from "marked";
+import Base from "../../layouts/Base.astro";
+import ShareBar from "../../components/ShareBar.astro";
+import { SITE } from "../../lib/site";
+import { listRepoMarkdown, readRepoMarkdown, titleFromMarkdown } from "../../lib/markdown-files";
+
+export async function getStaticPaths() {
+  const files = await listRepoMarkdown();
+  return files.map((f) => ({
+    params: { path: f.rel },
+  }));
+}
+
+const rel = Astro.params.path;
+if (!rel) return Astro.redirect("/404");
+const file = await readRepoMarkdown(rel);
+if (!file) return Astro.redirect("/404");
+
+const title = titleFromMarkdown(file.rel, file.body);
+const html = marked.parse(file.body, { async: false, gfm: true }) as string;
+const lookUrl = new URL(`/look/${file.rel}`, SITE.url).href;
+const rawUrl = file.rel.startsWith("evidence/") ? `/${file.rel}` : `${SITE.repo}/blob/main/${file.rel}`;
+const shareText = `${title} — ${SITE.name}`;
+---
+
+<Base
+  title={title}
+  description={`Receipt file from the Can’t Explain repository: ${file.rel}`}
+  minimal={true}
+>
+  <article class="look wrap section">
+    <header class="look-head">
+      <p class="eyebrow">Repository file</p>
+      <h1>{title}</h1>
+      <p class="mono path muted">{file.rel}</p>
+      <p class="look-back muted">
+        From <a href="/" data-no-popup>{SITE.name}</a>
+        <span aria-hidden="true"> · </span>
+        <a href={rawUrl}>{file.rel.startsWith("evidence/") ? "Raw capture" : "On GitHub"}</a>
+      </p>
+    </header>
+
+    <ShareBar url={lookUrl} text={shareText} copyExtra={file.body} />
+
+    <div class="look-paper card prose" set:html={html} />
+  </article>
+</Base>
+
+<style>
+  .look {
+    max-width: 46rem;
+    padding-top: 2rem;
+  }
+  .look-head h1 {
+    font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem);
+  }
+  .path {
+    margin: 0.35rem 0 0.75rem;
+    word-break: break-all;
+  }
+  .look-back {
+    margin: 0 0 1.1rem;
+  }
+  .look-paper {
+    margin-top: 1.25rem;
+  }
+  .look-paper :global(pre) {
+    overflow-x: auto;
+    padding: 0.85rem 1rem;
+    background: var(--surface-2);
+    border-radius: var(--radius-sm);
+    font-size: 0.88rem;
+  }
+  .look-paper :global(blockquote) {
+    margin: 1rem 0;
+    padding: 0.2rem 0 0.2rem 0.9rem;
+    border-left: 3px solid var(--stamp);
+    font-family: var(--font-serif);
+  }
+  .look-paper :global(hr) {
+    margin: 1.5rem 0;
+  }
+</style>

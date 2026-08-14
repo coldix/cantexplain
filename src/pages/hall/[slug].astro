@@ -1,6 +1,7 @@
 ---
 import { render } from "astro:content";
 import Base from "../../layouts/Base.astro";
+import ShareBar from "../../components/ShareBar.astro";
 import { CLAIM_TYPE_LABEL, formatDate, formatDateLong, SITE } from "../../lib/site";
 import { evidenceHref, liveEntries, type Entry } from "../../lib/entries";
 
@@ -22,6 +23,8 @@ const { Content } = await render(entry);
 const evidenceUrl = evidenceHref(data.evidence.path);
 const sourceDate = formatDateLong(data.source.date);
 const published = formatDate(data.published);
+const pageUrl = new URL(`/hall/${entry.id}`, SITE.url).href;
+const shareText = `“${data.claim}” — ${SITE.name}`;
 
 const schema = {
   "@type": "Article",
@@ -44,18 +47,20 @@ const schema = {
     { name: data.title, href: `/hall/${entry.id}` },
   ]}
 >
-  <article class="wrap wrap-narrow section">
-    <p class="eyebrow">
-      <a href="/hall">The hall</a>
-      <span aria-hidden="true"> / </span>
-      {CLAIM_TYPE_LABEL[data.claimType]}
-    </p>
-    <div class="pills">
-      {data.status === "featured" && <span class="pill pill-featured">Featured</span>}
-      {data.example && <span class="pill pill-example">Format example</span>}
-    </div>
-    <h1>{data.title}</h1>
-    <p class="lede caption">{data.caption}</p>
+  <article class="entry wrap section">
+    <header class="entry-head">
+      <p class="eyebrow">
+        <a href="/hall" data-no-popup>The hall</a>
+        <span aria-hidden="true"> / </span>
+        {CLAIM_TYPE_LABEL[data.claimType]}
+      </p>
+      <div class="pills">
+        {data.status === "featured" && <span class="pill pill-featured">Featured</span>}
+        {data.example && <span class="pill pill-example">Format example</span>}
+      </div>
+      <h1>{data.title}</h1>
+      <p class="lede caption">{data.caption}</p>
+    </header>
 
     {
       data.example && (
@@ -75,86 +80,93 @@ const schema = {
       }
     </blockquote>
 
-    <aside class="receipt card" aria-label="Receipt">
-      <p class="eyebrow">Receipt</p>
-      <dl>
-        <div>
-          <dt>About</dt>
-          <dd>{data.person}</dd>
-        </div>
-        <div>
-          <dt>Source</dt>
-          <dd>
-            <a href={data.source.url} rel="noopener noreferrer">
-              {data.source.title || data.source.publisher}
-            </a>
-            <span class="muted">
-              {" "}
-              — {data.source.publisher}, <time datetime={data.source.date}>{sourceDate}</time>
-            </span>
-          </dd>
-        </div>
-        <div>
-          <dt>Evidence</dt>
-          <dd>
-            <a href={evidenceUrl}>{data.evidence.path}</a>
-            <span class="muted"> ({data.evidence.kind})</span>
-          </dd>
-        </div>
+    <div class="entry-grid">
+      <div class="entry-main">
         {
-          data.evidence.archiveUrl && (
-            <div>
-              <dt>Archive</dt>
-              <dd>
-                <a href={data.evidence.archiveUrl} rel="noopener noreferrer">
-                  Backup copy
-                </a>
-              </dd>
-            </div>
+          data.media && (
+            <figure class="media">
+              {data.media.type === "video" ? (
+                <video src={data.media.src} controls playsinline></video>
+              ) : (
+                <img src={data.media.src} alt={data.media.alt || ""} />
+              )}
+              {data.media.caption && <figcaption class="muted">{data.media.caption}</figcaption>}
+            </figure>
           )
         }
-        <div>
-          <dt>In the hall</dt>
-          <dd>
-            <time datetime={data.published.toISOString()}>{published}</time>
-            <span class="muted"> — timestamp is the git commit that added the file.</span>
-          </dd>
+        <div class="prose body">
+          <Content />
         </div>
-      </dl>
-    </aside>
+        <ul class="tags">
+          {
+            data.tags.map((tag) => (
+              <li>
+                <a class="pill pill-type" href={`/hall?q=${encodeURIComponent(tag)}`} data-no-popup>
+                  {tag}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
 
-    {
-      data.media && (
-        <figure class="media">
-          {data.media.type === "video" ? (
-            <video src={data.media.src} controls playsinline></video>
-          ) : (
-            <img src={data.media.src} alt={data.media.alt || ""} />
-          )}
-          {data.media.caption && <figcaption class="muted">{data.media.caption}</figcaption>}
-        </figure>
-      )
-    }
-
-    <div class="prose body">
-      <Content />
+      <aside class="entry-rail" aria-label="Receipt and share">
+        <div class="receipt card">
+          <p class="eyebrow">Receipt</p>
+          <dl>
+            <div>
+              <dt>About</dt>
+              <dd>{data.person}</dd>
+            </div>
+            <div>
+              <dt>Source</dt>
+              <dd>
+                <a href={data.source.url}>{data.source.title || data.source.publisher}</a>
+                <span class="muted">
+                  {" "}
+                  — {data.source.publisher}, <time datetime={data.source.date}>{sourceDate}</time>
+                </span>
+              </dd>
+            </div>
+            <div>
+              <dt>Evidence</dt>
+              <dd>
+                <a href={evidenceUrl}>{data.evidence.path}</a>
+                <span class="muted"> ({data.evidence.kind})</span>
+              </dd>
+            </div>
+            {
+              data.evidence.archiveUrl && (
+                <div>
+                  <dt>Archive</dt>
+                  <dd>
+                    <a href={data.evidence.archiveUrl}>Backup copy</a>
+                  </dd>
+                </div>
+              )
+            }
+            <div>
+              <dt>In the hall</dt>
+              <dd>
+                <time datetime={data.published.toISOString()}>{published}</time>
+                <span class="muted"> — timestamp is the git commit that added the file.</span>
+              </dd>
+            </div>
+          </dl>
+        </div>
+        <ShareBar url={pageUrl} text={shareText} />
+      </aside>
     </div>
-
-    <ul class="tags">
-      {
-        data.tags.map((tag) => (
-          <li>
-            <a class="pill pill-type" href={`/hall?q=${encodeURIComponent(tag)}`}>
-              {tag}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
   </article>
 </Base>
 
 <style>
+  .entry {
+    padding-top: clamp(1.75rem, 4vw, 3rem);
+  }
+  .entry-head {
+    max-width: 46rem;
+  }
   .pills {
     display: flex;
     gap: 0.4rem;
@@ -164,12 +176,13 @@ const schema = {
     font-family: var(--font-serif);
   }
   .claim {
-    margin: 1.4rem 0;
-    padding: 0.2rem 0 0.2rem 1.1rem;
+    margin: 1.5rem 0 1.75rem;
+    padding: 0.85rem 0 0.85rem 1.15rem;
     border-left: 4px solid var(--stamp);
     font-family: var(--font-serif);
-    font-size: clamp(1.2rem, 1rem + 0.8vw, 1.55rem);
+    font-size: clamp(1.25rem, 1rem + 0.9vw, 1.65rem);
     line-height: 1.35;
+    max-width: 46rem;
   }
   .claim p {
     margin: 0;
@@ -179,8 +192,22 @@ const schema = {
     font-family: var(--font-sans);
     font-size: 0.88rem;
   }
+  .entry-grid {
+    display: grid;
+    gap: 1.5rem 2rem;
+  }
+  @media (min-width: 60rem) {
+    .entry-grid {
+      grid-template-columns: minmax(0, 1fr) 20rem;
+      align-items: start;
+    }
+    .entry-rail {
+      position: sticky;
+      top: 5rem;
+    }
+  }
   .receipt {
-    margin: 1.5rem 0 2rem;
+    margin: 0 0 1rem;
   }
   dl {
     margin: 0;
@@ -199,7 +226,7 @@ const schema = {
     margin: 0;
   }
   .body {
-    margin: 1.5rem 0;
+    margin: 0;
   }
   .tags {
     list-style: none;
@@ -213,7 +240,7 @@ const schema = {
     text-decoration: none;
   }
   .media {
-    margin: 1.5rem 0;
+    margin: 0 0 1.5rem;
   }
   .media img,
   .media video {

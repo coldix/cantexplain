@@ -21,7 +21,8 @@ export function entryHref(entry: Entry) {
 }
 
 export function evidenceHref(path: string) {
-  return `/evidence/${path.replace(/^\//, "")}`;
+  const rel = path.replace(/^\//, "");
+  return rel.endsWith(".md") ? `/look/evidence/${rel}` : `/evidence/${rel}`;
 }
 
 export function uniqueSorted(values: string[]) {

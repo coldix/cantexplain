@@ -19,7 +19,8 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.7",
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^5.18.2"
+    "astro": "^5.18.2",
+    "marked": "^18.0.9"
   },
   "devDependencies": {
     "wrangler": "^4.114.0"

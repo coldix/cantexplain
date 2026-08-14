@@ -230,6 +230,57 @@ code,
   box-shadow: var(--shadow);
 }
 
+.share-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.7rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-sm);
+  background: var(--surface-2);
+}
+.share-label {
+  font-size: 0.72rem;
+  font-weight: 660;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.share-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.share-list a,
+.share-copy {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  background: var(--surface);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.share-list a:hover,
+.share-copy:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+  background: var(--accent-wash);
+}
+.share-copy[data-copied] {
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
 .notice {
   border: 1px solid var(--rule-strong);
   border-left: 4px solid var(--accent);

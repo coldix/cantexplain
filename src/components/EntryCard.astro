@@ -58,6 +58,12 @@ const searchBlob = [
     flex-direction: column;
     gap: 0.55rem;
     height: 100%;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+  .entry-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--rule-strong);
+    box-shadow: 0 8px 24px rgb(28 23 20 / 0.08);
   }
   .entry-card h2 {
     font-size: 1.28rem;
@@ -91,6 +97,10 @@ const searchBlob = [
   }
   .claim p {
     margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .caption {
     margin: 0;

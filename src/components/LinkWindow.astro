@@ -1,0 +1,85 @@
+---
+/**
+ * External links open in a sized popup. Repo markdown (.md in this repo,
+ * /evidence, /docs, or github.com/coldix/cantexplain) opens the formatted
+ * /look/ viewer in a popup. Cmd/ctrl-click is left alone.
+ */
+---
+
+<script>
+  const POP = "noopener,noreferrer,width=780,height=900,scrollbars=yes,resizable=yes";
+  const POP_EXT = "noopener,noreferrer,width=1100,height=860,scrollbars=yes,resizable=yes";
+
+  function lookPath(href: string) {
+    let u: URL;
+    try {
+      u = new URL(href, location.origin);
+    } catch {
+      return null;
+    }
+    if (!/\.mdx?$/i.test(u.pathname)) return null;
+    if (u.origin === location.origin) {
+      const path = u.pathname.replace(/\/$/, "");
+      if (path.startsWith("/look/")) return path;
+      return `/look${path}`;
+    }
+    const gh = u.pathname.match(/^\/coldix\/cantexplain\/(?:blob|raw)\/[^/]+\/(.+\.mdx?)$/i);
+    if (u.hostname === "github.com" && gh) return `/look/${gh[1]}`;
+    return null;
+  }
+
+  function isExternal(href: string) {
+    try {
+      const u = new URL(href, location.origin);
+      return u.origin !== location.origin && (u.protocol === "http:" || u.protocol === "https:");
+    } catch {
+      return false;
+    }
+  }
+
+  function openWin(url: string, features: string) {
+    const w = window.open(url, "_blank", features);
+    if (!w) window.open(url, "_blank", "noopener,noreferrer");
+    return w;
+  }
+
+  document.addEventListener("click", (event) => {
+    const e = event as MouseEvent;
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
+      return;
+    }
+    const a = (e.target as Element | null)?.closest?.("a[href]") as HTMLAnchorElement | null;
+    if (!a || a.hasAttribute("data-no-popup") || a.getAttribute("download") != null) return;
+    const href = a.getAttribute("href");
+    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:")) return;
+
+    const md = lookPath(href);
+    if (md) {
+      e.preventDefault();
+      openWin(md, POP);
+      return;
+    }
+    if (isExternal(href) || a.dataset.share) {
+      e.preventDefault();
+      openWin(a.href, a.dataset.share ? POP : POP_EXT);
+    }
+  });
+
+  document.addEventListener("click", async (event) => {
+    const btn = (event.target as Element | null)?.closest?.("[data-copy]") as HTMLButtonElement | null;
+    if (!btn) return;
+    const text = btn.getAttribute("data-copy") || "";
+    try {
+      await navigator.clipboard.writeText(text);
+      const prev = btn.textContent;
+      btn.textContent = "Copied";
+      btn.dataset.copied = "true";
+      setTimeout(() => {
+        btn.textContent = prev;
+        delete btn.dataset.copied;
+      }, 1600);
+    } catch {
+      btn.textContent = "Copy failed";
+    }
+  });
+</script>

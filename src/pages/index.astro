@@ -24,7 +24,7 @@ const schema = {
 >
   <section class="hero wrap section">
     <p class="eyebrow">Can’t Explain</p>
-    <h1>The claim was loud. The evidence was not.</h1>
+    <h1>The claim was loud.<br />The evidence was not.</h1>
     <p class="lede">
       A hall of ridiculous claims: accusations that arrived at full volume, pinned to the
       original source and a timestamped receipt. The joke is the gap.
@@ -108,6 +108,9 @@ const schema = {
   .hero {
     padding-top: clamp(2.5rem, 7vw, 5rem);
     padding-bottom: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  .hero h1 {
+    max-width: 18ch;
   }
   .family-line {
     max-width: 42rem;

@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import LinkWindow from "../components/LinkWindow.astro";
 import { SITE, FAMILY } from "../lib/site";
 
 const {
@@ -10,6 +11,7 @@ const {
   schema = null,
   breadcrumbs = null,
   noindex = false,
+  minimal = false,
 } = Astro.props;
 
 const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name}`;
@@ -124,10 +126,11 @@ const jsonLd = { "@context": "https://schema.org", "@graph": graph };
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to main content</a>
-    <Header />
+    <Header compact={minimal} />
     <main id="main">
       <slot />
     </main>
-    <Footer />
+    {minimal ? null : <Footer />}
+    <LinkWindow />
   </body>
 </html>
