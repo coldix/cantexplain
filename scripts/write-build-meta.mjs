@@ -56,14 +56,12 @@ const offsetFmt = new Intl.DateTimeFormat("en-AU", {
 
 const sha = sh("git rev-parse --short HEAD") || "unknown";
 const shaFull = sh("git rev-parse HEAD") || null;
-const dirty = Boolean(sh("git status --porcelain"));
-const version = `${parts.year}${parts.month}${parts.day}.${parts.hour}${parts.minute}-aest+${sha}${dirty ? "-dirty" : ""}`;
+const version = `${parts.year}${parts.month}${parts.day}.${parts.hour}${parts.minute}-aest+${sha}`;
 
 const meta = {
   version,
   git_sha: sha,
   git_sha_full: shaFull,
-  git_dirty: dirty,
   built_at_utc: now.toISOString(),
   built_at_aest: aest,
   built_at_aest_offset: offsetFmt || "Australia/Melbourne",
