@@ -4,6 +4,16 @@ Generated 2026-08-14. Live cards only.
 Summary guide: https://cantexplain.au/llms.txt
 Do not treat captions as facts about the person named.
 
+## All the benefits
+- URL: https://cantexplain.au/hall/all-the-benefits
+- Person: Jacinta Allan
+- Type: no-evidence-required
+- Claim: The Victorian Government will deliver a comprehensive $2 billion package to ensure regional Victoria still receives all the benefits that would have been facilitated by the Games.
+- Caption: All the benefits. The committee found a plan. Homes Victoria counted upgrades.
+- Source: https://www.premier.vic.gov.au/more-homes-sports-upgrades-gippsland (2023-07-18)
+- Evidence: https://cantexplain.au/look/evidence/2023/all-the-benefits/source.md
+- Raw file: https://cantexplain.au/evidence/2023/all-the-benefits/source.md
+
 ## Short, sharp circuit-breaker
 - URL: https://cantexplain.au/hall/circuit-breaker
 - Person: Daniel Andrews
@@ -64,6 +74,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2026/fire-the-liar/source.md
 - Raw file: https://cantexplain.au/evidence/2026/fire-the-liar/source.md
 
+## A Games like no other
+- URL: https://cantexplain.au/hall/games-like-no-other
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: A games like no other, exactly what we promised.
+- Caption: The motto survived. The Games did not.
+- Source: https://www.abc.net.au/news/2023-07-18/commonwealth-games-regional-victoria-scrapped-daniel-andrews/102613718 (2022-04-12)
+- Evidence: https://cantexplain.au/look/evidence/2022/games-like-no-other/source.md
+- Raw file: https://cantexplain.au/evidence/2022/games-like-no-other/source.md
+
 ## Bought out by Gina, bought out by coal
 - URL: https://cantexplain.au/hall/gina-rinehart-bought-her-out
 - Person: Pauline Hanson
@@ -73,6 +93,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
 - Evidence: https://cantexplain.au/look/evidence/2026/gina-rinehart-bought-her-out/source.md
 - Raw file: https://cantexplain.au/evidence/2026/gina-rinehart-bought-her-out/source.md
+
+## Hospitals and schools
+- URL: https://cantexplain.au/hall/hospitals-and-schools
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: I will not take money out of hospitals and schools to host an event that is three times the cost estimated and budgeted for last year.
+- Caption: The money that did leave was $589 million. Glasgow ran on the settlement.
+- Source: https://www.abc.net.au/news/2023-07-18/commonwealth-games-regional-victoria-scrapped-daniel-andrews/102613718 (2023-07-18)
+- Evidence: https://cantexplain.au/look/evidence/2023/hospitals-and-schools/source.md
+- Raw file: https://cantexplain.au/evidence/2023/hospitals-and-schools/source.md
 
 ## How can you tell
 - URL: https://cantexplain.au/hall/how-can-you-tell
@@ -93,6 +123,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.abc.net.au/news/health/2020-03-25/coronavirus-covid-19-face-mask-surgical-mask-protection/12088314 (2020-03-25)
 - Evidence: https://cantexplain.au/look/evidence/2020/if-youre-well/source.md
 - Raw file: https://cantexplain.au/evidence/2020/if-youre-well/source.md
+
+## More than $3 billion
+- URL: https://cantexplain.au/hall/more-than-three-billion
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: It is estimated the 2026 Commonwealth Games will contribute more than $3 billion to Victoria’s economy.
+- Caption: The benefit was a range. The slogan was a floor.
+- Source: https://www.premier.vic.gov.au/regional-victoria-hosting-2026-commonwealth-games (2022-04-12)
+- Evidence: https://cantexplain.au/look/evidence/2022/more-than-three-billion/source.md
+- Raw file: https://cantexplain.au/evidence/2022/more-than-three-billion/source.md
 
 ## 95 per cent
 - URL: https://cantexplain.au/hall/ninety-five-per-cent
@@ -163,6 +203,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
 - Evidence: https://cantexplain.au/look/evidence/2026/rights-will-be-taken/source.md
 - Raw file: https://cantexplain.au/evidence/2026/rights-will-be-taken/source.md
+
+## Three times the cost
+- URL: https://cantexplain.au/hall/three-times-the-cost
+- Person: Daniel Andrews
+- Type: no-evidence-required
+- Claim: What's become clear is that the cost of hosting these Games in 2026 is not the $2.6 billion which was budgeted and allocated.
+- Caption: They signed the low number. They cancelled on the high one. The auditor sat in the middle.
+- Source: https://www.abc.net.au/news/2023-07-18/commonwealth-games-regional-victoria-scrapped-daniel-andrews/102613718 (2023-07-18)
+- Evidence: https://cantexplain.au/look/evidence/2023/three-times-the-cost/source.md
+- Raw file: https://cantexplain.au/evidence/2023/three-times-the-cost/source.md
 
 ## Two dollars a day
 - URL: https://cantexplain.au/hall/two-dollars-a-day
