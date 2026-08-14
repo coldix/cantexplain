@@ -8,6 +8,7 @@ published: 2026-08-14T23:40:00+10:00
 person: Pauline Hanson
 claimType: speech
 year: 2026
+loudness: 7
 tags: [hanson, muslims, sky, asio, "2026"]
 source:
   url: https://www.abc.net.au/news/2026-02-18/pauline-hanson-partially-apologises-for-muslim-remarks/106357130

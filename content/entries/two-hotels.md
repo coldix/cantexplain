@@ -8,6 +8,7 @@ published: 2026-08-15T09:37:00+10:00
 person: Daniel Andrews
 claimType: health
 year: 2020
+loudness: 8
 tags: [andrews, covid, quarantine, victoria, coate, "2020"]
 source:
   url: https://www.abc.net.au/news/2020-08-18/victoria-covid-crisis-traced-back-to-seven-travellers-inquiry/12568408

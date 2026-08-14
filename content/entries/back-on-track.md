@@ -8,6 +8,7 @@ published: 2026-08-15T17:04:00+10:00
 person: Chris Bowen
 claimType: money
 year: 2023
+loudness: 8
 tags: [bowen, snowy, anao, energy, "2023"]
 source:
   url: https://www.theguardian.com/australia-news/2023/aug/31/snowy-hydro-2-project-scheme-billion-cost-blowout-kosciuszko-national-park

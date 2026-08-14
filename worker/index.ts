@@ -160,6 +160,7 @@ async function handleAdminApi(request: Request, env: Env, identity: AccessIdenti
             status: parsed.data.status || "draft",
             claimType: parsed.data.claimType || "",
             year: parsed.data.year || "",
+            loudness: parsed.data.loudness || "",
             published: parsed.data.published || "",
           };
         } catch {
@@ -369,6 +370,7 @@ function serializeEntry(data: Record<string, unknown>, body: string): string {
     `person: ${yamlQuote(data.person)}`,
     `claimType: ${data.claimType || "speech"}`,
     `year: ${Number(data.year) || new Date().getFullYear()}`,
+    `loudness: ${Math.min(10, Math.max(1, Number(data.loudness) || 5))}`,
     `tags: [${tags.map((t) => yamlQuote(t)).join(", ")}]`,
     "source:",
     `  url: ${source.url || "https://example.com/replace-me"}`,

@@ -32,6 +32,7 @@ const entries = defineCollection({
     person: z.string(),
     claimType: z.enum(claimTypes),
     year: z.number().int(),
+    loudness: z.number().int().min(1).max(10).default(5),
     tags: z.array(tag),
     source: z.object({
       url: z.string().url(),

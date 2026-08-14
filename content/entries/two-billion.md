@@ -8,6 +8,7 @@ published: 2026-08-15T17:00:00+10:00
 person: Malcolm Turnbull
 claimType: money
 year: 2017
+loudness: 9
 tags: [turnbull, snowy, bowen, energy, "2017"]
 source:
   url: https://www.abc.net.au/news/2017-03-16/snowy-hydro-scheme-funding-boost-to-secure-electricity-supply/8358502

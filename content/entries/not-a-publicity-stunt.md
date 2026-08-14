@@ -8,6 +8,7 @@ published: 2026-08-14T22:50:00+10:00
 person: Greta Thunberg
 claimType: speech
 year: 2025
+loudness: 7
 tags: [thunberg, gaza, flotilla, madleen, sumud, "2025"]
 source:
   url: https://www.bbc.com/news/articles/cx25grpxzd3o

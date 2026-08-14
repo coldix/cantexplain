@@ -8,6 +8,7 @@ published: 2026-08-14T22:03:00+10:00
 person: Anthony Albanese
 claimType: speech
 year: 2026
+loudness: 7
 tags: [albanese, albo, hanson, fire-the-liar, promises, "2026"]
 source:
   url: https://donate.onenation.org.au/fire-the-liar

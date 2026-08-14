@@ -8,6 +8,7 @@ published: 2026-08-15T18:02:00+10:00
 person: Great Barrier Reef Marine Park Authority
 claimType: climate
 year: 2024
+loudness: 8
 tags: [gbr, climate, cyclone, aims, ridd, "2024"]
 source:
   url: https://www2.gbrmpa.gov.au/learn/reef-health/reef-health-updates

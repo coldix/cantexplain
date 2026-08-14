@@ -2,9 +2,9 @@
 import Base from "../layouts/Base.astro";
 import EntryCard from "../components/EntryCard.astro";
 import { SITE, FAMILY } from "../lib/site";
-import { featuredEntries, liveEntries } from "../lib/entries";
+import { loudestEntries, liveEntries } from "../lib/entries";
 
-const featured = (await featuredEntries()).slice(0, 6);
+const featured = await loudestEntries(8);
 const total = (await liveEntries()).length;
 const examples = featured.every((e) => e.data.example);
 
@@ -81,8 +81,8 @@ const schema = [
   </section>
 
   <section class="wrap section pin">
-    <p class="eyebrow">{examples ? "How a card will look" : "Pinned"}</p>
-    <h2>{examples ? "Format examples — not the launch set" : "From the hall"}</h2>
+    <p class="eyebrow">{examples ? "How a card will look" : "Loudest"}</p>
+    <h2>{examples ? "Format examples — not the launch set" : "The slogans that travelled"}</h2>
     {
       examples && (
         <p class="muted intro">

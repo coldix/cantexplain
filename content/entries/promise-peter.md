@@ -8,6 +8,7 @@ published: 2026-08-15T09:00:00+10:00
 person: Daniel Andrews
 claimType: money
 year: 2014
+loudness: 9
 tags: [andrews, victoria, taxes, pallas, "2014"]
 source:
   url: https://www.3aw.com.au/neil-mitchell-the-promise-daniel-andrews-broke-a-third-time-yesterday-20170430-gvw1sx/

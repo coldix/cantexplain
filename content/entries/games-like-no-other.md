@@ -8,6 +8,7 @@ published: 2026-08-15T16:00:00+10:00
 person: Daniel Andrews
 claimType: money
 year: 2022
+loudness: 8
 tags: [andrews, allan, victoria, commonwealth-games, regional, "2022"]
 source:
   url: https://www.abc.net.au/news/2023-07-18/commonwealth-games-regional-victoria-scrapped-daniel-andrews/102613718

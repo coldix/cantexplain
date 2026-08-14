@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import { isLive } from "./site";
+import { isLive, loudnessOf } from "./site";
 
 export type Entry = CollectionEntry<"entries">;
 
@@ -10,15 +10,20 @@ function byNewest(a: Entry, b: Entry) {
   return String(b.data.source.date).localeCompare(String(a.data.source.date));
 }
 
+function byLoudest(a: Entry, b: Entry) {
+  const loud = loudnessOf(b.data.loudness) - loudnessOf(a.data.loudness);
+  if (loud !== 0) return loud;
+  return byNewest(a, b);
+}
+
 export async function liveEntries(): Promise<Entry[]> {
   const all = await getCollection("entries");
   return all.filter((e) => isLive(e.data.status)).sort(byNewest);
 }
 
-export async function featuredEntries(): Promise<Entry[]> {
+export async function loudestEntries(limit = 8): Promise<Entry[]> {
   const live = await liveEntries();
-  const featured = live.filter((e) => e.data.status === "featured");
-  return featured.length ? featured : live.slice(0, 3);
+  return [...live].sort(byLoudest).slice(0, limit);
 }
 
 export function entryHref(entry: Entry) {

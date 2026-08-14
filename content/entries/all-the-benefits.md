@@ -8,6 +8,7 @@ published: 2026-08-15T16:04:00+10:00
 person: Jacinta Allan
 claimType: money
 year: 2023
+loudness: 8
 tags: [allan, andrews, victoria, commonwealth-games, regional, housing, "2023"]
 source:
   url: https://www.premier.vic.gov.au/more-homes-sports-upgrades-gippsland

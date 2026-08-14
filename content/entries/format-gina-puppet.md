@@ -8,6 +8,7 @@ published: 2026-08-14
 person: Pauline Hanson
 claimType: speech
 year: 2024
+loudness: 2
 tags: [hanson, rinehart, ginas-puppet, puppet, "2024", format-example]
 source:
   url: https://example.com/format-example-gina-puppet

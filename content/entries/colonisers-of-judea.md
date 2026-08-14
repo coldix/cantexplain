@@ -8,6 +8,7 @@ published: 2026-08-14T22:25:00+10:00
 person: Palestine Action Group Sydney
 claimType: speech
 year: 2023
+loudness: 6
 tags: [palestine, israel, gaza, settler-colonial, judea, sydney, "2023"]
 source:
   url: https://honisoit.com/2023/10/hundreds-march-in-solidarity-with-palestinians/

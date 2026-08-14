@@ -8,6 +8,7 @@ published: 2026-08-14T23:05:00+10:00
 person: Harriet Shing
 claimType: money
 year: 2025
+loudness: 7
 tags: [allan, shing, victoria, srl, big-build, labor, "2025"]
 source:
   url: https://www.abc.net.au/news/2025-03-21/victoria-suburban-rail-loop-report-infrastructure-australia/105082444

@@ -8,6 +8,7 @@ published: 2026-08-15T09:33:00+10:00
 person: Daniel Andrews
 claimType: health
 year: 2020
+loudness: 9
 tags: [covid, masks, andrews, abc, "2020"]
 source:
   url: https://www.abc.net.au/news/health/2020-03-25/coronavirus-covid-19-face-mask-surgical-mask-protection/12088314

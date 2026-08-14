@@ -8,6 +8,7 @@ published: 2026-08-14
 person: Format example
 claimType: speech
 year: 2025
+loudness: 2
 tags: [no-evidence-required, "2025", format-example]
 source:
   url: https://example.com/format-example-no-evidence

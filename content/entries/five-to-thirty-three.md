@@ -8,6 +8,7 @@ published: 2026-08-15T18:04:00+10:00
 person: Great Barrier Reef Marine Park Authority
 claimType: climate
 year: 2003
+loudness: 8
 tags: [gbr, fishing, zoning, aims, "2003"]
 source:
   url: https://www2.gbrmpa.gov.au/50-years/timeline

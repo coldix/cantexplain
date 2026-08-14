@@ -8,6 +8,7 @@ published: 2026-08-14T14:01:00+10:00
 person: Pauline Hanson
 claimType: speech
 year: 2026
+loudness: 5
 tags: [hanson, hds, derangement, students-say-no, "2026"]
 source:
   url: https://www.abc.net.au/news/2026-08-13/one-nation-students-protest-pauline-hanson/107033644

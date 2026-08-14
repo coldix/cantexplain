@@ -8,6 +8,7 @@ published: 2026-08-15T17:01:00+10:00
 person: Malcolm Turnbull
 claimType: money
 year: 2017
+loudness: 8
 tags: [turnbull, snowy, energy, timeline, "2017"]
 source:
   url: https://www.theguardian.com/australia-news/2017/mar/16/turnbull-2bn-snowy-hydro-electric-expansion

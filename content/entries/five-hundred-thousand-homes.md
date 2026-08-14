@@ -8,6 +8,7 @@ published: 2026-08-15T17:02:00+10:00
 person: Malcolm Turnbull
 claimType: climate
 year: 2017
+loudness: 8
 tags: [turnbull, snowy, energy, capacity, "2017"]
 source:
   url: https://www.abc.net.au/news/2017-12-21/snowy-hydro-2.0-could-actually-cost-as-much-as-$4.5b/9277368

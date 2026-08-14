@@ -359,7 +359,14 @@ code,
   background: var(--accent-wash);
   border-color: color-mix(in srgb, var(--accent) 25%, transparent);
 }
-.pill-featured {
+.pill-featured,
+.pill-loud {
+  color: var(--ink-2);
+  background: var(--surface-2);
+  border-color: var(--rule-strong);
+  font-variant-numeric: tabular-nums;
+}
+.pill-loud-hi {
   color: var(--st-featured);
   background: var(--st-featured-bg);
   border-color: color-mix(in srgb, var(--st-featured) 25%, transparent);

@@ -8,6 +8,7 @@ published: 2026-08-14T14:02:00+10:00
 person: Pauline Hanson
 claimType: speech
 year: 2026
+loudness: 5
 tags: [hanson, no-evidence-required, students-say-no, "2026"]
 source:
   url: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb

@@ -57,6 +57,26 @@ export const CLAIM_TYPE_LABEL: Record<string, string> = {
   speech: "Speech",
 };
 
+/** How far the slogan travelled. Not how true. Not a Google hit-count. */
+export const LOUDNESS_HINT: Record<number, string> = {
+  10: "Official instruction to the public",
+  9: "PM, Premier, or regulator headline",
+  8: "Minister, agency refrain, or national campaign",
+  7: "Major-outlet splash or opposition campaign",
+  6: "State project line, repeated",
+  5: "Rally, campus, or one interview that travelled",
+  4: "Niche but sourced",
+  3: "Thin circulation",
+  2: "Format example",
+  1: "Draft",
+};
+
+export const loudnessOf = (n: number | undefined) => {
+  const v = Number(n);
+  if (Number.isInteger(v) && v >= 1 && v <= 10) return v;
+  return 5;
+};
+
 /**
  * Date-only strings must not shift by build-host timezone.
  * Parse as noon UTC and format in Melbourne, same as electiontracker.au.

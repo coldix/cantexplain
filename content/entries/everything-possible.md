@@ -8,6 +8,7 @@ published: 2026-08-15T09:35:00+10:00
 person: Greg Hunt
 claimType: health
 year: 2021
+loudness: 8
 tags: [covid, vaccine, children, hunt, "2021"]
 source:
   url: https://pmtranscripts.pmc.gov.au/release/transcript-43700

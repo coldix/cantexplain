@@ -8,6 +8,7 @@ published: 2026-08-15T09:34:00+10:00
 person: Greg Hunt
 claimType: health
 year: 2021
+loudness: 8
 tags: [covid, transmission, hunt, doherty, morrison, "2021"]
 source:
   url: https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/press-conference-in-canberra-on-2-september-2021-about-the-vaccination-rollout-and-national-plan-for-covid-response

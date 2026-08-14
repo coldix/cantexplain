@@ -8,6 +8,7 @@ published: 2026-08-15T18:01:00+10:00
 person: CSIRO
 claimType: climate
 year: 2012
+loudness: 9
 tags: [gbr, csiro, aims, coral, ridd, "2012"]
 source:
   url: https://www.csiro.au/en/research/natural-environment/oceans/ereefs-management-system

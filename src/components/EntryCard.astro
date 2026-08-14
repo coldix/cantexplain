@@ -1,5 +1,5 @@
 ---
-import { CLAIM_TYPE_LABEL, formatDate } from "../lib/site";
+import { CLAIM_TYPE_LABEL, LOUDNESS_HINT, formatDate, loudnessOf } from "../lib/site";
 import { entryHref, type Entry } from "../lib/entries";
 
 interface Props {
@@ -9,6 +9,7 @@ interface Props {
 const { entry } = Astro.props;
 const { data } = entry;
 const href = entryHref(entry);
+const loud = loudnessOf(data.loudness);
 const searchBlob = [
   data.title,
   data.claim,
@@ -27,12 +28,18 @@ const searchBlob = [
   data-type={data.claimType}
   data-year={String(data.year)}
   data-status={data.status}
+  data-loudness={String(loud)}
   data-tags={data.tags.join(",")}
   data-search={searchBlob}
 >
   <div class="card-meta">
     <span class="pill pill-type">{CLAIM_TYPE_LABEL[data.claimType] ?? data.claimType}</span>
-    {data.status === "featured" && <span class="pill pill-featured">Featured</span>}
+    <span
+      class:list={["pill", "pill-loud", loud >= 9 && "pill-loud-hi"]}
+      title={LOUDNESS_HINT[loud]}
+    >
+      {loud}
+    </span>
     {data.example && <span class="pill pill-example">Format example</span>}
     <span class="muted year">{data.year}</span>
   </div>

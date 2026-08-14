@@ -8,6 +8,7 @@ published: 2026-08-15T09:32:00+10:00
 person: Daniel Andrews
 claimType: health
 year: 2021
+loudness: 9
 tags: [andrews, covid, lockdown, victoria, "2021"]
 source:
   url: https://www.abc.net.au/news/2021-02-12/victoria-coronavirus-lockdown-announced-by-daniel-andrews/13128514

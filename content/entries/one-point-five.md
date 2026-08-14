@@ -8,6 +8,7 @@ published: 2026-08-15T09:31:00+10:00
 person: Greg Hunt
 claimType: health
 year: 2020
+loudness: 10
 tags: [covid, distance, hunt, murphy, "2020"]
 source:
   url: https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/australian-government-text-message-regarding-coronavirus-prevention-steps

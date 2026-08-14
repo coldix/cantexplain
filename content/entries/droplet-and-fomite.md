@@ -8,6 +8,7 @@ published: 2026-08-15T09:36:00+10:00
 person: Safe Airway Society
 claimType: health
 year: 2020
+loudness: 8
 tags: [covid, airborne, droplet, mja, "2020"]
 source:
   url: https://www.mja.com.au/journal/2020/consensus-statement-safe-airway-society-principles-airway-management-and-tracheal

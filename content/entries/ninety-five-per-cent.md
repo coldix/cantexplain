@@ -8,6 +8,7 @@ published: 2026-08-15T09:30:00+10:00
 person: Therapeutic Goods Administration
 claimType: health
 year: 2021
+loudness: 9
 tags: [covid, vaccine, tga, hunt, "95-percent", "2021"]
 source:
   url: https://www.smh.com.au/politics/federal/pfizer-covid-vaccine-provisionally-approved-for-australian-use-20210125-p56wko.html

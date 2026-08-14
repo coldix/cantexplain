@@ -8,6 +8,7 @@ published: 2026-08-15T16:01:00+10:00
 person: Daniel Andrews
 claimType: money
 year: 2022
+loudness: 8
 tags: [andrews, victoria, commonwealth-games, economy, "2022"]
 source:
   url: https://www.premier.vic.gov.au/regional-victoria-hosting-2026-commonwealth-games

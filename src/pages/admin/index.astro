@@ -43,11 +43,12 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
               <th>Person</th>
               <th>Type</th>
               <th>Year</th>
+              <th>Loud</th>
               <th></th>
             </tr>
           </thead>
           <tbody id="rows">
-            <tr><td colspan="6" class="muted">Loading…</td></tr>
+            <tr><td colspan="7" class="muted">Loading…</td></tr>
           </tbody>
         </table>
       </div>
@@ -66,8 +67,12 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
           <select name="status" id="f-status">
             <option value="draft">draft — not on the public hall</option>
             <option value="published">published — in the hall</option>
-            <option value="featured">featured — hall + homepage pin</option>
+            <option value="featured">featured — legacy, same as published</option>
           </select>
+        </label>
+        <label>
+          <span class="lbl">Loudness 1–10</span>
+          <input name="loudness" id="f-loudness" type="number" min="1" max="10" required />
         </label>
         <label class="span-2">
           <span class="lbl">Title</span>
@@ -198,10 +203,10 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
     const needle = q.trim().toLowerCase();
     const items = cache.filter((e) => {
       if (!needle) return true;
-      return [e.slug, e.title, e.person, e.status, e.claimType, e.year].join(" ").toLowerCase().includes(needle);
+      return [e.slug, e.title, e.person, e.status, e.claimType, e.year, e.loudness].join(" ").toLowerCase().includes(needle);
     });
     if (!items.length) {
-      rows.innerHTML = `<tr><td colspan="6" class="muted">Nothing matches.</td></tr>`;
+      rows.innerHTML = `<tr><td colspan="7" class="muted">Nothing matches.</td></tr>`;
       return;
     }
     rows.innerHTML = items
@@ -212,6 +217,7 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
           <td>${escapeHtml(e.person)}</td>
           <td>${escapeHtml(e.claimType)}</td>
           <td>${escapeHtml(e.year)}</td>
+          <td>${escapeHtml(e.loudness || "")}</td>
           <td><button type="button" class="linkish" data-edit="${e.slug}">Edit</button></td>
         </tr>`,
       )
@@ -223,7 +229,7 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
     if (listView) listView.hidden = false;
     if (editView) editView.hidden = true;
     showErr("");
-    if (rows) rows.innerHTML = `<tr><td colspan="6" class="muted">Loading…</td></tr>`;
+    if (rows) rows.innerHTML = `<tr><td colspan="7" class="muted">Loading…</td></tr>`;
     const data = (await api("/api/admin/entries")) as { entries: Array<Record<string, string>> };
     cache = data.entries || [];
     renderList(listQ?.value || "");
@@ -251,6 +257,7 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
     fill("f-person", "");
     fill("f-type", "speech");
     fill("f-year", String(new Date().getFullYear()));
+    fill("f-loudness", "5");
     fill("f-published", new Date().toISOString());
     fill("f-tags", "");
     fill("f-source-url", "https://");
@@ -293,6 +300,7 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
     fill("f-person", d.person);
     fill("f-type", d.claimType);
     fill("f-year", d.year);
+    fill("f-loudness", d.loudness ?? 5);
     fill("f-published", d.published);
     fill("f-tags", Array.isArray(d.tags) ? d.tags.join(", ") : d.tags);
     fill("f-source-url", source.url);
@@ -328,6 +336,7 @@ const types = Object.entries(CLAIM_TYPE_LABEL);
         person: g("f-person"),
         claimType: g("f-type"),
         year: Number(g("f-year")),
+        loudness: Number(g("f-loudness")),
         tags,
         source: {
           url: g("f-source-url"),

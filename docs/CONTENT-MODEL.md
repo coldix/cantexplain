@@ -20,11 +20,12 @@ Drafts are built but **not listed**. Featured entries pin to the homepage. `exam
 | `title` | string | Short card title. Not the claim itself. |
 | `claim` | string | The accusation, as a quote or a faithful paraphrase. If you paraphrase, say so in the body. |
 | `caption` | string | One or two sentences of observational humour. Receipt-first. See [TONE-GUIDE.md](./TONE-GUIDE.md). |
-| `status` | `draft` \| `published` \| `featured` | Drafts never appear in the hall or homepage. Featured also appear in the homepage pin. |
+| `status` | `draft` \| `published` \| `featured` | Drafts never appear. `featured` is a legacy alias of published. The homepage pin is `loudness`, not featured. |
 | `published` | date | Date **we** published the entry (ISO `YYYY-MM-DD`). Not the source date. |
 | `person` | string | Primary figure the claim is *about*. Display name, not a slug. |
 | `claimType` | enum | Controlled vocabulary below. |
 | `year` | integer | Calendar year of the **source**, used for filters. |
+| `loudness` | 1–10 | How far the slogan travelled. Not how true. See scale below. |
 | `tags` | string[] | Lowercase kebab or words. Always include a person tag and a theme tag. |
 | `source.url` | URL | Original public location of the claim. |
 | `source.date` | `YYYY-MM-DD` | Date the source published or uttered it. |
@@ -58,7 +59,26 @@ Markdown after the frontmatter is optional context: who said it, what was missin
 
 - `draft` — in the repo, invisible on the public hall.
 - `published` — live.
-- `featured` — live, and eligible for the homepage pin.
+- `featured` — live. Legacy pin flag; do not use for new cards. Homepage uses `loudness`.
+
+### `loudness`
+
+How far the slogan travelled. **Not** a Google hit-count (those numbers are not a receipt and they move). **Not** a truth score.
+
+| Score | Channel |
+|---|---|
+| 10 | Official instruction to the public (SMS, legal mandate) |
+| 9 | PM, Premier, or regulator headline the country heard |
+| 8 | Minister, agency refrain, or national campaign repeated for months |
+| 7 | Major-outlet splash or opposition campaign that made the news |
+| 6 | State project line, repeated |
+| 5 | Rally, campus, or one interview that travelled |
+| 4 | Niche but sourced |
+| 3 | Thin circulation |
+| 2 | Format example |
+| 1 | Draft / unused |
+
+Homepage pins the loudest live cards. The hall can filter by band.
 
 ### `claimType`
 

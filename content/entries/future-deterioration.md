@@ -8,6 +8,7 @@ published: 2026-08-15T18:00:00+10:00
 person: Great Barrier Reef Marine Park Authority
 claimType: climate
 year: 2024
+loudness: 8
 tags: [gbr, aims, climate, coral, "2024"]
 source:
   url: https://www2.gbrmpa.gov.au/news/great-barrier-reef-outlook-report-2024-ecosystem-under-pressure

@@ -2,7 +2,7 @@
 import { render } from "astro:content";
 import Base from "../../layouts/Base.astro";
 import ShareBar from "../../components/ShareBar.astro";
-import { CLAIM_TYPE_LABEL, formatDate, formatDateLong, SITE } from "../../lib/site";
+import { CLAIM_TYPE_LABEL, LOUDNESS_HINT, formatDate, formatDateLong, SITE, loudnessOf } from "../../lib/site";
 import { evidenceHref, liveEntries, type Entry } from "../../lib/entries";
 
 export async function getStaticPaths() {
@@ -23,6 +23,7 @@ const { Content } = await render(entry);
 const evidenceUrl = evidenceHref(data.evidence.path);
 const sourceDate = formatDateLong(data.source.date);
 const published = formatDate(data.published);
+const loud = loudnessOf(data.loudness);
 const pageUrl = new URL(`/hall/${entry.id}`, SITE.url).href;
 const shareText = `“${data.claim}” — ${SITE.name}`;
 
@@ -65,7 +66,7 @@ const schema = {
         {CLAIM_TYPE_LABEL[data.claimType]}
       </p>
       <div class="pills">
-        {data.status === "featured" && <span class="pill pill-featured">Featured</span>}
+        <span class="pill pill-featured" title={LOUDNESS_HINT[loud]}>Loudness {loud}</span>
         {data.example && <span class="pill pill-example">Format example</span>}
       </div>
       <h1>{data.title}</h1>

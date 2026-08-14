@@ -8,6 +8,7 @@ published: 2026-08-14T23:25:00+10:00
 person: Gina Rinehart
 claimType: money
 year: 2026
+loudness: 7
 tags: [rinehart, abc, sheppard, two-dollars, victorian-socialists, "2026"]
 source:
   url: https://www.abc.net.au/news/corrections/2026-08-14/reinhartradio/107040362

@@ -8,6 +8,7 @@ published: 2026-08-14T19:30:00+10:00
 person: Chris Bowen
 claimType: climate
 year: 2025
+loudness: 8
 tags: [bowen, climate, energy, gencost, two-meters, "2025"]
 source:
   url: https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-renewables-lead-australias-cheapest-energy-source

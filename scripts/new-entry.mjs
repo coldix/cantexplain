@@ -42,6 +42,7 @@ published: ${today}
 person: ${person}
 claimType: speech
 year: ${Number(year)}
+loudness: 5
 tags: [${slugify(person)}, "${year}"]
 source:
   url: https://example.com/replace-me
