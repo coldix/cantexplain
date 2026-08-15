@@ -1,6 +1,6 @@
 ---
 title: "Back on track"
-claim: "We support the new steps being put in place by the new management of Snowy 2.0 to put the important project back on track."
+claim: "New management will put Snowy 2.0 back on track."
 caption: "On track was a reset. The auditor could not find the rails."
 status: featured
 example: false

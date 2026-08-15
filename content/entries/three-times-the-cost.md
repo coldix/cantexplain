@@ -1,6 +1,6 @@
 ---
 title: "Three times the cost"
-claim: "What's become clear is that the cost of hosting these Games in 2026 is not the $2.6 billion which was budgeted and allocated."
+claim: "The cost of hosting these Games is three times the cost estimated and budgeted."
 caption: "They signed the low number. They cancelled on the high one. The auditor sat in the middle."
 status: featured
 example: false

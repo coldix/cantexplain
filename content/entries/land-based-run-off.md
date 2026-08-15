@@ -1,6 +1,6 @@
 ---
-title: "Land-based run-off"
-claim: "Land-based run-off remains the greatest contributor to poor water quality in the inshore areas of the Great Barrier Reef and is a major contributor to the current poor state of many inshore marine ecosystems."
+title: "Land-based run-off is the greatest contributor"
+claim: "Land-based run-off remains the greatest contributor to poor water quality on the inshore Reef."
 caption: "The Authority ranked the farms. The Senate heard the cyclones."
 status: featured
 example: false

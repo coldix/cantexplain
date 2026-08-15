@@ -1,6 +1,6 @@
 ---
 title: "Colonisers of Judea"
-claim: "Demonstrators marched from Town Hall to the Opera House against the federal government’s endorsement of Israel’s settler-colonial occupation."
+claim: "Israel’s settler-colonial occupation."
 caption: "Coloniser usually means you arrived from somewhere else. Judea is the name of the place they are accused of arriving in."
 status: featured
 example: false

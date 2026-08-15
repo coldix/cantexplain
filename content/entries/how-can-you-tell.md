@@ -1,6 +1,6 @@
 ---
-title: "How can you tell"
-claim: "You say, ‘Well, there’s good Muslims out there.’ How can you tell me there are good Muslims?"
+title: "How can you tell there are good Muslims"
+claim: "How can you tell me there are good Muslims?"
 caption: "The slogan dropped the question mark. The interview kept the ISIS brides."
 status: featured
 example: false

@@ -1,5 +1,5 @@
 ---
-title: "Droplet and fomite"
+title: "Droplet and fomite spread"
 claim: "Transmission of COVID-19 is primarily through droplet and fomite spread."
 caption: "Gravity in a few seconds. Then the outbreaks that did not fall."
 status: featured

@@ -1,5 +1,5 @@
 ---
-title: "If you’re well"
+title: "If you’re well, probably no"
 claim: "If you're well, and are not caring for a person with COVID-19, the answer is probably no."
 caption: "March: probably no. July: a scarf, or a $200 fine. Same virus. Same verb."
 status: featured

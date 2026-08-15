@@ -1,6 +1,6 @@
 ---
-title: "Two meters, one slogan"
-claim: "GenCost is clear; renewables remain the cheapest new electricity, and firming them with battery storage, transmission, hydro and a small amount of gas peaking is the best way to keep the lights on and put downward pressure on bills."
+title: "Cheapest new electricity"
+claim: "Renewables remain the cheapest new electricity."
 caption: "GenCost is a new-build number. The fridge is a different meter."
 status: featured
 example: false

@@ -1,6 +1,6 @@
 ---
-title: "Five to 33"
-claim: "The Plan aimed to protect and conserve the biodiversity of the Great Barrier Reef ecosystem… green zones (no-take areas) where fishing is not allowed, expanded from five per cent of the Marine Park to 33 per cent."
+title: "Green zones to 33 per cent"
+claim: "Green zones where fishing is not allowed expanded from five per cent of the Marine Park to 33 per cent."
 caption: "A third of the park went quiet. The cover still tracked the storms."
 status: featured
 example: false

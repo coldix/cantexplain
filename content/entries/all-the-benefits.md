@@ -1,6 +1,6 @@
 ---
 title: "All the benefits"
-claim: "The Victorian Government will deliver a comprehensive $2 billion package to ensure regional Victoria still receives all the benefits that would have been facilitated by the Games."
+claim: "Regional Victoria will still receive all the benefits that would have been facilitated by the Games."
 caption: "All the benefits. The committee found a plan. Homes Victoria counted upgrades."
 status: featured
 example: false

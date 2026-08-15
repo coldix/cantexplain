@@ -1,6 +1,6 @@
 ---
-title: "Those kinds of choices"
-claim: "People of a different race shouldn’t lose their rights. And queer people have already had a lot of issues with fighting for their rights, and if that gets taken away too, that’s not OK."
+title: "Rights will be taken"
+claim: "People of a different race shouldn’t lose their rights, and if that gets taken away too, that’s not OK."
 caption: "The rights were going. The bill was not produced."
 status: featured
 example: false

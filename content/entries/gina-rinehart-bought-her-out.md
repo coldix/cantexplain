@@ -1,5 +1,5 @@
 ---
-title: "Bought out by Gina, bought out by coal"
+title: "Bought out by Gina"
 claim: "I think she’s bought out by Gina Rinehart, she’s bought out by coal industries."
 caption: "A puppet usually has strings. This one came with a rally and a first name."
 status: featured

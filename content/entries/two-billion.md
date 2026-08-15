@@ -1,6 +1,6 @@
 ---
 title: "$2 billion"
-claim: "The Federal Government has announced a $2 billion intervention in Australia's electricity supply debate, by expanding the Snowy Mountains hydro scheme."
+claim: "A $2 billion expansion of the Snowy Mountains hydro scheme."
 caption: "The first number was a thought. The mountain kept the invoice."
 status: featured
 example: false

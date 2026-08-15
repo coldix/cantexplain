@@ -1,6 +1,6 @@
 ---
 title: "The oppression they’re putting us through"
-claim: "We’re just fighting against the oppression and racism that they’re putting us through and we’re making a change against all these racists and deranged people all throughout Australia."
+claim: "We’re just fighting against the oppression and racism that they’re putting us through."
 caption: "Oppression arrived fully formed. The incident did not."
 status: featured
 example: false

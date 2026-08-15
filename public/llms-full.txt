@@ -1,6 +1,6 @@
 # Can’t Explain — full entry list for AI systems
 
-Generated 2026-08-14. Live cards only.
+Generated 2026-08-15. Live cards only.
 Summary guide: https://cantexplain.au/llms.txt
 Do not treat captions as facts about the person named.
 
@@ -8,7 +8,7 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/all-the-benefits
 - Person: Jacinta Allan
 - Type: money
-- Claim: The Victorian Government will deliver a comprehensive $2 billion package to ensure regional Victoria still receives all the benefits that would have been facilitated by the Games.
+- Claim: Regional Victoria will still receive all the benefits that would have been facilitated by the Games.
 - Caption: All the benefits. The committee found a plan. Homes Victoria counted upgrades.
 - Source: https://www.premier.vic.gov.au/more-homes-sports-upgrades-gippsland (2023-07-18)
 - Evidence: https://cantexplain.au/look/evidence/2023/all-the-benefits/source.md
@@ -18,7 +18,7 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/back-on-track
 - Person: Chris Bowen
 - Type: money
-- Claim: We support the new steps being put in place by the new management of Snowy 2.0 to put the important project back on track.
+- Claim: New management will put Snowy 2.0 back on track.
 - Caption: On track was a reset. The auditor could not find the rails.
 - Source: https://www.theguardian.com/australia-news/2023/aug/31/snowy-hydro-2-project-scheme-billion-cost-blowout-kosciuszko-national-park (2023-08-31)
 - Evidence: https://cantexplain.au/look/evidence/2023/back-on-track/source.md
@@ -38,7 +38,7 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/colonisers-of-judea
 - Person: Palestine Action Group Sydney
 - Type: speech
-- Claim: Demonstrators marched from Town Hall to the Opera House against the federal government’s endorsement of Israel’s settler-colonial occupation.
+- Claim: Israel’s settler-colonial occupation.
 - Caption: Coloniser usually means you arrived from somewhere else. Judea is the name of the place they are accused of arriving in.
 - Source: https://honisoit.com/2023/10/hundreds-march-in-solidarity-with-palestinians/ (2023-10-11)
 - Evidence: https://cantexplain.au/look/evidence/2023/colonisers-of-judea/source.md
@@ -48,13 +48,13 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/decreases-transmission
 - Person: Greg Hunt
 - Type: health
-- Claim: The more people that we vaccinate and the higher that vaccination rate in that wider community, it decreases transmission in the community.
+- Claim: The more people we vaccinate, it decreases transmission in the community.
 - Caption: The TGA listed transmission under unknowns. The minister listed it as the switch.
 - Source: https://www.health.gov.au/ministers/the-hon-greg-hunt-mp/media/press-conference-in-canberra-on-2-september-2021-about-the-vaccination-rollout-and-national-plan-for-covid-response (2021-09-02)
 - Evidence: https://cantexplain.au/look/evidence/2021/decreases-transmission/source.md
 - Raw file: https://cantexplain.au/evidence/2021/decreases-transmission/source.md
 
-## Droplet and fomite
+## Droplet and fomite spread
 - URL: https://cantexplain.au/hall/droplet-and-fomite
 - Person: Safe Airway Society
 - Type: health
@@ -64,11 +64,11 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2020/droplet-and-fomite/source.md
 - Raw file: https://cantexplain.au/evidence/2020/droplet-and-fomite/source.md
 
-## Everything possible
+## Everything possible to keep their child safe
 - URL: https://cantexplain.au/hall/everything-possible
 - Person: Greg Hunt
 - Type: health
-- Claim: By vaccinating their children against COVID-19 they have done everything possible to keep their child safe from this virus.
+- Claim: By vaccinating their children they have done everything possible to keep their child safe from this virus.
 - Caption: Everything possible. Safe from this virus. The trial never wrote that sentence.
 - Source: https://pmtranscripts.pmc.gov.au/release/transcript-43700 (2021-12-10)
 - Evidence: https://cantexplain.au/look/evidence/2021/everything-possible/source.md
@@ -84,11 +84,11 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2012/fifty-per-cent/source.md
 - Raw file: https://cantexplain.au/evidence/2012/fifty-per-cent/source.md
 
-## Ten lies, one list
+## Albo Lied
 - URL: https://cantexplain.au/hall/fire-the-liar
 - Person: Anthony Albanese
 - Type: speech
-- Claim: Albo Lied about: Immigration Levels • Energy Prices • Isis Brides coming back into the country • Medicare and Bulk Billing • Axed Stage 3 Tax Cuts • Changes to Capital Gains Tax • Voice to Parliament • Changes to negative gearing • $275 reduction in electricity prices • Falling off a stage
+- Claim: Albo Lied about immigration, energy prices, $275 bills and falling off a stage.
 - Caption: A $275 promise, a tax backflip, and a trip over a step. Same label for all three.
 - Source: https://donate.onenation.org.au/fire-the-liar (2026-06-10)
 - Evidence: https://cantexplain.au/look/evidence/2026/fire-the-liar/source.md
@@ -104,11 +104,11 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2017/five-hundred-thousand-homes/source.md
 - Raw file: https://cantexplain.au/evidence/2017/five-hundred-thousand-homes/source.md
 
-## Five to 33
+## Green zones to 33 per cent
 - URL: https://cantexplain.au/hall/five-to-thirty-three
 - Person: Great Barrier Reef Marine Park Authority
 - Type: climate
-- Claim: The Plan aimed to protect and conserve the biodiversity of the Great Barrier Reef ecosystem… green zones (no-take areas) where fishing is not allowed, expanded from five per cent of the Marine Park to 33 per cent.
+- Claim: Green zones where fishing is not allowed expanded from five per cent of the Marine Park to 33 per cent.
 - Caption: A third of the park went quiet. The cover still tracked the storms.
 - Source: https://www2.gbrmpa.gov.au/50-years/timeline (2003-06-02)
 - Evidence: https://cantexplain.au/look/evidence/2003/five-to-thirty-three/source.md
@@ -124,7 +124,7 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2017/four-years/source.md
 - Raw file: https://cantexplain.au/evidence/2017/four-years/source.md
 
-## Future deterioration
+## Outlook of future deterioration
 - URL: https://cantexplain.au/hall/future-deterioration
 - Person: Great Barrier Reef Marine Park Authority
 - Type: climate
@@ -144,7 +144,7 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2022/games-like-no-other/source.md
 - Raw file: https://cantexplain.au/evidence/2022/games-like-no-other/source.md
 
-## Bought out by Gina, bought out by coal
+## Bought out by Gina
 - URL: https://cantexplain.au/hall/gina-rinehart-bought-her-out
 - Person: Pauline Hanson
 - Type: speech
@@ -174,17 +174,17 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2023/hospitals-and-schools/source.md
 - Raw file: https://cantexplain.au/evidence/2023/hospitals-and-schools/source.md
 
-## How can you tell
+## How can you tell there are good Muslims
 - URL: https://cantexplain.au/hall/how-can-you-tell
 - Person: Pauline Hanson
 - Type: speech
-- Claim: You say, ‘Well, there’s good Muslims out there.’ How can you tell me there are good Muslims?
+- Claim: How can you tell me there are good Muslims?
 - Caption: The slogan dropped the question mark. The interview kept the ISIS brides.
 - Source: https://www.abc.net.au/news/2026-02-18/pauline-hanson-partially-apologises-for-muslim-remarks/106357130 (2026-02-18)
 - Evidence: https://cantexplain.au/look/evidence/2026/how-can-you-tell/source.md
 - Raw file: https://cantexplain.au/evidence/2026/how-can-you-tell/source.md
 
-## If you’re well
+## If you’re well, probably no
 - URL: https://cantexplain.au/hall/if-youre-well
 - Person: Daniel Andrews
 - Type: health
@@ -194,11 +194,11 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2020/if-youre-well/source.md
 - Raw file: https://cantexplain.au/evidence/2020/if-youre-well/source.md
 
-## Land-based run-off
+## Land-based run-off is the greatest contributor
 - URL: https://cantexplain.au/hall/land-based-run-off
 - Person: Great Barrier Reef Marine Park Authority
 - Type: climate
-- Claim: Land-based run-off remains the greatest contributor to poor water quality in the inshore areas of the Great Barrier Reef and is a major contributor to the current poor state of many inshore marine ecosystems.
+- Claim: Land-based run-off remains the greatest contributor to poor water quality on the inshore Reef.
 - Caption: The Authority ranked the farms. The Senate heard the cyclones.
 - Source: https://www.gbrmpa.gov.au/learn/threats/declining-water-quality (2021-02-17)
 - Evidence: https://cantexplain.au/look/evidence/2021/land-based-run-off/source.md
@@ -234,6 +234,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2025/not-a-publicity-stunt/source.md
 - Raw file: https://cantexplain.au/evidence/2025/not-a-publicity-stunt/source.md
 
+## Ocean acidification
+- URL: https://cantexplain.au/hall/ocean-acidification
+- Person: Bureau of Meteorology
+- Type: climate
+- Claim: Oceans around Australia are becoming more acidic.
+- Caption: The name is acid. The number is still eight.
+- Source: https://www.bom.gov.au/weather-and-climate/past-weather-and-climate/state-of-the-climate-2024/report-at-a-glance (2024-10-31)
+- Evidence: https://cantexplain.au/look/evidence/2024/ocean-acidification/source.md
+- Raw file: https://cantexplain.au/evidence/2024/ocean-acidification/source.md
+
 ## On time, on budget
 - URL: https://cantexplain.au/hall/on-time-on-budget
 - Person: Harriet Shing
@@ -258,7 +268,7 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/oppression-putting-us-through
 - Person: Pauline Hanson
 - Type: speech
-- Claim: We’re just fighting against the oppression and racism that they’re putting us through and we’re making a change against all these racists and deranged people all throughout Australia.
+- Claim: We’re just fighting against the oppression and racism that they’re putting us through.
 - Caption: Oppression arrived fully formed. The incident did not.
 - Source: https://www.abc.net.au/news/2026-08-13/one-nation-students-protest-pauline-hanson/107033644 (2026-08-13)
 - Evidence: https://cantexplain.au/look/evidence/2026/oppression-putting-us-through/source.md
@@ -274,15 +284,25 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2014/promise-peter/source.md
 - Raw file: https://cantexplain.au/evidence/2014/promise-peter/source.md
 
-## Those kinds of choices
+## Rights will be taken
 - URL: https://cantexplain.au/hall/rights-will-be-taken
 - Person: Pauline Hanson
 - Type: speech
-- Claim: People of a different race shouldn’t lose their rights. And queer people have already had a lot of issues with fighting for their rights, and if that gets taken away too, that’s not OK.
+- Claim: People of a different race shouldn’t lose their rights, and if that gets taken away too, that’s not OK.
 - Caption: The rights were going. The bill was not produced.
 - Source: https://www.theguardian.com/australia-news/2026/aug/13/australia-student-rally-anti-hanson-protests-sydney-brisbane-melbourne-ntwnfb (2026-08-13)
 - Evidence: https://cantexplain.au/look/evidence/2026/rights-will-be-taken/source.md
 - Raw file: https://cantexplain.au/evidence/2026/rights-will-be-taken/source.md
+
+## Sea levels are rising
+- URL: https://cantexplain.au/hall/sea-levels-are-rising
+- Person: Torres Strait Regional Authority
+- Type: climate
+- Claim: Low-lying inhabited islands will be lost to sea level rise.
+- Caption: Twenty-two centimetres in a century. The atolls kept a different ledger.
+- Source: https://www.tsra.gov.au/the-torres-strait/climate-change/ (2025-02-05)
+- Evidence: https://cantexplain.au/look/evidence/2025/sea-levels-are-rising/source.md
+- Raw file: https://cantexplain.au/evidence/2025/sea-levels-are-rising/source.md
 
 ## Three million homes for a week
 - URL: https://cantexplain.au/hall/three-million-homes
@@ -298,7 +318,7 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/three-times-the-cost
 - Person: Daniel Andrews
 - Type: money
-- Claim: What's become clear is that the cost of hosting these Games in 2026 is not the $2.6 billion which was budgeted and allocated.
+- Claim: The cost of hosting these Games is three times the cost estimated and budgeted.
 - Caption: They signed the low number. They cancelled on the high one. The auditor sat in the middle.
 - Source: https://www.abc.net.au/news/2023-07-18/commonwealth-games-regional-victoria-scrapped-daniel-andrews/102613718 (2023-07-18)
 - Evidence: https://cantexplain.au/look/evidence/2023/three-times-the-cost/source.md
@@ -308,7 +328,7 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/two-billion
 - Person: Malcolm Turnbull
 - Type: money
-- Claim: The Federal Government has announced a $2 billion intervention in Australia's electricity supply debate, by expanding the Snowy Mountains hydro scheme.
+- Claim: A $2 billion expansion of the Snowy Mountains hydro scheme.
 - Caption: The first number was a thought. The mountain kept the invoice.
 - Source: https://www.abc.net.au/news/2017-03-16/snowy-hydro-scheme-funding-boost-to-secure-electricity-supply/8358502 (2017-03-16)
 - Evidence: https://cantexplain.au/look/evidence/2017/two-billion/source.md
@@ -328,17 +348,17 @@ Do not treat captions as facts about the person named.
 - URL: https://cantexplain.au/hall/two-hotels
 - Person: Daniel Andrews
 - Type: health
-- Claim: It is likely that a high proportion, approximately 99 per cent of current cases of COVID-19 in Victoria have arisen from Rydges or Stamford.
+- Claim: Approximately 99 per cent of current cases in Victoria have arisen from Rydges or Stamford.
 - Caption: The wall was a hotel. The genome counted two of them.
 - Source: https://www.abc.net.au/news/2020-08-18/victoria-covid-crisis-traced-back-to-seven-travellers-inquiry/12568408 (2020-08-18)
 - Evidence: https://cantexplain.au/look/evidence/2020/two-hotels/source.md
 - Raw file: https://cantexplain.au/evidence/2020/two-hotels/source.md
 
-## Two meters, one slogan
+## Cheapest new electricity
 - URL: https://cantexplain.au/hall/two-meters-one-slogan
 - Person: Chris Bowen
 - Type: climate
-- Claim: GenCost is clear; renewables remain the cheapest new electricity, and firming them with battery storage, transmission, hydro and a small amount of gas peaking is the best way to keep the lights on and put downward pressure on bills.
+- Claim: Renewables remain the cheapest new electricity.
 - Caption: GenCost is a new-build number. The fridge is a different meter.
 - Source: https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-renewables-lead-australias-cheapest-energy-source (2025-12-17)
 - Evidence: https://cantexplain.au/look/evidence/2025/two-meters-one-slogan/source.md

@@ -1,6 +1,6 @@
 ---
 title: "Two hotels"
-claim: "It is likely that a high proportion, approximately 99 per cent of current cases of COVID-19 in Victoria have arisen from Rydges or Stamford."
+claim: "Approximately 99 per cent of current cases in Victoria have arisen from Rydges or Stamford."
 caption: "The wall was a hotel. The genome counted two of them."
 status: featured
 example: false

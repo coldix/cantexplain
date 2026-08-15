@@ -1,6 +1,6 @@
 ---
 title: "Decreases transmission"
-claim: "The more people that we vaccinate and the higher that vaccination rate in that wider community, it decreases transmission in the community."
+claim: "The more people we vaccinate, it decreases transmission in the community."
 caption: "The TGA listed transmission under unknowns. The minister listed it as the switch."
 status: featured
 example: false

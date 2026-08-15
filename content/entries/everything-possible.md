@@ -1,6 +1,6 @@
 ---
-title: "Everything possible"
-claim: "By vaccinating their children against COVID-19 they have done everything possible to keep their child safe from this virus."
+title: "Everything possible to keep their child safe"
+claim: "By vaccinating their children they have done everything possible to keep their child safe from this virus."
 caption: "Everything possible. Safe from this virus. The trial never wrote that sentence."
 status: featured
 example: false

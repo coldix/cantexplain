@@ -1,6 +1,6 @@
 ---
-title: "Ten lies, one list"
-claim: "Albo Lied about: Immigration Levels • Energy Prices • Isis Brides coming back into the country • Medicare and Bulk Billing • Axed Stage 3 Tax Cuts • Changes to Capital Gains Tax • Voice to Parliament • Changes to negative gearing • $275 reduction in electricity prices • Falling off a stage"
+title: "Albo Lied"
+claim: "Albo Lied about immigration, energy prices, $275 bills and falling off a stage."
 caption: "A $275 promise, a tax backflip, and a trip over a step. Same label for all three."
 status: featured
 example: false
