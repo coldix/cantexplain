@@ -224,6 +224,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2021/ninety-five-per-cent/source.md
 - Raw file: https://cantexplain.au/evidence/2021/ninety-five-per-cent/source.md
 
+## No carbon tax
+- URL: https://cantexplain.au/hall/no-carbon-tax
+- Person: Julia Gillard
+- Type: climate
+- Claim: There will be no carbon tax under the government I lead.
+- Caption: The sentence was no. Then she said the fixed price worked like a tax.
+- Source: https://www.smh.com.au/national/pm-says-no-carbon-tax-under-her-govt-20100816-126ru.html (2010-08-16)
+- Evidence: https://cantexplain.au/look/evidence/2010/no-carbon-tax/source.md
+- Raw file: https://cantexplain.au/evidence/2010/no-carbon-tax/source.md
+
 ## Not a publicity stunt
 - URL: https://cantexplain.au/hall/not-a-publicity-stunt
 - Person: Greta Thunberg
