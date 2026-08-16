@@ -224,6 +224,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2020/if-youre-well/source.md
 - Raw file: https://cantexplain.au/evidence/2020/if-youre-well/source.md
 
+## Professor of Indigenous Agriculture
+- URL: https://cantexplain.au/hall/indigenous-agriculture-professor
+- Person: University of Melbourne
+- Type: speech
+- Claim: Bruce Pascoe has joined the University of Melbourne as Melbourne Enterprise Professor in Indigenous Agriculture.
+- Caption: A chair in a subject the same university’s press was about to say did not happen.
+- Source: https://science.unimelb.edu.au/about/news/bruce-pascoe-appointed-enterprise-professor-in-indigenous-agriculture (2020-09-02)
+- Evidence: https://cantexplain.au/look/evidence/2020/indigenous-agriculture-professor/source.md
+- Raw file: https://cantexplain.au/evidence/2020/indigenous-agriculture-professor/source.md
+
 ## Land-based run-off is the greatest contributor
 - URL: https://cantexplain.au/hall/land-based-run-off
 - Person: Great Barrier Reef Marine Park Authority
@@ -273,6 +283,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www.bbc.com/news/articles/cx25grpxzd3o (2025-09-28)
 - Evidence: https://cantexplain.au/look/evidence/2025/not-a-publicity-stunt/source.md
 - Raw file: https://cantexplain.au/evidence/2025/not-a-publicity-stunt/source.md
+
+## Not hunter-gatherers
+- URL: https://cantexplain.au/hall/not-hunter-gatherers
+- Person: Bruce Pascoe
+- Type: speech
+- Claim: Dark Emu argues for a reconsideration of the hunter-gatherer tag for pre-colonial Aboriginal Australians.
+- Caption: The tag was the problem. The explorer’s ‘village’ was nineteen huts, not all year.
+- Source: https://www.magabala.com/products/dark-emu (2014-03-01)
+- Evidence: https://cantexplain.au/look/evidence/2014/not-hunter-gatherers/source.md
+- Raw file: https://cantexplain.au/evidence/2014/not-hunter-gatherers/source.md
 
 ## Not in the curriculum
 - URL: https://cantexplain.au/hall/not-in-the-curriculum
@@ -443,3 +463,13 @@ Do not treat captions as facts about the person named.
 - Source: https://racismnoway.com.au/about-racism/understanding-racism/white-privilege/ (2021-03-19)
 - Evidence: https://cantexplain.au/look/evidence/2021/white-privilege/source.md
 - Raw file: https://cantexplain.au/evidence/2021/white-privilege/source.md
+
+## World’s first bakers
+- URL: https://cantexplain.au/hall/worlds-first-bakers
+- Person: Bruce Pascoe
+- Type: speech
+- Claim: Aboriginal people were the world’s first bakers and they invented bread.
+- Caption: A grindstone is a tool. Bread is a bakery. ABC Education sold the bakery.
+- Source: https://www.abc.net.au/education/digibooks/bruce-pascoe-aboriginal-agriculture-technology-and-ingenuity/101734320 (2022-12-06)
+- Evidence: https://cantexplain.au/look/evidence/2018/worlds-first-bakers/source.md
+- Raw file: https://cantexplain.au/evidence/2018/worlds-first-bakers/source.md
