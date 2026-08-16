@@ -1,6 +1,6 @@
 # Can’t Explain — full entry list for AI systems
 
-Generated 2026-08-15. Live cards only.
+Generated 2026-08-16. Live cards only.
 Summary guide: https://cantexplain.au/llms.txt
 Do not treat captions as facts about the person named.
 
@@ -244,6 +244,16 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2025/not-a-publicity-stunt/source.md
 - Raw file: https://cantexplain.au/evidence/2025/not-a-publicity-stunt/source.md
 
+## Not in the curriculum
+- URL: https://cantexplain.au/hall/not-in-the-curriculum
+- Person: Kathomi Gatwiri
+- Type: speech
+- Claim: Critical race theory is an academic framework that is not part of the Australian curriculum.
+- Caption: The name was not on the syllabus. The nouns were in the lesson.
+- Source: https://theconversation.com/the-senate-has-voted-to-reject-critical-race-theory-from-the-national-curriculum-what-is-it-and-why-does-it-matter-163102 (2021-06-22)
+- Evidence: https://cantexplain.au/look/evidence/2021/not-in-the-curriculum/source.md
+- Raw file: https://cantexplain.au/evidence/2021/not-in-the-curriculum/source.md
+
 ## Ocean acidification
 - URL: https://cantexplain.au/hall/ocean-acidification
 - Person: Bureau of Meteorology
@@ -373,3 +383,23 @@ Do not treat captions as facts about the person named.
 - Source: https://minister.dcceew.gov.au/bowen/media-releases/joint-media-release-renewables-lead-australias-cheapest-energy-source (2025-12-17)
 - Evidence: https://cantexplain.au/look/evidence/2025/two-meters-one-slogan/source.md
 - Raw file: https://cantexplain.au/evidence/2025/two-meters-one-slogan/source.md
+
+## Viewed as an invasion
+- URL: https://cantexplain.au/hall/viewed-as-an-invasion
+- Person: ACARA
+- Type: speech
+- Claim: Contact after the First Fleet was viewed by First Nations Australians as an invasion.
+- Caption: Year 4 essential knowledge. The word is invasion. The contest is in Year 9.
+- Source: https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/humanities-and-social-sciences/hass-f-6/humanities-and-social-sciences-hass-f-6-scope-and-sequence-v9.docx (2022-04-01)
+- Evidence: https://cantexplain.au/look/evidence/2022/viewed-as-an-invasion/source.md
+- Raw file: https://cantexplain.au/evidence/2022/viewed-as-an-invasion/source.md
+
+## White privilege
+- URL: https://cantexplain.au/hall/white-privilege
+- Person: NSW Department of Education
+- Type: speech
+- Claim: White privilege is the implicit societal advantages afforded to White people relative to those who experience racism.
+- Caption: A US knapsack, sold to Year 9 in an NSW lesson. The census never asked the question.
+- Source: https://racismnoway.com.au/about-racism/understanding-racism/white-privilege/ (2021-03-19)
+- Evidence: https://cantexplain.au/look/evidence/2021/white-privilege/source.md
+- Raw file: https://cantexplain.au/evidence/2021/white-privilege/source.md
