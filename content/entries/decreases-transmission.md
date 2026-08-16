@@ -2,7 +2,7 @@
 title: "Decreases transmission"
 claim: "The more people we vaccinate, it decreases transmission in the community."
 caption: "The TGA listed transmission under unknowns. The minister listed it as the switch."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:34:00+10:00
 person: Greg Hunt

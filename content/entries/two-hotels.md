@@ -2,7 +2,7 @@
 title: "Two hotels"
 claim: "Approximately 99 per cent of current cases in Victoria have arisen from Rydges or Stamford."
 caption: "The wall was a hotel. The genome counted two of them."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:37:00+10:00
 person: Daniel Andrews

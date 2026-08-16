@@ -25,7 +25,7 @@
 2. Original source URL + date
 3. Git-committed evidence file
 4. Short observational caption
-5. Status: draft (hidden) | published | featured
+5. Status: draft (hidden) | published. `featured` is a legacy alias of published. Homepage pin is loudness 1–10.
 
 ## Family
 
@@ -37,6 +37,8 @@
 
 - Home: https://cantexplain.au/
 - Hall (all live cards): https://cantexplain.au/hall
+- Hall by room: https://cantexplain.au/hall?type=speech
+- Hall by tag: https://cantexplain.au/hall?tag=education
 - Method: https://cantexplain.au/method
 - About / independence: https://cantexplain.au/about
 - FAQ: https://cantexplain.au/faq

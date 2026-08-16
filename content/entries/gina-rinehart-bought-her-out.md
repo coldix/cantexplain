@@ -2,7 +2,7 @@
 title: "Bought out by Gina"
 claim: "I think she’s bought out by Gina Rinehart, she’s bought out by coal industries."
 caption: "A puppet usually has strings. This one came with a rally and a first name."
-status: featured
+status: published
 example: false
 published: 2026-08-14T14:00:00+10:00
 person: Pauline Hanson

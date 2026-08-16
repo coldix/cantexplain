@@ -2,7 +2,7 @@
 title: "Albo Lied"
 claim: "Albo Lied about immigration, energy prices, $275 bills and falling off a stage."
 caption: "A $275 promise, a tax backflip, and a trip over a step. Same label for all three."
-status: featured
+status: published
 example: false
 published: 2026-08-14T22:03:00+10:00
 person: Anthony Albanese

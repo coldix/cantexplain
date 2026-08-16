@@ -2,7 +2,7 @@
 title: "Rights will be taken"
 claim: "People of a different race shouldn’t lose their rights, and if that gets taken away too, that’s not OK."
 caption: "The rights were going. The bill was not produced."
-status: featured
+status: published
 example: false
 published: 2026-08-14T14:02:00+10:00
 person: Pauline Hanson

@@ -2,7 +2,7 @@
 title: "All the benefits"
 claim: "Regional Victoria will still receive all the benefits that would have been facilitated by the Games."
 caption: "All the benefits. The committee found a plan. Homes Victoria counted upgrades."
-status: featured
+status: published
 example: false
 published: 2026-08-15T16:04:00+10:00
 person: Jacinta Allan

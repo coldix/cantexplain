@@ -11,8 +11,8 @@ import sitemap from "@astrojs/sitemap";
  * rendering (SSR, server islands, sessions). This site is a content collection
  * with optional client filters — same family pattern as electiontracker.au.
  *
- * Deploy is an assets-only Worker via wrangler.jsonc (Workers Builds). See
- * docs/BRIEF.md § stack decision and README.md.
+ * Deploy is wrangler.jsonc: static dist/ plus worker/index.ts for /api/admin*.
+ * See docs/DEPLOY.md.
  */
 export default defineConfig({
   site: "https://cantexplain.au",

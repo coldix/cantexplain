@@ -2,7 +2,7 @@
 title: "On time, on budget"
 claim: "SRL East was running on time and on budget."
 caption: "The independent evaluator had low confidence in the number. The minister had high confidence in the slogan."
-status: featured
+status: published
 example: false
 published: 2026-08-14T23:05:00+10:00
 person: Harriet Shing

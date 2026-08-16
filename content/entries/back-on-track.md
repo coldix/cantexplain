@@ -2,7 +2,7 @@
 title: "Back on track"
 claim: "New management will put Snowy 2.0 back on track."
 caption: "On track was a reset. The auditor could not find the rails."
-status: featured
+status: published
 example: false
 published: 2026-08-15T17:04:00+10:00
 person: Chris Bowen

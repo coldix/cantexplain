@@ -2,7 +2,7 @@
 title: "Green zones to 33 per cent"
 claim: "Green zones where fishing is not allowed expanded from five per cent of the Marine Park to 33 per cent."
 caption: "A third of the park went quiet. The cover still tracked the storms."
-status: featured
+status: published
 example: false
 published: 2026-08-15T18:04:00+10:00
 person: Great Barrier Reef Marine Park Authority

@@ -18,7 +18,7 @@ source:
   quote: "Bruce Pascoe states that Aboriginal people were the world's first bakers and that they invented bread."
 evidence:
   path: 2018/worlds-first-bakers/source.md
-  kind: html
+  kind: note
   captured: "2026-08-16"
 ---
 

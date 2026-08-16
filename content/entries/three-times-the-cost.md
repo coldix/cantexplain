@@ -2,7 +2,7 @@
 title: "Three times the cost"
 claim: "The cost of hosting these Games is three times the cost estimated and budgeted."
 caption: "They signed the low number. They cancelled on the high one. The auditor sat in the middle."
-status: featured
+status: published
 example: false
 published: 2026-08-15T16:02:00+10:00
 person: Daniel Andrews

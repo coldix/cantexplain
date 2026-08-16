@@ -2,7 +2,7 @@
 title: "500,000 homes"
 claim: "The project will act as a giant 2,000 megawatt battery in the centre of the National Energy Market, providing enough power for 500,000 homes."
 caption: "A megawatt is a tap. A week of homes is a tank. The slogan used both as one number."
-status: featured
+status: published
 example: false
 published: 2026-08-15T17:02:00+10:00
 person: Malcolm Turnbull

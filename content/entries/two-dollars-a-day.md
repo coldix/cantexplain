@@ -2,7 +2,7 @@
 title: "Two dollars a day"
 claim: "Gina Rinehart was pushing for Australian workers to work for two dollars a day."
 caption: "The 2012 sentence was about African wages. The 2026 slogan put it on an Australian payslip."
-status: featured
+status: published
 example: false
 published: 2026-08-14T23:25:00+10:00
 person: Gina Rinehart

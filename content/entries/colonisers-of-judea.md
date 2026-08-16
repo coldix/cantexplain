@@ -2,7 +2,7 @@
 title: "Colonisers of Judea"
 claim: "Israel’s settler-colonial occupation."
 caption: "Coloniser usually means you arrived from somewhere else. Judea is the name of the place they are accused of arriving in."
-status: featured
+status: published
 example: false
 published: 2026-08-14T22:25:00+10:00
 person: Palestine Action Group Sydney

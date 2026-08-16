@@ -1,9 +1,9 @@
 # AI pipeline — collect, draft, hand off
 
 **Author:** Colin Dixon  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-16
 
-**Status:** specified, not wired. This scaffold stops before automation, as requested. Humans publish. Models may fetch and draft.
+**Status:** specified, not wired. Humans publish. Models may fetch and draft.
 
 The point of the pipeline is low ongoing maintenance without turning the hall into an unsupervised slur generator. Election Tracker already treats “no source, no row” as a build failure. Can’t Explain should treat “no source, no card” the same way.
 
@@ -18,7 +18,7 @@ The point of the pipeline is low ongoing maintenance without turning the hall in
 | Reviewer | Colin Dixon (human) | Edit, reject, or publish |
 | Publisher | human + git | Flip `status`, commit evidence, merge |
 
-A model never writes `status: published` or `status: featured`. `scripts/validate-entries.mjs` should, once wired, reject that from an AI commit if we ever stamp drafts.
+A model never writes `status: published`. `scripts/validate-entries.mjs` should, once wired, reject that from an AI commit if we ever stamp drafts.
 
 ---
 
@@ -39,7 +39,7 @@ watch list  →  fetch  →  extract claim  →  capture evidence
 Inputs (to be added under `scripts/` later, not in this pass):
 
 - A small watch list: outlets, search queries, parliament transcripts, named social accounts.
-- Launch queries around Hanson Derangement Syndrome, “Gina’s puppet”, and certainty-without-sources more broadly.
+- Watch queries around official slogans (health, climate, money, speech), not a single tribe.
 - Dedup against existing `source.url` values.
 
 Outputs: a JSON candidate in `tmp/` or `scripts/inbox/` (gitignored), never a live entry.
@@ -98,7 +98,7 @@ Human review is a page, not a vibe:
 2. Open the evidence file. Is it the same thing?
 3. Read the caption aloud. Does it still work if you vote the other way?
 4. Check person, tags, `claimType`.
-5. Either `status: published` (or `featured`) or delete / leave as draft.
+5. Either `status: published` or delete / leave as draft.
 6. Commit **evidence first**, then the entry, or both in one commit. Do not publish a card whose file is uncommitted.
 
 `npm run new` already scaffolds the pair of files. `npm run validate` already refuses to build published entries with a missing source or missing evidence file.
@@ -126,7 +126,7 @@ Phase 2 in [ROADMAP.md](./ROADMAP.md) is a *moderated* submission form, not an o
 | `scripts/draft.mjs` | Candidate + capture → draft Markdown |
 | `scripts/inbox-report.mjs` | Print a review queue for the owner |
 
-None of these exist yet. Do not add them until the content model and tone have been used on real entries.
+None of these exist yet. The content model and tone are already in use on the live hall.
 
 ---
 

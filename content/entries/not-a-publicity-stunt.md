@@ -2,7 +2,7 @@
 title: "Not a publicity stunt"
 claim: "I don't think anyone would risk their life for a publicity stunt."
 caption: "The siege-breaking cargo was 250 kilos of rice and 100 of flour. The cameras were heavier."
-status: featured
+status: published
 example: false
 published: 2026-08-14T22:50:00+10:00
 person: Greta Thunberg

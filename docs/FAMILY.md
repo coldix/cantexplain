@@ -1,7 +1,7 @@
 # Family — Ministry of Doubt, Election Tracker, Oze
 
 **Author:** Colin Dixon  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-16
 
 Can’t Explain is not a standalone gag site. It is the fun, viral, claim-collection sibling in a small set of independent Australian public-interest projects by Colin Dixon / Oze. The family shares values and a design temperament. Each member has a different job.
 
@@ -39,7 +39,7 @@ These are non-negotiable across the family. A Can’t Explain entry that violate
 3. **Checkable sources.** Original URL + date. Prefer a file in this repo so the timestamp is ours and public.
 4. **Git as a public record.** History is part of the product — same instinct as electiontracker.au.
 5. **Australian voice, not a franchise of someone else’s culture war.**
-6. **Fair process.** The same rules apply to every target. Launch themes are Hanson-heavy; the standard is not.
+6. **Fair process.** The same rules apply to every target. Early cards were Hanson-heavy; the standard is not.
 7. **Narrowness.** Each site does one job well. Do not turn Can’t Explain into a second Ministry, or the Ministry into a punchline.
 
 ---

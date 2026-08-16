@@ -2,7 +2,7 @@
 title: "Everything possible to keep their child safe"
 claim: "By vaccinating their children they have done everything possible to keep their child safe from this virus."
 caption: "Everything possible. Safe from this virus. The trial never wrote that sentence."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:35:00+10:00
 person: Greg Hunt

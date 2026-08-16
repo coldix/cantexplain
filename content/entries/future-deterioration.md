@@ -2,7 +2,7 @@
 title: "Outlook of future deterioration"
 claim: "The overall outlook for the Great Barrier Reef remains one of future deterioration due largely to climate change."
 caption: "The outlook was a one-way arrow. The cover series was a bounce."
-status: featured
+status: published
 example: false
 published: 2026-08-15T18:00:00+10:00
 person: Great Barrier Reef Marine Park Authority

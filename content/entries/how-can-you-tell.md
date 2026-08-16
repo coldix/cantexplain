@@ -2,7 +2,7 @@
 title: "How can you tell there are good Muslims"
 claim: "How can you tell me there are good Muslims?"
 caption: "The slogan dropped the question mark. The interview kept the ISIS brides."
-status: featured
+status: published
 example: false
 published: 2026-08-14T23:40:00+10:00
 person: Pauline Hanson

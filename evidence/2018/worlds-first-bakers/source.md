@@ -6,7 +6,7 @@
 - **Date on page:** published 2022-12-06 (digibook); Pascoe’s “invented bread” line is older (2018 talks)
 - **Publisher:** ABC Education
 - **Captured:** 2026-08-16
-- **Method:** saved HTML (`abc-education.html`, `conversation-sutton-2021.html`)
+- **Method:** same ABC Education and Conversation captures as `evidence/2014/not-hunter-gatherers/` (`abc-education.html`, `conversation-sutton-2021.html`). Not copied twice.
 
 ## Verbatim (ABC Education)
 

@@ -2,7 +2,7 @@
 title: "Hospitals and schools"
 claim: "I will not take money out of hospitals and schools to host an event that is three times the cost estimated and budgeted for last year."
 caption: "The money that did leave was $589 million. Glasgow ran on the settlement."
-status: featured
+status: published
 example: false
 published: 2026-08-15T16:03:00+10:00
 person: Daniel Andrews

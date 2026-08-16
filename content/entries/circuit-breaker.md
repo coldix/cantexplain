@@ -2,7 +2,7 @@
 title: "Short, sharp circuit-breaker"
 claim: "Victoria will enter a short, sharp circuit-breaker lockdown for five days… to avoid a longer lockdown in the future."
 caption: "Five days, to avoid a longer one. The city clocked 262."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:32:00+10:00
 person: Daniel Andrews

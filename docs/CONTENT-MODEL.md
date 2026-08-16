@@ -1,7 +1,7 @@
 # Content model — Entry
 
 **Author:** Colin Dixon  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-16
 
 An **entry** is one ridiculous claim, pinned to a source and a receipt. It is not an essay, a news story, or a dunk thread. The unit of work is: *here is the accusation, here is where it was made, here is the file we kept, here is the one-line observation*.
 
@@ -9,7 +9,7 @@ Collection path: `content/entries/*.md` (or `.mdx`).
 Schema: `src/content.config.ts`.  
 Public URL: `/hall/<slug>` (slug = filename without extension).
 
-Drafts are built but **not listed**. Featured entries pin to the homepage. `example: true` marks the scaffold format cards so they can be retired without hunting.
+Drafts are built but **not listed**. `featured` is a legacy alias of published — the homepage pin is `loudness`. `example: true` is leftover for old format demos; do not use it on new cards.
 
 ---
 
@@ -37,7 +37,7 @@ Drafts are built but **not listed**. Featured entries pin to the homepage. `exam
 
 | Field | Type | Notes |
 |---|---|---|
-| `example` | boolean | Default `false`. Scaffold / format demos set this `true`. |
+| `example` | boolean | Default `false`. Unused on live cards. |
 | `source.title` | string | Headline or post title. |
 | `source.quote` | string | Verbatim excerpt if the claim field is a paraphrase. |
 | `evidence.archiveUrl` | URL | archive.org / archive.is / similar. |
@@ -75,8 +75,8 @@ How far the slogan travelled. **Not** a Google hit-count (those numbers are not 
 | 5 | Rally, campus, or one interview that travelled |
 | 4 | Niche but sourced |
 | 3 | Thin circulation |
-| 2 | Format example |
-| 1 | Draft / unused |
+| 2 | Thin / unused |
+| 1 | Draft |
 
 Homepage pins the loudest live cards. The hall can filter by band.
 
@@ -102,7 +102,7 @@ Tags are how a card sits in more than one series. The hall lookup is `/hall?tag=
 Always include:
 
 - a **person** tag (`hanson`, `rinehart`, `pascoe`, …)
-- a **theme** tag matching launch language where it applies (`hds`, `ginas-puppet`, `no-evidence-required`, `crt`, `dark-emu`)
+- a **theme** tag for the series (`crt`, `dark-emu`, `covid`, `gbr`, `snowy`)
 - a **series** tag when the slogan was taught or is about the past (`education`, `history`)
 - the **year** as a tag as well as the `year` field (`2024`)
 
@@ -137,36 +137,9 @@ See `evidence/README.md`.
 
 ---
 
-## Example (scaffold)
+## Example
 
-```yaml
----
-title: "Format example — Gina’s puppet"
-claim: "She’s just Gina Rinehart’s puppet."
-caption: "A puppet usually has strings. This one came with a vibe and a headline."
-status: published
-example: true
-published: 2026-08-14
-person: Pauline Hanson
-claimType: puppet
-year: 2024
-tags: [hanson, rinehart, ginas-puppet, 2024, format-example]
-source:
-  url: https://example.com/format-example-gina-puppet
-  date: 2024-03-12
-  publisher: Format Example Desk
-  title: "Someone on the internet settled it"
-  quote: "She’s just Gina Rinehart’s puppet."
-evidence:
-  path: 2024/format-gina-puppet/source.md
-  kind: note
-  captured: 2026-08-14
----
-
-This card exists so the template can be reviewed. Replace it with a real, sourced entry.
-```
-
-Three labelled format examples ship in `content/entries/` covering the launch themes. They are not the launch set.
+See any live file in `content/entries/` — for instance `no-carbon-tax.md` or `not-hunter-gatherers.md`.
 
 ---
 
@@ -181,7 +154,7 @@ That writes a draft Markdown file and an `evidence/<year>/<slug>/` stub. Then:
 1. Put the capture in `evidence/<year>/<slug>/`.
 2. Fill every required field. Paste a real `source.url`.
 3. Write a caption that would survive being read aloud by someone who disagrees with you.
-4. Flip `status` to `published` (or `featured`) only after a human has checked the source and the file.
+4. Flip `status` to `published` only after a human has checked the source and the file.
 5. `npm run validate` then `npm run dev` and read the card on `/hall`.
 
 AI may draft. AI may not publish. See [AI-PIPELINE.md](./AI-PIPELINE.md).

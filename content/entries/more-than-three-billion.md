@@ -2,7 +2,7 @@
 title: "More than $3 billion"
 claim: "It is estimated the 2026 Commonwealth Games will contribute more than $3 billion to Victoria’s economy."
 caption: "The benefit was a range. The slogan was a floor."
-status: featured
+status: published
 example: false
 published: 2026-08-15T16:01:00+10:00
 person: Daniel Andrews

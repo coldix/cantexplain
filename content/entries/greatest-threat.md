@@ -2,7 +2,7 @@
 title: "The greatest threat"
 claim: "Climate change remains the greatest threat to the Great Barrier Reef."
 caption: "Greatest is a ranking. The cover series kept naming cyclones and starfish."
-status: featured
+status: published
 example: false
 published: 2026-08-15T18:02:00+10:00
 person: Great Barrier Reef Marine Park Authority

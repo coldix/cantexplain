@@ -2,7 +2,7 @@
 title: "1.5 metres"
 claim: "To stop the spread, stay 1.5m from others."
 caption: "The tape measure was for droplets. The slogan was for the virus."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:31:00+10:00
 person: Greg Hunt

@@ -4,9 +4,8 @@ import EntryCard from "../components/EntryCard.astro";
 import { SITE, FAMILY } from "../lib/site";
 import { loudestEntries, liveEntries } from "../lib/entries";
 
-const featured = await loudestEntries(8);
+const loudest = await loudestEntries(8);
 const total = (await liveEntries()).length;
-const examples = featured.every((e) => e.data.example);
 
 const schema = [
   {
@@ -46,7 +45,7 @@ const schema = [
         acceptedAnswer: {
           "@type": "Answer",
           text:
-            "No. Launch themes are Hanson-heavy because that is where the pattern is loud. " +
+            "No. Some cards name Hanson because that is where the pattern is loud. " +
             "The same rules apply to every figure. The hall files the gap, not a vote.",
         },
       },
@@ -81,19 +80,10 @@ const schema = [
   </section>
 
   <section class="wrap section pin">
-    <p class="eyebrow">{examples ? "How a card will look" : "Loudest"}</p>
-    <h2>{examples ? "Format examples — not the launch set" : "The slogans that travelled"}</h2>
-    {
-      examples && (
-        <p class="muted intro">
-          These three cards exist so the templates can be reviewed. They are labelled
-          format examples and will be replaced by sourced entries before launch. {total}{" "}
-          {total === 1 ? "card" : "cards"} in the hall today.
-        </p>
-      )
-    }
+    <p class="eyebrow">Loudest</p>
+    <h2>The slogans that travelled</h2>
     <div class="grid">
-      {featured.map((entry) => <EntryCard entry={entry} />)}
+      {loudest.map((entry) => <EntryCard entry={entry} />)}
     </div>
     <p class="more-row">
       <a href="/hall">All {total} cards in the hall</a>
@@ -120,8 +110,8 @@ const schema = [
       </li>
     </ol>
     <p>
-      Launch themes: Hanson Derangement Syndrome, “Gina’s Puppet”, and “No Evidence Required”
-      — then anything else that fits the same shape.
+      Rooms are health, climate, money, and speech. Series such as education or history
+      live on tags. The hall is open to any figure who attracts the same shape of claim.
     </p>
   </section>
 

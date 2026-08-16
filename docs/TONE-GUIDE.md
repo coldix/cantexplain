@@ -1,7 +1,7 @@
 # Tone guide
 
 **Author:** Colin Dixon  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-16
 
 Can’t Explain is observational, slightly exaggerated, receipt-first humour. Australian. Dry. In the spirit of the *Please Explain* cartoons — not a shoutcast, not a sermon.
 

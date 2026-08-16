@@ -2,7 +2,7 @@
 title: "Three million homes for a week"
 claim: "Snowy 2.0 is a critical project to Australia’s energy future – providing enough renewable energy and storage to power three million homes for a week."
 caption: "The house-count grew. The tank did not. The week assumes a full dam and an empty grid."
-status: featured
+status: published
 example: false
 published: 2026-08-15T17:03:00+10:00
 person: Chris Bowen

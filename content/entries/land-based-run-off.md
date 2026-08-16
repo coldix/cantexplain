@@ -2,7 +2,7 @@
 title: "Land-based run-off is the greatest contributor"
 claim: "Land-based run-off remains the greatest contributor to poor water quality on the inshore Reef."
 caption: "The Authority ranked the farms. The Senate heard the cyclones."
-status: featured
+status: published
 example: false
 published: 2026-08-15T18:03:00+10:00
 person: Great Barrier Reef Marine Park Authority

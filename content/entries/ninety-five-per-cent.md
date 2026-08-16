@@ -2,7 +2,7 @@
 title: "95 per cent"
 claim: "The Pfizer vaccine will prevent symptomatic COVID-19 in 95 per cent of recipients."
 caption: "The trial counted symptoms. The slogan counted immunity. Transmission was listed under unknowns."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:30:00+10:00
 person: Therapeutic Goods Administration

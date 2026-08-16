@@ -2,7 +2,7 @@
 title: "The oppression they’re putting us through"
 claim: "We’re just fighting against the oppression and racism that they’re putting us through."
 caption: "Oppression arrived fully formed. The incident did not."
-status: featured
+status: published
 example: false
 published: 2026-08-14T14:01:00+10:00
 person: Pauline Hanson

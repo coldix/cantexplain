@@ -2,7 +2,7 @@
 title: "$2 billion"
 claim: "A $2 billion expansion of the Snowy Mountains hydro scheme."
 caption: "The first number was a thought. The mountain kept the invoice."
-status: featured
+status: published
 example: false
 published: 2026-08-15T17:00:00+10:00
 person: Malcolm Turnbull

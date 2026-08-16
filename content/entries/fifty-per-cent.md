@@ -2,7 +2,7 @@
 title: "50 per cent"
 claim: "Coral cover in the Great Barrier Reef has declined by 50 per cent in just 27 years."
 caption: "The paper that minted the 50 also named the storms. The slogan kept the fraction."
-status: featured
+status: published
 example: false
 published: 2026-08-15T18:01:00+10:00
 person: CSIRO

@@ -2,7 +2,7 @@
 title: "At least four years"
 claim: "The project would take at least four years to complete."
 caption: "Four years from a feasibility study. The mountain took a decade and did not file a finish date the auditor could use."
-status: featured
+status: published
 example: false
 published: 2026-08-15T17:01:00+10:00
 person: Malcolm Turnbull

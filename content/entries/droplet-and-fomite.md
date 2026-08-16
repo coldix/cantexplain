@@ -2,7 +2,7 @@
 title: "Droplet and fomite spread"
 claim: "Transmission of COVID-19 is primarily through droplet and fomite spread."
 caption: "Gravity in a few seconds. Then the outbreaks that did not fall."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:36:00+10:00
 person: Safe Airway Society

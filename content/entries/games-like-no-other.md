@@ -2,7 +2,7 @@
 title: "A Games like no other"
 claim: "A games like no other, exactly what we promised."
 caption: "The motto survived. The Games did not."
-status: featured
+status: published
 example: false
 published: 2026-08-15T16:00:00+10:00
 person: Daniel Andrews

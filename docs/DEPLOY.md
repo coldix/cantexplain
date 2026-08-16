@@ -1,7 +1,7 @@
 # Deployment
 
 **Author:** Colin Dixon  
-**Updated:** 2026-08-14
+**Updated:** 2026-08-16
 
 Same family path as electiontracker.au: an assets-only Worker on **Col@oze.com.au's Account**.
 
@@ -59,7 +59,7 @@ Private editor at `https://cantexplain.au/admin`. It commits to `coldix/cantexpl
    "ACCESS_AUD": "the-aud-tag-from-the-Access-app"
    ```
 
-2. Until Access is on those paths, `/admin` returns 401 from the Worker on purpose.
+2. Zero Trust Access is **not enabled** on this account yet (`access.api.error.not_enabled`). Until it is, and `ACCESS_AUD` / `ACCESS_TEAM_DOMAIN` are set, `/api/admin` stays 401 on purpose. The HTML for `/admin` still builds as a static page.
 
 3. After a save, run `npm run deploy` (or connect Workers Builds) so the public hall rebuilds.
 

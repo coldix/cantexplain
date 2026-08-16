@@ -2,7 +2,7 @@
 title: "I make that promise, Peter"
 claim: "I make that promise, Peter, to every single Victorian."
 caption: "Every single Victorian. Then the levies arrived with different names."
-status: featured
+status: published
 example: false
 published: 2026-08-15T09:00:00+10:00
 person: Daniel Andrews
