@@ -14,6 +14,26 @@ Do not treat captions as facts about the person named.
 - Evidence: https://cantexplain.au/look/evidence/2023/all-the-benefits/source.md
 - Raw file: https://cantexplain.au/evidence/2023/all-the-benefits/source.md
 
+## Antiracist discrimination
+- URL: https://cantexplain.au/hall/antiracist-discrimination
+- Person: Ibram X. Kendi
+- Type: speech
+- Claim: The only remedy to racist discrimination is antiracist discrimination.
+- Caption: Only. Then it went from a bestseller into the staff-development folder.
+- Source: https://www.penguin.co.uk/discover/articles/ibram-x-kendi-definition-of-antiracist (2019-08-13)
+- Evidence: https://cantexplain.au/look/evidence/2019/antiracist-discrimination/source.md
+- Raw file: https://cantexplain.au/evidence/2019/antiracist-discrimination/source.md
+
+## Aspects of whiteness
+- URL: https://cantexplain.au/hall/aspects-of-whiteness
+- Person: Smithsonian NMAAHC
+- Type: speech
+- Claim: Hard work, rational thinking and the nuclear family are aspects of whiteness.
+- Caption: A federal museum put it on a chart. Then it took the chart down and left the page up.
+- Source: https://www.newsweek.com/smithsonian-race-guidelines-rational-thinking-hard-work-are-white-values-1518333 (2020-07-17)
+- Evidence: https://cantexplain.au/look/evidence/2020/aspects-of-whiteness/source.md
+- Raw file: https://cantexplain.au/evidence/2020/aspects-of-whiteness/source.md
+
 ## Back on track
 - URL: https://cantexplain.au/hall/back-on-track
 - Person: Chris Bowen
@@ -113,6 +133,16 @@ Do not treat captions as facts about the person named.
 - Source: https://www2.gbrmpa.gov.au/50-years/timeline (2003-06-02)
 - Evidence: https://cantexplain.au/look/evidence/2003/five-to-thirty-three/source.md
 - Raw file: https://cantexplain.au/evidence/2003/five-to-thirty-three/source.md
+
+## Founding ideals were false
+- URL: https://cantexplain.au/hall/founding-ideals-were-false
+- Person: Nikole Hannah-Jones
+- Type: speech
+- Claim: Our founding ideals of liberty and equality were false when they were written.
+- Caption: A magazine essay. Then a K-12 curriculum. The fact-checker was on the cutting-room floor.
+- Source: https://www.nytimes.com/interactive/2019/08/14/magazine/black-history-american-democracy.html (2019-08-14)
+- Evidence: https://cantexplain.au/look/evidence/2019/founding-ideals-were-false/source.md
+- Raw file: https://cantexplain.au/evidence/2019/founding-ideals-were-false/source.md
 
 ## At least four years
 - URL: https://cantexplain.au/hall/four-years
@@ -253,6 +283,16 @@ Do not treat captions as facts about the person named.
 - Source: https://theconversation.com/the-senate-has-voted-to-reject-critical-race-theory-from-the-national-curriculum-what-is-it-and-why-does-it-matter-163102 (2021-06-22)
 - Evidence: https://cantexplain.au/look/evidence/2021/not-in-the-curriculum/source.md
 - Raw file: https://cantexplain.au/evidence/2021/not-in-the-curriculum/source.md
+
+## Not taught in schools
+- URL: https://cantexplain.au/hall/not-taught-in-schools
+- Person: Randi Weingarten
+- Type: speech
+- Claim: Critical race theory is not taught in elementary schools or high schools.
+- Caption: Law school only. Then the same conference booked the author of the classroom edition.
+- Source: https://www.aft.org/press/speeches/safe-and-welcoming-school-year-all (2021-07-06)
+- Evidence: https://cantexplain.au/look/evidence/2021/not-taught-in-schools/source.md
+- Raw file: https://cantexplain.au/evidence/2021/not-taught-in-schools/source.md
 
 ## Ocean acidification
 - URL: https://cantexplain.au/hall/ocean-acidification
