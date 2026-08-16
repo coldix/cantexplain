@@ -91,19 +91,22 @@ Four rooms. The missing receipt is the method, not a type.
 | `money` | Taxes, budgets, blowouts, timelines on a spend, $2 a day. |
 | `speech` | Claims about a person, tribe, or flotilla. The meter is a character, not a ledger. |
 
-Do not add left/right, truth, or lies. Those are teams and verdicts. Pick the loudest room when a card sits on a join (Snowy cost is money; Snowy “3 million homes” is climate).
+Do not add left/right, truth, lies, education, or history as rooms. Those are teams, verdicts, or series. A card lives in **one** room. Pick the loudest room when a card sits on a join (Snowy cost is money; Snowy “3 million homes” is climate; Dark Emu and CRT stay speech).
 
 Do not invent new `claimType` values in an entry. Extend the schema in `src/content.config.ts` and this doc together.
 
 ### Tags (conventions, not a closed list)
 
+Tags are how a card sits in more than one series. The hall lookup is `/hall?tag=education` (exact). The search box is free text, not a tag index.
+
 Always include:
 
-- a **person** tag (`hanson`, `rinehart`, …)
-- a **theme** tag matching launch language where it applies (`hds`, `ginas-puppet`, `no-evidence-required`)
+- a **person** tag (`hanson`, `rinehart`, `pascoe`, …)
+- a **theme** tag matching launch language where it applies (`hds`, `ginas-puppet`, `no-evidence-required`, `crt`, `dark-emu`)
+- a **series** tag when the slogan was taught or is about the past (`education`, `history`)
 - the **year** as a tag as well as the `year` field (`2024`)
 
-Useful extras: `media`, `social`, `parliament`, `donation`, `conspiracy`.
+Useful extras: `schools`, `curriculum`, `media`, `social`, `parliament`, `donation`, `conspiracy`.
 
 ---
 

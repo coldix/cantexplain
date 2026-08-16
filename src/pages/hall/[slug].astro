@@ -63,7 +63,9 @@ const schema = {
       <p class="eyebrow">
         <a href="/hall" data-no-popup>The hall</a>
         <span aria-hidden="true"> / </span>
-        {CLAIM_TYPE_LABEL[data.claimType]}
+        <a href={`/hall?type=${encodeURIComponent(data.claimType)}`} data-no-popup>
+          {CLAIM_TYPE_LABEL[data.claimType]}
+        </a>
       </p>
       <div class="pills">
         <span class="pill pill-featured" title={LOUDNESS_HINT[loud]}>Loudness {loud}</span>
@@ -112,7 +114,7 @@ const schema = {
           {
             data.tags.map((tag) => (
               <li>
-                <a class="pill pill-type" href={`/hall?q=${encodeURIComponent(tag)}`} data-no-popup>
+                <a class="pill pill-type" href={`/hall?tag=${encodeURIComponent(tag)}`} data-no-popup>
                   {tag}
                 </a>
               </li>

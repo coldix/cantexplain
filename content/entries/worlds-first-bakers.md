@@ -9,7 +9,7 @@ person: Bruce Pascoe
 claimType: speech
 year: 2022
 loudness: 7
-tags: [dark-emu, pascoe, abc, bread, schools, "2022"]
+tags: [dark-emu, pascoe, abc, bread, schools, education, history, "2022"]
 source:
   url: https://www.abc.net.au/education/digibooks/bruce-pascoe-aboriginal-agriculture-technology-and-ingenuity/101734320
   date: "2022-12-06"

@@ -9,7 +9,7 @@ person: Randi Weingarten
 claimType: speech
 year: 2021
 loudness: 8
-tags: [crt, aft, weingarten, schools, kendi, 1619, "2021"]
+tags: [crt, aft, weingarten, schools, kendi, 1619, education, "2021"]
 source:
   url: https://www.aft.org/press/speeches/safe-and-welcoming-school-year-all
   date: "2021-07-06"

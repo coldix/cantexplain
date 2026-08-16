@@ -9,7 +9,7 @@ person: ACARA
 claimType: speech
 year: 2022
 loudness: 8
-tags: [crt, acara, curriculum, invasion, first-nations, education, "2022"]
+tags: [crt, acara, curriculum, invasion, first-nations, education, history, "2022"]
 source:
   url: https://www.australiancurriculum.edu.au/content/dam/en/curriculum/ac-version-9/downloads/humanities-and-social-sciences/hass-f-6/humanities-and-social-sciences-hass-f-6-scope-and-sequence-v9.docx
   date: "2022-04-01"

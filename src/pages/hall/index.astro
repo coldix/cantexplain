@@ -3,7 +3,7 @@ import Base from "../../layouts/Base.astro";
 import EntryCard from "../../components/EntryCard.astro";
 import FilterBar from "../../components/FilterBar.astro";
 import { CLAIM_TYPE_LABEL } from "../../lib/site";
-import { liveEntries, uniqueSorted } from "../../lib/entries";
+import { liveEntries, seriesTags, uniqueSorted } from "../../lib/entries";
 
 const entries = await liveEntries();
 const people = uniqueSorted(entries.map((e) => e.data.person));
@@ -13,6 +13,7 @@ const types = typeValues.map((value) => ({
   value,
   label: CLAIM_TYPE_LABEL[value] ?? value,
 }));
+const tags = seriesTags(entries);
 ---
 
 <Base
@@ -27,18 +28,19 @@ const types = typeValues.map((value) => ({
     <p class="eyebrow">The hall</p>
     <h1>Ridiculous claims, with receipts</h1>
     <p class="lede">
-      Search the hall, or filter by person, room, year, and loudness. Rooms are health,
-      climate, money, and speech. The number is how far the slogan travelled, not a
+      Search the hall, or filter by person, room, year, loudness, and tag. Rooms are
+      health, climate, money, and speech — one room each. Education, history, and the
+      rest of a series live on tags. The number is how far the slogan travelled, not a
       verdict. Every live card has an original source and a file in git.
     </p>
 
-    <FilterBar people={people} types={types} years={years} count={entries.length} />
+    <FilterBar people={people} types={types} years={years} tags={tags} count={entries.length} />
 
     <div class="grid" id="hall-grid">
       {entries.map((entry) => <EntryCard entry={entry} />)}
     </div>
     <p class="notice" id="filter-empty" hidden>
-      Nothing in the hall matches that filter. Clear the search or pick another person.
+      Nothing in the hall matches that filter. Clear the search, or pick another room or tag.
     </p>
   </div>
 </Base>

@@ -9,7 +9,7 @@ person: NSW Department of Education
 claimType: speech
 year: 2021
 loudness: 7
-tags: [crt, white-privilege, nsw, education, racism-no-way, ipa, "2021"]
+tags: [crt, white-privilege, nsw, education, schools, racism-no-way, ipa, "2021"]
 source:
   url: https://racismnoway.com.au/about-racism/understanding-racism/white-privilege/
   date: "2021-03-19"

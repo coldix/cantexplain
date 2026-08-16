@@ -9,7 +9,7 @@ person: Kathomi Gatwiri
 claimType: speech
 year: 2021
 loudness: 7
-tags: [crt, curriculum, education, acara, hanson, ipa, "2021"]
+tags: [crt, curriculum, education, schools, acara, hanson, ipa, "2021"]
 source:
   url: https://theconversation.com/the-senate-has-voted-to-reject-critical-race-theory-from-the-national-curriculum-what-is-it-and-why-does-it-matter-163102
   date: "2021-06-22"

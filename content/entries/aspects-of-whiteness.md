@@ -9,7 +9,7 @@ person: Smithsonian NMAAHC
 claimType: speech
 year: 2020
 loudness: 8
-tags: [crt, smithsonian, whiteness, nmaahc, schools, "2020"]
+tags: [crt, smithsonian, whiteness, nmaahc, schools, education, "2020"]
 source:
   url: https://www.newsweek.com/smithsonian-race-guidelines-rational-thinking-hard-work-are-white-values-1518333
   date: "2020-07-17"

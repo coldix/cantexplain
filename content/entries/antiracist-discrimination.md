@@ -9,7 +9,7 @@ person: Ibram X. Kendi
 claimType: speech
 year: 2019
 loudness: 8
-tags: [crt, kendi, antiracism, schools, aft, "2019"]
+tags: [crt, kendi, antiracism, schools, aft, education, "2019"]
 source:
   url: https://www.penguin.co.uk/discover/articles/ibram-x-kendi-definition-of-antiracist
   date: "2019-08-13"

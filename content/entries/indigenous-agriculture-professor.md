@@ -9,7 +9,7 @@ person: University of Melbourne
 claimType: speech
 year: 2020
 loudness: 7
-tags: [dark-emu, pascoe, unimelb, agriculture, government, "2020"]
+tags: [dark-emu, pascoe, unimelb, agriculture, government, education, "2020"]
 source:
   url: https://science.unimelb.edu.au/about/news/bruce-pascoe-appointed-enterprise-professor-in-indigenous-agriculture
   date: "2020-09-02"

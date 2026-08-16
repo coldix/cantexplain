@@ -9,7 +9,7 @@ person: Nikole Hannah-Jones
 claimType: speech
 year: 2019
 loudness: 9
-tags: [crt, 1619, hannah-jones, nyt, pulitzer, schools, "2019"]
+tags: [crt, 1619, hannah-jones, nyt, pulitzer, schools, education, history, "2019"]
 source:
   url: https://www.nytimes.com/interactive/2019/08/14/magazine/black-history-american-democracy.html
   date: "2019-08-14"

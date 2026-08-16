@@ -38,3 +38,20 @@ export function evidenceHref(path: string) {
 export function uniqueSorted(values: string[]) {
   return [...new Set(values)].sort((a, b) => a.localeCompare(b, "en-AU"));
 }
+
+/** Theme tags for the hall lookup. Years and format scaffolds stay off the strip. */
+export function seriesTags(entries: Entry[], limit = 18) {
+  const counts = new Map<string, number>();
+  for (const entry of entries) {
+    for (const raw of entry.data.tags) {
+      const tag = String(raw);
+      if (/^\d{4}$/.test(tag) || tag === "format-example") continue;
+      counts.set(tag, (counts.get(tag) || 0) + 1);
+    }
+  }
+  return [...counts.entries()]
+    .filter(([, n]) => n >= 2)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "en-AU"))
+    .slice(0, limit)
+    .map(([tag, n]) => ({ tag, n }));
+}

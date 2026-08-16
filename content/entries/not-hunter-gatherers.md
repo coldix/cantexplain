@@ -9,7 +9,7 @@ person: Bruce Pascoe
 claimType: speech
 year: 2014
 loudness: 8
-tags: [dark-emu, pascoe, aboriginal, agriculture, schools, sutton, "2014"]
+tags: [dark-emu, pascoe, aboriginal, agriculture, schools, sutton, education, history, "2014"]
 source:
   url: https://www.magabala.com/products/dark-emu
   date: "2014-03-01"
