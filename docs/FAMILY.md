@@ -1,7 +1,7 @@
-# Family — Ministry of Doubt, Election Tracker, Oze
+# Family — Ministry of Doubt, Election Tracker, FixMap, Oze
 
 **Author:** Colin Dixon  
-**Updated:** 2026-08-16
+**Updated:** 2026-09-28
 
 Can’t Explain is not a standalone gag site. It is the fun, viral, claim-collection sibling in a small set of independent Australian public-interest projects by Colin Dixon / Oze. The family shares values and a design temperament. Each member has a different job.
 
@@ -22,6 +22,7 @@ Can’t Explain’s variation, used on the homepage and nowhere as a lecture:
 | [ministryofdoubt.com](https://ministryofdoubt.com) | Book and public face of a method: how an intelligent person distinguishes genuine conspiracy, institutional failure, incompetence, groupthink, incentives, propaganda and nonsense — without becoming programmable by either side. | Not a claim hall. Not a news desk. Working dossiers stay offline. |
 | [electiontracker.au](https://electiontracker.au) | Open, sourced, machine-readable Australian election ledger. Dates, candidates, parties, policies, polls. Git is the record. | Not a forecast. Not a how-to-vote. Not funny on purpose. |
 | **cantexplain.au** | Hall of low-evidence, high-emotion accusations, each pinned to a source and a Git-timestamped receipt, presented with observational humour. | Not a daily paper. Not a campaign. Not the book. |
+| [fixmap.au](https://fixmap.au/) | Spot it. Map it. Fix it. A free public map of local problems across Australia (potholes, broken footpaths, dumped rubbish, flooded roads), so councils can see them and everyone can see when they’re fixed. | Not a council or a government agency. No app to install. |
 | [ozeunleashed.substack.com](https://ozeunleashed.substack.com) | Essays and longer commentary. | Not a structured ledger. |
 | [oze.au](https://oze.au) / [oze.net.au](https://oze.net.au) | Publisher / studio mark. | Not the editorial voice of any one site. |
 | [ozol.com](https://ozol.com) | Author profile. | Not a project homepage. |
@@ -71,7 +72,7 @@ Distinct on purpose:
 
 **Always**
 
-- Footer “Elsewhere” lists Ministry of Doubt, Election Tracker, and Oze Unleashed.
+- Footer “Elsewhere” lists Ministry of Doubt, Election Tracker, FixMap, and Oze Unleashed.
 - About page has one short family paragraph and a link to this document’s public cousin (`/about#family`).
 - Homepage has **one** sentence that situates the site next to the Ministry line, then gets on with the hall.
 

@@ -18,7 +18,7 @@ A receipt-first hall of loud claims: one slogan, the original source, a Git-time
 **Tone & family:**
 
 - Observational, slightly exaggerated, receipt-first humour (in the spirit of the *Please Explain* cartoons).
-- Family of [ministryofdoubt.com](https://ministryofdoubt.com), [electiontracker.au](https://electiontracker.au), [ozeunleashed.substack.com](https://ozeunleashed.substack.com).
+- Family of [ministryofdoubt.com](https://ministryofdoubt.com), [electiontracker.au](https://electiontracker.au), [fixmap.au](https://fixmap.au/), [ozeunleashed.substack.com](https://ozeunleashed.substack.com).
 - Cross-link where natural. Shared habit: evidence over vibe.
 
 See [FAMILY.md](./FAMILY.md) and [TONE-GUIDE.md](./TONE-GUIDE.md).
@@ -49,7 +49,7 @@ Deploy: [DEPLOY.md](./DEPLOY.md).
 - Fast, shareable, mobile-first hall with receipts.
 - One room per card (health, climate, money, speech). Series on tags.
 - Low maintenance: `npm run new`, validate, deploy. Admin for edits.
-- Family membership with Ministry of Doubt and Election Tracker.
+- Family membership with Ministry of Doubt, Election Tracker and FixMap.
 
 **Non-goals**
 

@@ -8,7 +8,7 @@ A receipt-first hall of loud claims. Each card is one slogan, the original sourc
 
 > The claim was loud. The evidence was not.
 
-Sibling of [ministryofdoubt.com](https://ministryofdoubt.com) and [electiontracker.au](https://electiontracker.au). Same rule — *show me the evidence* — applied to claims that arrive already shouting. See [docs/FAMILY.md](docs/FAMILY.md).
+Sibling of [ministryofdoubt.com](https://ministryofdoubt.com), [electiontracker.au](https://electiontracker.au) and [fixmap.au](https://fixmap.au/). Same rule — *show me the evidence* — applied to claims that arrive already shouting. See [docs/FAMILY.md](docs/FAMILY.md).
 
 Contact: [ce@cantexplain.au](mailto:ce@cantexplain.au).
 
@@ -59,7 +59,7 @@ Deploy and admin: [docs/DEPLOY.md](docs/DEPLOY.md).
 | [docs/TONE-GUIDE.md](docs/TONE-GUIDE.md) | Voice and caption rules |
 | [docs/DEPLOY.md](docs/DEPLOY.md) | Domains, Worker, admin, DNS leftovers |
 | [docs/AI-PIPELINE.md](docs/AI-PIPELINE.md) | Collect → draft → human handoff |
-| [docs/FAMILY.md](docs/FAMILY.md) | Ministry, Election Tracker, Oze |
+| [docs/FAMILY.md](docs/FAMILY.md) | Ministry, Election Tracker, FixMap, Oze |
 | [docs/ROADMAP.md](docs/ROADMAP.md) | What is live, what is later |
 
 ## Licence
