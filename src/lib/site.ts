@@ -44,6 +44,11 @@ export const FAMILY = [
     line: "Sourced Australian election ledger. Not a forecast.",
   },
   {
+    name: "FixMap",
+    href: "https://fixmap.au/",
+    line: "Spot it. Map it. Fix it. Civic reporting for Australia.",
+  },
+  {
     name: "Oze Unleashed",
     href: "https://ozeunleashed.substack.com",
     line: "Longer essays. Still sourced.",
