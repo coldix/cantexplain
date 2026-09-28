@@ -10,7 +10,7 @@ export const SITE = {
   descriptionLong:
     "A receipt-first hall of ridiculous claims: low-evidence, high-emotion accusations, " +
     "pinned to original sources and Git-timestamped evidence. Observational humour. " +
-    "Sibling of ministryofdoubt.com and electiontracker.au.",
+    "Sibling of ministryofdoubt.com, electiontracker.au and fixmap.au.",
   repo: "https://github.com/coldix/cantexplain",
   issues: "https://github.com/coldix/cantexplain/issues/new",
   email: "ce@cantexplain.au",
@@ -42,6 +42,11 @@ export const FAMILY = [
     name: "Election Tracker",
     href: "https://electiontracker.au",
     line: "Sourced Australian election ledger. Not a forecast.",
+  },
+  {
+    name: "FixMap",
+    href: "https://fixmap.au/",
+    line: "Spot it. Map it. Fix it. Civic reporting for Australia.",
   },
   {
     name: "Oze Unleashed",
