@@ -18,7 +18,24 @@ const file = await readRepoMarkdown(rel);
 if (!file) return Astro.redirect("/404");
 
 const title = titleFromMarkdown(file.rel, file.body);
-const html = marked.parse(file.body, { async: false, gfm: true }) as string;
+const lookable = new Set((await listRepoMarkdown()).map((f) => f.rel));
+const dir = file.rel.includes("/") ? file.rel.slice(0, file.rel.lastIndexOf("/") + 1) : "";
+const esc = (v: string) => v.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+// Repo docs are written for GitHub. Relative links to files the site does not
+// render (LICENSE, scripts) go to the GitHub blob; dev-server links are unlinked.
+const html = (marked.parse(file.body, { async: false, gfm: true }) as string).replace(
+  /<a href="([^"]*)"([^>]*)>([\s\S]*?)<\/a>/g,
+  (whole, href: string, rest: string, text: string) => {
+    if (/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?(\/|$)/i.test(href)) return `<code>${text}</code>`;
+    if (/^([a-z][a-z0-9+.-]*:|\/|#)/i.test(href)) return whole;
+    const [pathPart, hash = ""] = href.split("#");
+    const target = new URL(pathPart, `https://x/${dir}`).pathname.slice(1);
+    if (lookable.has(target)) return whole;
+    if (target.startsWith("evidence/")) return `<a href="${esc(`/${target}`)}"${rest}>${text}</a>`;
+    const out = `${SITE.repo}/blob/main/${target}${hash ? `#${hash}` : ""}`;
+    return `<a href="${esc(out)}"${rest}>${text}</a>`;
+  },
+);
 const lookUrl = new URL(`/look/${file.rel}`, SITE.url).href;
 const rawUrl = file.rel.startsWith("evidence/") ? `/${file.rel}` : `${SITE.repo}/blob/main/${file.rel}`;
 const shareText = `${title} — ${SITE.name}`;

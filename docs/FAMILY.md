@@ -24,7 +24,7 @@ Can’t Explain’s variation, used on the homepage and nowhere as a lecture:
 | **cantexplain.au** | Hall of low-evidence, high-emotion accusations, each pinned to a source and a Git-timestamped receipt, presented with observational humour. | Not a daily paper. Not a campaign. Not the book. |
 | [fixmap.au](https://fixmap.au/) | Spot it. Map it. Fix it. A free public map of local problems across Australia (potholes, broken footpaths, dumped rubbish, flooded roads), so councils can see them and everyone can see when they’re fixed. | Not a council or a government agency. No app to install. |
 | [ozeunleashed.substack.com](https://ozeunleashed.substack.com) | Essays and longer commentary. | Not a structured ledger. |
-| [oze.au](https://oze.au) / [oze.net.au](https://oze.net.au) | Publisher / studio mark. | Not the editorial voice of any one site. |
+| [oze.au](https://oze.au) | Publisher / studio mark. | Not the editorial voice of any one site. |
 | [ozol.com](https://ozol.com) | Author profile. | Not a project homepage. |
 
 If a piece of work is unsure where it lives, use the job column, not the vibe.
