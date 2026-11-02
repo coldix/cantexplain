@@ -1,5 +1,7 @@
 import { readdir, readFile, stat } from "node:fs/promises";
 import { join, relative } from "node:path";
+// @ts-ignore plain JS helper shared with the build scripts
+import { draftSlugs, isDraftPath } from "../../scripts/draft-slugs.mjs";
 
 const ROOTS = ["evidence", "docs", "content"];
 
@@ -32,10 +34,13 @@ export async function listRepoMarkdown(cwd = process.cwd()) {
   } catch {
     /* optional */
   }
-  return files.map((abs) => ({
-    abs,
-    rel: relative(cwd, abs).split("\\").join("/"),
-  }));
+  const drafts = draftSlugs(cwd);
+  return files
+    .map((abs) => ({
+      abs,
+      rel: relative(cwd, abs).split("\\").join("/"),
+    }))
+    .filter((f) => !isDraftPath(f.rel, drafts));
 }
 
 export async function readRepoMarkdown(rel: string, cwd = process.cwd()) {
@@ -45,6 +50,7 @@ export async function readRepoMarkdown(rel: string, cwd = process.cwd()) {
     normalised === "README.md" ||
     ROOTS.some((r) => normalised === r || normalised.startsWith(`${r}/`));
   if (!allowed || !/\.mdx?$/i.test(normalised)) return null;
+  if (isDraftPath(normalised, draftSlugs(cwd))) return null;
   try {
     const abs = join(cwd, normalised);
     const body = await readFile(abs, "utf8");
