@@ -1,0 +1,1147 @@
+Victorian Opposition
+Fiscal Strategy: An
+Assessment
+This paper assesses the Victorian Opposition's fiscal
+strategy, which aims for a surplus by 2032 and ignores
+Victoria's underlying fiscal health. It finds the
+centrepiece measure—$22 billion in savings from a
+public sector "back office" hiring freeze—unachievable.
+Such savings would require elimination of around 31,700
+jobs, much more than back office staff, and could push
+unemployment toward 5.4%. The Opposition’s cost-of-
+living spending proposals are largely uncosted and
+would chiefly benefit higher-income households.
+Discussion paper
+
+David Richardson and Richard Denniss
+
+September 2026
+The Australia Institute – Research that matters
+Established in 1994, The Australia Institute is an independent public policy think tank
+based in Canberra that provides intellectual and policy leadership across a broad range
+of economic, social and environmental topics. We conduct research that drives the
+public debate and secures policy outcomes that make Australia better – research that
+matters.
+
+The Australia Institute is funded by donations from philanthropic trusts and
+individuals, as well as grants and commissioned research from business, unions and
+non-government organisations. We do not accept donations or commissioned work
+from political parties. With no formal political or commercial ties, the Institute
+maintains its independence while advancing a vision for a fairer Australia.
+
+Donations to our Research Fund are tax deductible, and can be made via our website
+or by calling the Institute:
+
+Tel: (02) 6130 0530
+Email: mail@australiainstitute.org.au
+Website: www.australiainstitute.org.au
+
+PO Box 3839
+Manuka
+ACT 2603
+
+
+
+Acknowledgement of Country
+The Australia Institute recognises the ancestral connections and custodianship of
+Traditional Owners throughout Australia. We pay respect to Aboriginal and Torres
+Strait Islander cultures and to Elders past and present.
+Contents
+Summary ........................................................................................................................... 1
+Introduction ...................................................................................................................... 2
+Victoria’s fiscal health ....................................................................................................... 3
+   Make Victoria the best place to do business................................................................ 8
+Specific measures: .......................................................................................................... 10
+   Saving $22 billion by “a hiring freeze on back-office roles”. ...................................... 10
+   1. Returning the budget to surplus ............................................................................ 12
+       Saving $1 billion over the next 10 years by repealing Labor’s Treaty process and
+       First People’s Assembly .......................................................................................... 12
+       Smaller measures ................................................................................................... 13
+   2. Reducing cost of living ............................................................................................ 14
+       Housing ................................................................................................................... 15
+       Payroll tax ............................................................................................................... 15
+       Total for cost of living measures ............................................................................ 15
+   4. Supporting business to grow our economy............................................................ 15
+   5. Build more homes to make home ownership more affordable. ............................ 16
+   6. Investing in people ................................................................................................. 16
+   7. Delivering local infrastructure ................................................................................ 16
+   8. Ensuring energy security ........................................................................................ 17
+Opposition commitments ............................................................................................... 18
+Conclusion ...................................................................................................................... 21
+Appendix: Labour market impacts of jobs freeze .......................................................... 22
+Summary
+The fiscal strategy outlined by Victorian Opposition Leader Jess Wilson is based on returning
+the state budget to cash surplus by 2032 while claiming to deliver cost-of-living relief and
+reducing debt. This paper analyses the size of that task and the options for achieving it.
+
+The Victorian budget is currently projected by Treasury to run cash deficits of between $7
+and $8 billion annually over the forward estimates. These deficits are driven primarily by
+capital investment rather than recurrent spending. Importantly, the government's operating
+activities — its ongoing revenues and expenditures — are projected to remain in surplus,
+and Victoria's net worth is forecast to grow from around $183 billion to $216 billion by
+2029-30.
+
+Importantly, the cash deficit position of the Victorian Government that has become an
+object of concern for many political analysts should not be of concern to any financial
+analysts familiar with the cash flow statements and balance sheets of any large corporation
+that was borrowing to fund the long-lived assets required to drive future growth.
+
+This paper finds a key Opposition savings measure to be either unsubstantiated or
+unachievable, namely: The claim of saving $22 billion through a public sector back office
+hiring freeze is found to be implausible. Apart from announcing “a hiring freeze on back
+office roles” there is no further detail from the Victorian Opposition but achieving that level
+of savings would require eliminating around 31,700 positions by 2036-37. That would be
+over half the entire Victorian Public Service headcount of 58,169 (excluding statutory
+authorities, corporations, schools, hospitals) and is well beyond any reasonable definition of
+"back office roles."
+
+The macroeconomic consequences of such public sector job shedding could be an increase
+in Victoria’s unemployment rate to 5.4%, up from a projected baseline of 4.75% and in turn
+a significant reduction in consumer spending with flow on impacts to Victorian businesses.
+
+Many of the remaining proposals from the Victorian Opposition — including payroll tax
+relief for private schools and GPs, stamp duty exemptions for first home buyers, and land
+tax relief — are either too vague to cost reliably and/or are unlikely to deliver meaningful
+cost-of-living benefits to ordinary households. Energy policy proposals involve reverting to
+fossil fuel dependence without substantive engagement with energy security challenges.
+
+The analysis concludes that the Opposition's path to surplus relies overwhelmingly on
+measures that cannot deliver the savings claimed. The fiscal strategy as presented contains
+a substantial "black hole," and the contractionary effect of genuinely achieving a surplus
+which would require withdrawing approximately $8 billion annually from the Victorian
+economy.
+
+
+Victorian Opposition policies                                                                  1
+Introduction
+The purpose of this paper is to examine the Victorian Opposition fiscal strategy as outlined
+by the Leader of the Opposition, Jess Wilson.1 Her plan is to:
+
+    •   Return the budget to cash surplus2 by 2032
+
+    •   Reduce the debt and interest burden
+
+    •   Deliver cost of living relief
+
+    •   Make Victoria the best place to do business
+
+    •   Drive investment and jobs
+
+    •   Payroll Tax relief
+
+    •   Exempt first home buyers from Stamp Duty up to $1 million
+
+    •   Land Tax relief
+
+    •   Unlock housing supply and reform planning
+
+    •   Restore energy security and reduce costs
+
+    •   Shift infrastructure to local priorities
+
+    •   Hiring freeze on back office roles to guarantee essential services
+
+Before going through this plan in detail, it is worth noting immediately that any program
+that might achieve the first two dot points would necessarily involve very large cuts to
+government programs, cuts with significant impact on consumer spending and
+unemployment. But before evaluating the specific proposals the paper first provides an
+overview of fiscal indicators to give an overall summary of Victoria’s fiscal position.
+
+
+
+
+1
+  Wilson J (2026) A Fresh Start for Victoria: Our Ten Year Plan to Secure Victoria’s Economic Future at
+  https://vic.liberal.org.au/Uploads/37417316674975808NRT_vicliberal/2026-Policy-Economic-Future.pdf
+2
+  A “cash surplus” means there is more cash coming in as tax etc than going out as spending. It is a simple
+  measure of a budget balance that does not include provisions for depreciation on capital goods or new staff
+  leave obligations for example. In this paper we follow the Opposition example and rely on Victoria’s cash
+  budgeting.
+
+
+Victorian Opposition policies                                                                                   2
+Victoria’s fiscal health
+Table 1 summarises the recent Victorian budget which shows planned financial flows over
+the forward estimates, the years 2026-27 to 2029-30. We use the same names for the items
+as are given in the Victorian Budget Paper No 5 so that figures in this paper can be verified
+by reference to that source.
+
+It is important to highlight that while standard private sector accounting does not treat large
+expenditures on long lived assets (such as private hospitals, private toll roads or private
+schools) as an ‘expense’ to be deducted from that year’s revenue, combining recurrent
+expenditure (eg wages) and infrastructure investment (eg building a hospital) has become
+common when state and federal government budgets are being described. To be clear,
+while no person who bought a house, spending more than they earned in the same year,
+would be described as “living beyond their means”, that is exactly how state governments
+spending large amounts of money on infrastructure are commonly described in Australia.
+
+Leaving aside the confusion that comes with the conflation of recurrent and capital
+expenditure, what is clear from the Victorian Budget Papers is that if the Victorian
+Opposition was to achieve their goal of delivering a ‘cash surplus’ by 2032 they will need to
+reduce annual expenditure (either recurrent or capital) by around $8 billion per year.
+
+Table 1 shows expected total receipts of $115,619 million in 2026-27, that includes taxes
+worth $43,888 million, grants of $56,365 million and other revenues of $11,366 million.
+
+The next item in Table 1 is payments of $109,142 million which are recorded as a negative
+because they represent an outflow of money.
+
+The next line item is “Net cash flows from operating activities” from the budget papers and
+which is obtained by subtracting all payments from receipts. This is the outcome which
+reflects ordinary on-going spending and revenue on the part of government and excludes
+investments in long-lived assets such as infrastructure. This operating result can be either in
+surplus or deficit. If in deficit it would be shown as a negative number but in the table the
+figures for this item are all positive indicating that the net cash flows from operating
+activities are all surpluses. The surplus figures here mean the Victorian government covers
+ordinary government spending out of its revenue.
+
+On the following line in Table 1 we have “Net cash flows from investments in non-financial
+assets” this is basically the Victorian government’s investment in roads, buildings such as
+schools and hospitals, bridges and a host of other capital works. Planned expenditure under
+this category is $14,181 million in 2026-27.
+
+
+
+
+Victorian Opposition policies                                                                   3
+The literal bottom line is the overall result which is a cash surplus or deficit with deficits
+represented by negative figures. In Table 1 there is a deficit for 2026-27 of $7,704 million.
+Deficits are often depicted as ‘unsustainable’, but just like the person who buys a house and
+in turn spends more than they earn that year, the Victorian Government will be in deficit
+because it has financed 46% of 26-27’s investment spending with its operating surplus and
+54% through deficit financing or borrowing.3
+
+Put another way, the Victorian budget papers show how that the government will deliver an
+operating surplus of $6.477 billion this year and fund 46% of its capital program with
+recurrent funding.
+
+Table 1: Summary Victoria general government sector cash flow statement, $m
+
+                                                2026-27         2027-28        2028-29        2029-30
+
+
+                                                budget          estimate       estimate       estimate
+
+    Total receipts                                115,619        116,006         119,858        124,104
+
+    Total payments                               -109,142        -109,714       -113,407        -117,566
+
+    Net cash flows from operating                  6,477           6,291          6,451          6,538
+    activities (receipts minus
+    payments)
+
+    Net cash flows from investments in            -14,181        -13,410         -14,033        -14,612
+    non-financial assets
+
+    Proportion of investment financed               46%            47%             46%            45%
+    from operating surplus
+
+    Cash surplus/(deficit)                         -7,704         -7,119          -7,582         -8,074
+
+          Source: Victorian Government (2026) Statement 5: Strategy and Outlook 2026-27
+
+
+
+
+One of the critical insights we draw from Table 1 is that line 3, net cash flows from operating
+activities are projected to run surpluses in the future as they have in the past.
+
+This is important. The result of operating activities is the equivalent to a private business’s
+profit and loss statement and, clearly, business aims to operate at a profit. The other main
+insight is that the budget surplus covers almost half of the total cost of the investment in
+
+3
+    The overall deficit is the amount that either the government or the homebuyer has to finance by drawing
+    down a bank balance/s or borrowing or a bit of both.
+
+
+Victorian Opposition policies                                                                                 4
+long-lived assets that Victoria will undertake over the forward estimates. Hence borrowing
+by issuing debt will only be needed for just over half the planned investment in
+infrastructure and public buildings.
+
+The ‘bottom line’ in Table 1 shows the amount that needs to be borrowed, but this figure is
+not proof that Victoria is living beyond its means, on the contrary, it is equivalent to saying
+that a home owner who bought a new house only needed to borrow 46% of the value of the
+whole house. In this respect Victoria is much the same as a major Australian company like
+BHP which finances much of its investment through borrowing while still reporting an
+‘operating surplus’.
+
+While Table 1 shows us where the revenue is coming from and where the expenditure is
+going (including drawing the important distinction between investment and recurrent
+expenditure) Table 2 includes two very important fiscal indicators; total assets and net
+worth. Notice that Table 2 includes the general government sector and also all other
+government instrumentalities such as the state housing authority, water, transport and
+other authorities. This gives a comprehensive overview of the Victorian Government’s
+position.
+
+Table 2: Other fiscal indicators for the State of Victoria, $billion
+
+                                 2026-27          2027-28          2028-29         2029-30
+
+                                  budget          estimate        estimate         estimate
+
+ Total liabilities (including        391.8           407.7            425.0           442.4
+ debt)
+
+ Total Assets                        690.8           717.6            751.5           777.1
+
+ Victoria’s net worth                299.0           309.9            326.5           334.7
+
+       Source: Victorian Government (2026) Statement 5: Strategy and Outlook 2026-27, table 5.10.
+
+Debt is often cited by critics of the Victorian Government who focus on one side of the
+balance sheet, the debt. Concentration on the stock of debt means people are distracted
+from the simple fact that the value of public sector assets is growing far faster than public
+sector debt.
+
+Examining the last two rows of Table 2 shows total assets are growing rapidly and will
+increase by $86 billion to reach $777 billion by 2028-29. These assets provide a strong
+foundation for the economic growth and general prosperity of Victoria.
+
+
+
+
+Victorian Opposition policies                                                                       5
+The last row, drawn directly from the Victorian Budget Papers, shows clearly that when
+changes in debt and changes in assets are both considered at the same time, the net
+financial position of Victoria is improving strongly.
+
+To be clear, if a private company reported that its assets were growing far faster than its
+debts then its share price would likely rise rapidly and its CEO would receive a bonus.
+
+However, in Australia it is rare to hear political analysts of financial documents focus on the
+“total assets” or “net worth” bottom line shown in Table 2. According to the Victorian
+Budget papers because the Victorian government is investing far more in infrastructure than
+it is borrowing, the states’ net worth is expected to increase by over $36 billion dollars in
+the next 4 years, that is an increase of more than $4,500 per Victorian resident.
+
+Previous experience also indicates that assets and net worth have been growing rapidly.
+Figure 1 shows how the net worth of the Victorian state government has grown since the
+Labor government was elected November 2014. These figures are compiled by the
+Australian Bureau of Statistics4 and are not directly comparable with the figures published
+by the Victorian Treasury.5
+
+Figure 1: Victoria net worth $m
+
+    300,000
+
+
+
+
+    250,000
+
+
+
+
+    200,000
+
+
+
+
+    150,000
+
+
+
+
+    100,000
+
+
+
+
+     50,000
+              2014-15 2015-16 2016-17 2017-18 2018-19 2019-20 2020-21 2021-22 2022-23 2023-24 2024-25
+
+
+Source: ABS (2026) Government Finance Statistics, Annual
+
+
+
+4
+  ABS (2026) Government Finance Statistics, Annual at
+  https://www.abs.gov.au/statistics/economy/government/government-finance-statistics-annual/2024-25
+5
+  In 2024-25 the ABS valued equity investments at $187,780 million while Victorian Treasury gave their
+  estimate of $100,663 million for what seems to be the same type of equity investment.
+
+
+Victorian Opposition policies                                                                            6
+Figure 1 shows that Victoria’s net worth has been increasing over a long period of time and
+has doubled over the 10-year period 2014-15 to 2024-25. These figures represent the
+cumulative value of the capital works of the Victorian Government, investments that fund
+the infrastructure, public buildings and other long-lived assets on which Victoria’s rapidly
+growing economy and population depend.
+
+Since 2014-15 in Victoria:
+
+       •     The total value of Victoria’s gross state product (GSP) has increased from $383 billion
+             to $637 billion (66%);
+       •     Population has increased from 5.96 million in the December quarter 2014 to 7.12
+             million in December 2025, a 20% increase.
+       •     Output per hour worked (a common measure of productivity) has increased from
+             $79.10 to $105.90 a 34% increase.6
+
+It is also useful to examine the figures on a per capita basis. Figure 1 shows how Victoria’s
+per capita net worth has behaved over the last 7 years and how it is expected to behave
+through to 2029-30.
+
+Figure 2: Victoria: Per capita net worth, $.
+
+    45,000
+
+
+    40,000
+
+
+    35,000
+
+
+    30,000
+
+
+    25,000
+
+
+    20,000
+
+
+
+
+             Sources: Victorian Government (2026) Statement 5: Strategy and Outlook 2026-27 and same for
+             earlier years to obtain actual data when known. Population estimates based on ABS figures for
+             December each year and projections based on Australian Government (2026) Budget Paper No 3:
+             Federal Financial Relations, 2026-27 https://budget.gov.au/content/bp3/index.htm
+
+Some commentators are fond of calculating the per capita debt figure. However, less often
+reported are the much higher figures for per capita net worth at $40,442 at 2025-26 or
+
+
+6
+    Author’s calculations based on ABS, Labour Force and ABS, Australian National Accounts: State Accounts.
+
+
+Victorian Opposition policies                                                                                 7
+indeed, total assets at $73,204 per Victorian resident.7 Each of these are expected to grow
+quite rapidly in line with the net worth projections in Figure 2.
+
+The rapid expansion in population, productivity and GSP would simply not have been
+possible without the $214 billion spent on capital works over the period 2015-16 to 2024-
+25.8 While the stock of public debt has increased over this period, net assets and in turn the
+productive assets of the state have grown far faster.
+
+
+MAKE VICTORIA THE BEST PLACE TO DO BUSINESS
+The Opposition’s fiscal strategy document says it wants to make Victoria the best place to
+do business. It complains about a lack of confidence and says the fiscal position is out of
+control. Bizarrely, while the Victorian Opposition talks of the need to boost confidence in
+the state, it is the Opposition that is (knowingly or unwittingly) talking down the fiscal
+position of the state rather than talking up Victoria’s positive attributes.
+
+Melbourne always seems to do well in terms of global rankings among cities in the world
+and in 2026 topped Time Out’s ranking.9 In the 2025 Oxford Economics Global Cities Index,
+Melbourne scored 6th, beaten by just New York, London, Paris, San Jose and Seattle. The
+Oxford rankings are based on economics, human capital, quality of life, environment, and
+governance.10 The most recent, the Global Liveability Index published by the Economist
+Intelligence Unit had Melbourne third after Copenhagen and Vienna and outscoring other
+Australian cities.11
+
+These rankings suggest Victoria is already doing many things right. Invest Victoria
+emphasises other rankings that put Melbourne at number 1 in Australia for liveability and
+4th in the world.12
+
+In the following sections we grapple with the more specific proposals presented by the
+Opposition in their quest for a budget surplus. It will become apparent that, in particular,
+
+
+7
+  Total assets here are the total non-financial assets which includes everything from computers to roads to
+  intellectual property but excludes financial assets such as deposits with banks.
+8
+  Uses general government gross fixed capital formation at chain volume measures based on ABS Australian
+  National Accounts: State Accounts.
+9
+  Glynn L (2026) “BREAKING: Melbourne has been crowned the best city in the world for 2026”, Time Out
+ 11 March at https://www.timeout.com/melbourne/news/breaking-melbourne-has-been-crowned-the-best-
+  city-in-the-world-for-2026-031126
+10
+   Oxford Economics (2025) Global Cities Index 2025 at https://www.oxfordeconomics.com/global-cities-index/
+11
+   New Daily (2026) “Australian cities ranked among world’s most liveable in 2026 – but which is best?” The
+  New Daily, 8 July at https://www.thenewdaily.com.au/life/2026/07/08/2026-most-liveable-cities
+12
+   Invest Victoria (2025) “Melbourne ranks #1 in Australia for liveability – and #4 in the world”, at
+  https://www.invest.vic.gov.au/news-and-events/news/2025/june/melbourne-ranks-1-in-australia-for-
+  liveability-and-4-in-the-world
+
+
+Victorian Opposition policies                                                                            8
+the Opposition relies on its big-ticket item, namely saving $22 billion savings from a
+proposed hiring freeze on back office roles to achieve most of their ‘goals’.
+
+
+
+
+Victorian Opposition policies                                                            9
+Specific measures:
+
+SAVING $22 BILLION BY “A HIRING FREEZE ON BACK-
+OFFICE ROLES”.
+This item is reminiscent of the federal Opposition campaign in 2025 in which they
+anticipated cutting 40,000 public servants based in Canberra.13 That policy showed signs of
+being poorly thought out. At the Commonwealth level in 2013 then Opposition leader, Tony
+Abbott, promised to cut public servant numbers by 12,000.14 Numbers duly fell from
+179,953 in 2012-13 to 166,261 in 2014-15.15 However, the indications are that the decline in
+public servant numbers was accompanied by a massive increase in contracting out and
+labour hire employment16 which would have meant the overall effect was an increase in
+spending.
+
+To save $22 billion on public servants who likely receive average annual pay of around
+$100,000 you would have to abolish around 175,000 public service year jobs which would
+appear to be a big task.
+
+In Victoria ABS figures show there were 493,200 state public servants being paid $45.7
+billion in 2024-25.17 These include those public servants working in bureaucracies who are
+presumably the focus of the Opposition. But that figure also includes the teachers, doctors,
+nurses, policemen, fire fighters and a host of other essential service providers that the
+Opposition says are safe from staff cuts. To save $22 billion in steady increments over the 10
+years to 2036 would require much lower public servant numbers, a reduction of 31,700 staff
+by 2036-37 on our estimates and would certainly not produce a surplus by 2032. Our
+modelling is contained in an appendix to this paper.
+
+There are other insurmountable problems with the Victorian Opposition’s plans. The
+Victorian Public Service Commission says that there were 58,169 people employed in the
+
+
+
+
+13
+   Chrysanthos N and Ireland O (2025) “Coalition takes aim at public servants as Dutton looks to cut 40,000
+  jobs”, Sydney Morning Herald, 26 March. Total public service numbers in Canberra were just 110,000.
+14
+   Jericho G (2013) “Crunching the numbers: Abbott’s public service cuts”, ABC News, 2 October.
+15
+   Australian Government (2026) Budget Paper No 4: Agency Resourcing, 12 May.
+16
+   Gallagher K (2024) “Labor to achieve and additional $1 billion in savings from consultants and contractors”,
+  Minister for Finance press release 5 May at https://www.katygallagher.com.au/media-centre/media-
+  releases/labor-to-achieve-an-additional-1-billion-in-savings-from-consultants-and-contractors/
+17
+   ABS (2026) Public sector employee jobs and cash wages and salaries, at
+  https://www.abs.gov.au/statistics/labour/employment-and-unemployment/public-sector-employment-and-
+  earnings/2024-25#data-downloads
+
+
+Victorian Opposition policies                                                                                10
+public service as distinct from 335,494 people employed in Victorian public entities. In
+regard to the latter the Commission says:
+
+         Examples of public entities include public health services, government schools,
+         TAFEs, police and emergency services, water and land management bodies and other
+         statutory authorities and state-owned corporations.18
+
+We assume a central government would not interfere with the management of independent
+authorities, corporations and essential services which means the cuts by 2036-37 of 31,700
+would almost eliminate all the staff in the public service and would necessarily include much
+more than just “back office roles”. In short, the public service would have to almost
+disappear.
+
+Given the above considerations, savings of $22 billion over 10 years by cutting ‘back office’
+roles could almost certainly never be achieved. The Opposition also promises to achieve a
+budget surplus by 2032. However, if the incremental staff cuts are made evenly over the
+next 10 years then the cuts would only be contributing savings worth $1.9 billion in 2031-32
+or $2.3 billion in 2032-33. Current projections are that the budget deficit will be around $8
+billion in 2029-30. If the forward estimates were extended to the early 2030s it is likely that
+they would still show similar projections consistent with recent trends in the operating
+surplus and trends in the investment program. So any contribution from staff cuts would be
+woefully inadequate if the aim is to produce a surplus. And, critically, this assumes that the
+Opposition in government would not find it necessary to contract out services or take on
+labour hire staff.
+
+The Opposition would appear to rely on this measure to do a lot of the heavy lifting in
+reaching a surplus and, as such, it represents the “black hole” in their costings. If their
+targets could be achieved, our projections indicate that such a policy is likely to lead to
+either
+
+     •   an unemployment increasing by 31,700 to 5.4% by 2036-37 or
+     •   an equivalent reduction in the workforce participation rate or
+     •   some combination of the two.
+
+Again our modelling and assumptions are set out in an appendix.
+
+The $22 billion hiring freeze was by far the biggest initiative in the Opposition’s fiscal
+strategy, we now turn to the rest of the Opposition policies.
+
+
+
+
+18
+  Victorian Public Service Commission (2026) Number of employees 2025, at
+ https://www.vpsc.vic.gov.au/public-sector-data/workforce-data-state-public-sector-2025/employee-and-
+ executive-numbers-2025/number-employees-2025
+
+
+Victorian Opposition policies                                                                           11
+1. RETURNING THE BUDGET TO SURPLUS
+The specific measures referred to under this heading are the following:
+
+   •   Ending Labor’s waste, such as $13 million spent on machete bins and $200,000 on
+       pot plants for the Suburban Rail Loop Authority.
+
+   •   Saving $22 billion by implementing a hiring freeze on back office roles to ensure
+       funding reaches the essential services that Victorians rely on.
+
+   •   Saving $1 billion over the next 10 years by repealing Labor’s Treaty process and First
+       People’s Assembly.
+
+   •   Saving $20 million over a decade by capping excessive public service salaries.
+
+   •   Using windfall revenue to pay down debt, not increase spending.
+
+   •   Fixing infrastructure delivery and ending cost blowouts that have become routine
+       rather than the exception.
+
+   •   Shifting from debt funded megaprojects to local, community focused infrastructure
+       that delivers real value.
+
+The first item “ending waste” is trivial and is simply lost in rounding errors, with $13 million
+accounting for just 0.01% of Victorian Government spending.
+
+The next big item, “Saving $22 billion by implementing a hiring freeze”, has already been
+discussed above.
+
+
+Saving $1 billion over the next 10 years by repealing
+Labor’s Treaty process and First People’s Assembly
+This $1 billion seems very high given there have been no new initiatives announced in
+recent budgets that come close to this figure. We do know that the $1 billion estimate has
+
+
+
+
+Victorian Opposition policies                                                                 12
+been criticised.19 New spending would be required to replace some of the work done under
+this heading.
+
+More fundamentally it seems misguided to talk about abolishing functions in this area.
+Instead, a political party with a pro-business/entrepreneurial background might want to
+consider how to encourage business initiatives that might promote indigenous culture and
+develop tourism around such initiatives.
+
+
+Smaller measures
+Other items that were mentioned in the section “Returning the budget to surplus” are not
+able to be valued. For example, using windfall revenue to pay down debt is meaningless
+unless the Opposition can specify some future event that will raise additional revenue which
+they intend saving. Announcing saving of $20 million over a decade by capping excessive
+public service salaries may be good politics but is trivial in a budget with spending of $123
+billion.
+
+The Coalition points to alleged corruption and hints at some savings but without any detail
+that might be evaluated.
+
+The Coalition has also promised some new spending which is documented below. The new
+spending will necessarily involve either further cuts to existing programs or increases in
+taxes or some combination of the two.
+
+
+
+
+19
+  Dunstan et al (2026) “Victoria's treaty leaders have been elected. Here's how the new structure will work”,
+ ABC News, 9 May at https://www.abc.net.au/news/2026-05-09/victoria-treaty-what-is-it-first-peoples-
+ assembly-co-chairs/106649758
+
+
+Victorian Opposition policies                                                                               13
+2. REDUCING COST OF LIVING
+One of the Opposition’s aspirations, Deliver[ing] cost of living relief, would necessarily be
+expensive. According to the Australian Bureau of Statistics, Victorian household
+consumption expenditure was $363.3 billion in 2024-25. Based on the official budget
+forecasts for economic growth and inflation we expect consumption to be $402 billion in
+2026-27 and $465 billion in 2029-30.20 Those figures suggest “cost of living relief” will be
+expensive and that, for example, a 1% reduction in consumer costs would be the equivalent
+of $4 billion in 2026-27 rising to $4.7 billion in 2029-30. Costs like those imply spending that
+would add around 50% to the budget deficit.
+
+Put another way, every 1% reduction in consumer costs funded by the Victorian Opposition
+could require up to 30,000 extra public sector jobs to be cut in order to maintain budget
+balance. That estimate is conservative since it assumes that there are substantial other costs
+involved in employing staff.21
+
+When we turn to the detail of this expenditure item the content available is thin, to say the
+least.
+
+This item includes tax cut items that could be costed in principle. The specifics mentioned
+are:
+
+     •   Scrapping the Emergency Services Tax on the family home.
+
+     •   Exempting first home buyers from Stamp Duty up to $1 million.
+
+     •   Land Tax relief
+
+     •   Abolishing the Schools Tax.
+
+     •   Removing the GP Tax.
+
+It has to be said that this is a peculiar set of policies that are supposed to address cost of
+living issues, and as each is currently a source of revenue their abolition would either
+increase the budget deficit or, as above, require additional job cuts. Each of the measures is
+discussed below.
+
+
+
+
+20
+   These estimates are based on the ABS figure for 2024-25 and projected forward using the official estimates
+  in the Victorian Government (2026) Statement 5: Strategy and Outlook 2026-27, p 17 at https://s3.ap-
+  southeast-2.amazonaws.com/vicbudgetfiles2026.27vicbudget/2026-27+State+Budget+-
+  +Strategy+and+Outlook.pdf
+21
+   Those other costs include items such as workers compensation insurance, leave loadings, and super
+  contributions.
+
+
+Victorian Opposition policies                                                                              14
+Housing
+The first two items assist homeowners and some new home buyers who are currently not
+eligible for assistance with stamp duty. No costing is provided.
+
+The land tax is mentioned – but this is currently not payable on the family home, farms and
+charitable institutions22, so only the corporate sector and those people with properties in
+addition to their main family residence would appear to benefit from this measure.
+
+
+Payroll tax
+The last two of the items under cost of living are payroll tax reductions for some private
+schools and GPs. There is no guarantee that the savings to these employers will be passed
+on to consumers. And if they do pass on the savings, the benefits will go to:
+
+     •   parents with children at the most exclusive private schools (with an income per
+         student of $16,397 or above) and
+
+     •   sick people who are not being bulkbilled.
+
+
+Total for cost of living measures
+We mentioned above that serious measures with cost of living in mind would be very
+expensive if they were to have any impact. We think the above measures would have little
+impact on most people but would be relatively expensive.
+
+
+4. SUPPORTING BUSINESS TO GROW OUR ECONOMY
+The main elements here are:
+
+     •   Deliver payroll tax relief to Victorian businesses.
+
+     •   Reduce the burden of land tax.
+
+     •   Reduce red tape that slows investment and stifles innovation.
+
+     •   Drive investment and jobs.
+
+These are vague and cannot be considered specific enough to include in any budget analysis.
+There are some specific details on payroll taxes in the section on cost-of-living measures.
+However, it should be noted that doing anything significant in these areas will necessarily be
+expensive. Hence, to make a significant impact it would require expensive changes. Again,
+
+22
+  State Revenue Office. Understanding land tax at https://www.sro.vic.gov.au/owning-property/land-
+ tax/understanding-land-tax
+
+
+Victorian Opposition policies                                                                        15
+these items, if implemented would either add to budget deficits or involve further cuts in
+public services and staffing.
+
+
+5. BUILD MORE HOMES TO MAKE HOME OWNERSHIP
+MORE AFFORDABLE.
+This measure includes:
+
+   •   Exempt first home buyers from Stamp Duty up to $1 million.
+
+   •   Expand the Capital City Zone to support sensible density.
+
+   •   Release land in growth areas.
+
+   •   Scrap government regulations that are stopping home building in greenfield areas.
+
+   •   Stop the delays in the planning process and set a clear timeframe for approvals.
+
+Only the first item on this list can potentially be costed though no costing or other detail is
+provided by the Opposition. Otherwise some of these proposals seem deliberately designed
+to enrage various resident action groups. For example, it would be important to know which
+suburbs are to be subject to higher housing density which means more flats and
+apartments.
+
+
+6. INVESTING IN PEOPLE
+This includes two items
+
+   •   Equip Victoria for the future with advanced jobs in manufacturing and technology.
+
+   •   Align training with the needs of industry.
+
+At the moment these are just headings with no content. Any initiatives under these
+headings will imply bigger deficits or more job cuts.
+
+
+
+
+7. DELIVERING LOCAL INFRASTRUCTURE
+Once again the Opposition provides headings but without content when it says they will:
+
+   •   Ensure transparency on every project to deliver value for money.
+
+   •   Introduce an open and honest prioritisation framework.
+
+
+
+Victorian Opposition policies                                                                16
+   •   Focus on local roads, local congestion, and local services.
+
+   •   Ensure Growth Area Infrastructure Contributions are re-invested into the local
+       communities from which they are raised.
+
+There is a suggestion that the Opposition might divert activity in the major projects, such as
+the rail loop, and towards local and smaller projects. But there are no costings or other
+detail.
+
+It is likely that the major projects have contracted arrangements and cannot be easily halted
+or slowed mid construction. Any such delay may well add significant additional costs to
+these projects. Breach of contracts can be expensive and involve lengthy litigation. So if the
+Opposition are genuinely thinking about new local spending it will not be easily funded by
+diverting resources from major projects.
+
+Doing anything in this area is likely to be expensive but the Opposition offers no tangible
+proposals to be costed.
+
+
+8. ENSURING ENERGY SECURITY
+Under this heading we have the two items
+
+   •   Remove the gas ban.
+
+   •   Reopen Victoria to gas exploration.
+
+Energy security is a serious issue yet all we are offered is nostalgia for an earlier emphasis
+on fossil fuels. Furthermore, expanding gas supply will have little or no impact on Victorian
+prices because gas prices are set in the world market.
+
+
+
+
+Victorian Opposition policies                                                                 17
+Opposition commitments
+In this section we bring together all the Coalition spending commitments that seem likely to
+involve spending. In most cases it is not possible to refer to specific Coalition descriptions of
+their policies or cost estimates. But commitments to additional police and security guards
+can be costed based on ABS figures for average incomes and assuming 50% extra in on-
+costs. In addition to estimates for annual and other leave, and workers’ comprehensive
+insurance, there is also the need for additional rental accommodation and the associated
+property related costs, equipment and so on. Our estimate is therefore very conservative.
+
+Unless otherwise indicated, this list is based on Victoria’s Parliamentary Budget Office and
+the internet links it provides.
+
+
+
+
+Victorian Opposition policies                                                                  18
+Table 3 Coalition commitments
+
+                                                                             On going        One off
+                                                                             $m              $m
+ Break bail face jail
+ Remove emergency services levy
+ Abolish GP tax
+ Abolish the payroll tax on non-government schools
+ Abolish the short stay levy
+ Essential services guarantee
+ Establish Construction Enforcement Victoria
+ Exempt first homebuyers from stamp duty up to $1 million
+ Land tax relief
+ More PSOs                                                                   23
+ Payroll tax relief
+ 3,000 additional police officers                                            578
+ Reopen police stations
+ Successful school starters
+ Expand and upgrade Mildura Base Public Hospital                                             180
+ Duplicate Donnybrook Road and remove level crossing at Donnybrook train                     524
+ station
+ Upgrade Rochester Recreation Reserve
+ Upgrade the Maroondah Highway and Killara Road intersection                                 20
+ New emergency department and refurbish intensive care unit Hamilton Base                    45
+ Hospital
+ $5 billion roads plan to eliminate potholes23                                               5,000
+ New secondary school in Mount Duneed
+ Repair and rebuild Victoria’s roads
+ $250k for frontline support centre on the Mornington Peninsula                              0.25
+ Rebuild Rosebud Hospital
+ Upgrade Brighton Primary School
+ Invest $100 million into youth crime prevention initiatives                                 100
+ Literacy and numeracy Guarantee
+ Upgrade Wonthaggi Hospital
+ Build new West Gippsland Hospital
+ Support small business
+ Support major events
+ Publish real time emergency waiting and capacity information
+ PSOs at major hospitals
+ Provide targeted attraction and retention incentives for regional health
+ workers
+ Prioritise core maintenance functions of Parks Victoria
+ Partner with private hospitals to deliver elective surgeries
+
+
+23
+     Instagram at https://www.instagram.com/jesswilsonmp/reel/Day5JRBxrjg/
+
+
+Victorian Opposition policies                                                           19
+ Establish a Horticulture Centre of Excellence                                                   15
+ Mental Health Early Access Plan                                                                 132
+ Improve ambulance dispatch decisions and response times
+ Fund additional hospital inpatient beds
+ Expand the capital city zone
+ Build new ambulance stations
+ Boost recycling
+ Restore effective wild dog control
+ Total                                                                             601           6,016
+
+
+Table 3 with all of the Coalition spending proposals makes it clear that there are gaps in the
+costings. The only on-going costs we could include are those we could estimate ourselves.
+Again, more they spend the bigger the deficit or the more public sector jobs cuts will be
+involved.
+
+
+
+
+Victorian Opposition policies                                                               20
+Conclusion
+The Victorian Opposition’s fiscal statement is an old-fashioned policy document saying they
+can spend on big promises funded through the magic pudding of cutting waste together
+with eliminating some programs for Indigenous people. The Opposition has decided to align
+itself with those who would doom Victoria with an austerity program rather than try to
+enhance the wellbeing of Victorians and address their needs.
+
+The Victorian Opposition's fiscal strategy sets austerity targets that the evidence suggests
+cannot be met through the measures proposed. The centrepiece savings claim —$22 billion
+from a public sector hiring freeze —seems to account for the overwhelming majority of the
+cuts required for the Opposition to reach surplus by 2036-37, yet this item does not
+withstand scrutiny. This measure would require eliminating over half the entire core public
+service in Victoria, with significant consequences for employment and service delivery
+across the state.
+
+The remaining proposals are either too vaguely specified to be costed or are unlikely to
+generate savings of the scale required. Several measures framed as cost-of-living relief
+would in practice deliver the greatest benefits to higher-income households and
+corporations rather than ordinary Victorians. Despite that they are likely to be expensive if
+ever implemented.
+
+More fundamentally, the goal of returning the budget to cash surplus by 2032 reflects a
+misunderstanding of Victoria's fiscal position. The state's operating accounts are already in
+surplus; the deficit arises from capital investment that is growing the state's net worth and
+productive capacity. Pursuing a cash surplus would require withdrawing billions of dollars
+from the Victorian economy each year at a time when public investment is supporting
+growth, employment and essential services. It would also deny valuable infrastructure to
+the people of Victoria.
+
+In short, the Opposition's fiscal plan as currently presented is not credible. The savings are
+illusory, the costs are real, and the underlying economic rationale is flawed.
+
+To be clear, the aim of producing a surplus and reducing debt in the current environment
+would require cuts to government spending of at least $8 billion per annum. Those cuts
+reduce the income of the private sector and so reduce jobs in the private sector. On top of
+that, if the Opposition plans to cut staff costs by $22 billion could be achieved, that alone
+would cut employment in Victoria by 31,700 people.
+
+
+
+
+Victorian Opposition policies                                                                    21
+Appendix: Labour market impacts of
+jobs freeze
+In this appendix we attempt to estimate the effect of the Opposition’s proposed culling of
+“back office” jobs which they estimate would save $22 billion over the 6 years to 2032.
+
+In Victoria in 2024-25 there were 493,200 state public servants being paid $45.7 billion.24
+Under the Victorian projection of wage rates the wages bill would increase to $50.3 billion
+implying $102,041 per worker. To save $22 billion in steady increments over the 10 years to
+2036-37 (when they claim to be able to achieve a surplus) would require spending that
+much less on employment.
+
+Our estimates rely heavily on the Victorian Government budget estimates and projections of
+the various economic indicators, in particular, the employment and unemployment
+projections as well as wages growth.25 We summarise them in Table 4. To fit the space we
+ignore every second year in the table.
+
+
+
+
+24
+   ABS (2026) Public sector employee jobs and cash wages and salaries, at
+  https://www.abs.gov.au/statistics/labour/employment-and-unemployment/public-sector-employment-and-
+  earnings/2024-25#data-downloads These figures differ slightly from the figures published by the Victorian
+  Government.
+25
+   See Victorian Government (2026) Budget Paper No 2: Strategy and Outlook, 2026-27 at https://s3.ap-
+  southeast-2.amazonaws.com/vicbudgetfiles2026.27vicbudget/2026-27+State+Budget+-
+  +Strategy+and+Outlook.pdf. Estimates here also rely on ABS (2026) Labour Force, Australia, April 2026, at
+  https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-
+  release
+
+
+Victorian Opposition policies                                                                            22
+Table 4: Labour market projections over the years to 2031-32.
+
+                           2025-       2026-        2027-       2028-       2029-        2030-       2031-
+                           26          27           28          29          30           31          32
+
+ Unemployment              4.75        4.75         4.75        4.75        4.75         4.75        4.75
+ rate baseline %
+
+ Employment                1.5         1.25         1.5         1.75        1.75         1.75        1.75
+ growth baseline %
+
+ Wage growth %             3.25        3.25         3.25        3.00        3.00         3.00        3.00
+
+ Employment                3,805.9     3,853.5      3,911.3     3,979.7     4,049.4      4,120.2     4,192.3
+ baseline
+ (December) '000
+ people
+
+ Unemployment              191.7       192.2        195.1       198.5       201.9        205.5       209.1
+ baseline ‘000
+ people
+
+        Source: Victorian Government (2026) Budget Paper No 2: Strategy and Outlook, 2026-27
+
+In Table 4 we used the government estimates and projections for the unemployment rate
+and employment growth. Because the Opposition has announced its policy to apply up to
+2031-32 we have extended the government projections beyond the forward estimates26
+using the same procedure as the Victorian Government. Employment and unemployment
+numbers are based on ABS seasonally adjusted figures for Victoria at December 2025
+projected forward based on Victorian Government projections for the growth in
+employment. Hence the figures in Table 4 are used to generate the baseline figures
+mentioned there.
+
+The Opposition have nominated staff savings of $22 billion over 10 years. To see how that
+might work we set out a profile of savings that amount to $22 billion by 2036-37 and
+calculate a path of equal annual job cuts that would achieve that objective. We assume the
+reduction in public servants would have to be made in equal steps each year to fit in with
+separation rates and to minimise disruption. Our results for the reduction in employment
+costs are set out in the first row of Table 5.27 The sum of that row would have been $22
+billion if the missing years were included. From the ABS data mentioned above we calculate
+
+
+
+26
+  Forward estimates refers to the years to 2029-30.
+27
+  Table 5 gives the results of our modelling for selected years since, for space reasons we were not able to
+ include all years to 2036-37.
+
+
+Victorian Opposition policies                                                                                  23
+the average wage or salary in each year based on the Victorian Government’s forecast wage
+increases. Our results for job losses are given in the final row of Table 5.
+
+Table 5: Calculating required job losses to meet Opposition target savings
+
+                               2027-28       2029-30      2031-32       2033-34       2035-36      2036-37
+
+ Required reduction in         334           1,063        1,879         2,792         3,808        4,358
+ employment costs $m
+
+ Average wage $k               105           112          119           126           133          137
+
+ Jobs lost                     3,170         9,510        15,850        22,190        28,530       31,700
+
+       Source: author’s calculations based on ABS (2026) Public sector employee jobs and cash wages and
+       salaries and Wilson J (2026) A Fresh Start for Victoria: Our Ten Year Plan to Secure Victoria’s Economic
+       Future.
+
+The results of our modelling show that 31,700 jobs would be lost by 2036-37. Notice we
+have assumed all the jobs lost would have attracted the average wage or salary for the year
+in question. If the redundant positions receive lower pay then the job losses would have to
+be so much higher again.
+
+If indeed the job cuts in table 5 could be achieved then we can project how the lost jobs
+might affect the unemployment rate and/or the participation rate in Victoria. If all the job
+losses involved people declaring themselves unemployed then we would project the
+unemployment rate in Victoria to increase and reach 5.4% by 2036-37, an increase of 0.7%
+compared with the long-run baseline assumption of 4.75% unemployment.28 If half the job
+losses involve people leaving the workforce rather than being officially recorded as
+unemployed, then the recorded unemployment rate would increase to a lower rate of 5.1%.
+
+All of the calculations to this point have assumed the policy is feasible. Now we question
+whether that is the case.
+
+The Victorian Public Service Commission says that in 2025 there were 58,169 people
+employed in the public service as distinct from 335,494 people employed in public entities.
+The Commission says, “Examples of public entities include public health services,
+government schools, TAFEs, police and emergency services, water and land management
+bodies and other statutory authorities and state-owned corporations.”29
+
+
+
+
+28
+  As this is being written Victoria’s unemployment rate for July 2026 is 5.1%.
+29
+  Victorian Public Service Commission (2026) Number of employees 2025, at
+ https://www.vpsc.vic.gov.au/public-sector-data/workforce-data-state-public-sector-2025/employee-and-
+ executive-numbers-2025/number-employees-2025
+
+
+Victorian Opposition policies                                                                                24
+Staff cuts of 31,700 by 2036-37 would include over half of all the staff of the public service
+and would necessarily include more than just “back office roles”. We do not have sufficient
+data to estimate what the Opposition might mean when it refers to back office roles but
+assuming that applies to 15% of the 58,169 people employed in the public service, then we
+are talking about roughly 8,700 people among whom the Opposition’s savings might be
+directed. By contrast our results, which are based on a gradual increase in jobs lost, would
+require over 3,170 jobs lost in the first year alone. Had the Opposition checked the figures,
+they would have to concede there are some back office roles that are nevertheless essential
+meaning that their policy could only impact some fraction of the 8,700 people in genuine
+back office work.
+
+Putting it simply, the idea of getting rid of some back office staff could only ever achieve a
+very small fraction of the $22 billion claimed.
+
+There is a suggestion that some of the Opposition’s staff cuts would be made against the
+Opposition’s belief that public service numbers were “close to 50,000 and was expected to
+grow to more than 63,000 by 2036”.30 There are no official projections for staffing, just
+employee expenses over the forward estimates. The data for projected employee expenses
+are consistent with zero growth in employment over the forward estimates for all
+government employees including frontline staff. Hence employee expenses are projected to
+grow from $42.4 billion in 2025-26 to $47.9 billion in 2029-30 or just 3.07% per year.31 The
+latter figure is consistent with Victoria’s assumptions about wages growth generally in the
+state. Note too that over the last 4 years the number of public servants has actually
+shrunk.32
+
+We cannot know why the Opposition would think public servant numbers, as distinct from
+frontline staff, would increase. But without showing there are official projections based on
+staffing increases we cannot accept that any freeze on numbers alone would produce a
+genuine reduction in outlays.
+
+
+
+
+30
+   Durkin P (2026) “Victorian Liberals’ $22b plan to freeze public servant jobs”, Financial Review, 8 May at
+  https://www.afr.com/policy/economy/victorian-liberals-22b-plan-to-freeze-public-servant-jobs-20260507-
+  p5zuu0
+31
+   Victorian Government (2026) Statement 5: Strategy and Outlook 2026-27 p 67
+32
+   Victorian Public Sector Commission (2026) Number of employees 2025, at
+  https://www.vpsc.vic.gov.au/public-sector-data/workforce-data-state-public-sector-2025/employee-and-
+  executive-numbers-2025/number-employees-2025
+
+
+Victorian Opposition policies                                                                              25
+
